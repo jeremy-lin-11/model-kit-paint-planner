@@ -10,3 +10,12 @@ __pycache__/
 uv.lock
 
 .DS_Store
+
+# Test images are third-party product shots (copyrighted) — local testing only
+data/Test Product Shots/
+
+# Generated from data/paints.json by web/scripts/build-paints.mjs
+web/public/paints.json
+
+# npm lockfile resolves through a private registry on the dev machine; versions are in web/package.json
+web/package-lock.json
