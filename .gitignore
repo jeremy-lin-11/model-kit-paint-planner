@@ -1,0 +1,12 @@
+# Raw downloads from manufacturer sites (re-fetchable; not redistributed)
+.cache/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Lockfile is resolved against a private index on the dev machine; versions are pinned in pyproject.toml
+uv.lock
+
+.DS_Store
