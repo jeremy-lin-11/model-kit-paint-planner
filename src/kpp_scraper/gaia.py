@@ -4,16 +4,34 @@ Colors: the hex value the chart page itself uses for each swatch block
 (`<div style="background-color:#...">`). Pure white/black values on paints that aren't
 white/black are treated as placeholders and flagged low-confidence. (Sampling the bottle
 photos was tried and rejected: caps are shaded or not color-matched at all.)
-Names: Japanese only (the site has no English names in text form).
+Names: the chart is Japanese-only, so English names come from two other sources:
+  1. newtype.us retail listings (see newtype.py) — preferred display name
+  2. the English printed on Gaia's own bottle labels, transcribed by hand into
+     data/sources/gaia_labels.csv, which also holds English translations where the
+     label is Japanese-only, romanized, or German (these take priority when present)
+The two are cross-checked, and disagreements are noted on the paint.
+Finish: the label's printed finish beats the retailer's title word, which beats inference.
 """
 
 from __future__ import annotations
 
+import csv
 import html
 import re
 import sys
+from difflib import SequenceMatcher
 
-from .common import Paint, fetch_text
+from . import newtype
+from .common import ROOT, Paint, fetch_text
+
+LABELS_CSV = ROOT / "data" / "sources" / "gaia_labels.csv"
+LABEL_FINISH = {
+    "gloss": "gloss", "semi gloss": "semi-gloss", "semigloss": "semi-gloss",
+    "70 gloss level": "semi-gloss", "flat": "flat", "flat coat": "flat",
+    "metallic": "metallic", "pearl color": "pearl", "polarization pearl color": "pearl",
+    "polarized pearl": "pearl", "clear": "clear-color",
+}
+BASIC_FINISHES = (None, "gloss", "semi-gloss", "flat")  # safe to overwrite; special finishes aren't
 
 BRAND = "Gaia"
 BASE = "https://www.gaianotes.com/products/"
@@ -49,6 +67,63 @@ def infer_finish(series: str, name: str) -> tuple[str | None, bool]:
         return "gloss", True
     return None, True  # military/railroad/tactical: finish not stated on the chart
 
+
+def _title(s: str) -> str:
+    """Title-case label text without mangling codes like FS34079, NATO, III, Ex-."""
+    def word(w: str) -> str:
+        if w.isupper() or any(ch.isdigit() for ch in w):
+            return w
+        lead = len(w) - len(w.lstrip("(/"))
+        return w[:lead] + w[lead:lead + 1].upper() + w[lead + 1:]
+    return " ".join(word(w) for w in s.split())
+
+
+def _same_name(a: str, b: str) -> bool:
+    norm = lambda s: re.sub(r"[^a-z0-9]", "", s.lower().replace("grey", "gray"))  # noqa: E731
+    na, nb = norm(a), norm(b)
+    return na in nb or nb in na or SequenceMatcher(None, na, nb).ratio() >= 0.8
+
+
+def load_labels() -> dict[str, dict[str, str]]:
+    with LABELS_CSV.open(encoding="utf-8") as f:
+        return {row["code"]: row for row in csv.DictReader(f)}
+
+
+def apply_english_names(paints: dict[str, Paint]) -> None:
+    labels = load_labels()
+    retail = newtype.lookup(list(paints))
+    for code, p in paints.items():
+        lab, rt = labels.get(code, {}), retail.get(code)
+        label_name = _title(lab["label_name"]) if lab.get("label_name") else None
+        translation = lab.get("translation") or None
+        if rt:
+            p.name_sources["newtype.us"] = rt.name
+        if label_name:
+            p.name_sources["bottle label"] = label_name
+        if translation:
+            p.name_sources["translated"] = translation
+
+        # Translations exist only where the label/retailer name is Japanese or German, so they win.
+        english = translation or (rt.name if rt else None) or label_name
+        if english:
+            p.name = english
+        else:
+            p.notes.append("no English name found; showing Japanese")
+        if rt and label_name and not _same_name(rt.name, label_name):
+            p.notes.append(f"names differ: newtype.us '{rt.name}' vs bottle label '{label_name}'")
+        if lab.get("note"):
+            p.notes.append(f"label: {lab['note']}")
+
+        label_finish = LABEL_FINISH.get((lab.get("label_finish") or "").lower())
+        if p.finish in BASIC_FINISHES and p.is_color:
+            if label_finish in BASIC_FINISHES[1:]:
+                if label_finish != p.finish:
+                    p.finish = label_finish
+                p.finish_source = "official"  # printed on the manufacturer's label
+                if lab.get("label_finish", "").lower() == "70 gloss level":
+                    p.notes.append("label says 70% gloss (between gloss and semi-gloss)")
+            elif rt and rt.finish in BASIC_FINISHES[1:] and p.finish is None:
+                p.finish, p.finish_source = rt.finish, "retailer"
 
 
 def scrape() -> list[Paint]:
@@ -87,4 +162,5 @@ def scrape() -> list[Paint]:
             source_method="chart page swatch hex",
             confidence=confidence, is_color=is_color, notes=notes,
         )
+    apply_english_names(paints)
     return list(paints.values())

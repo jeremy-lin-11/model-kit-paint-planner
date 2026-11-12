@@ -4,7 +4,8 @@
  "sources": {
   "Mr. Color": "https://www.mr-hobby.com/ (GSI Creos color lineup chart + English color list PDF)",
   "Tamiya": "https://www.tamiya.com/english/ (product color chips and pages)",
-  "Gaia": "https://www.gaianotes.com/products/gaia-color_chart.html (chart swatch hex values)"
+  "Gaia": "https://www.gaianotes.com/products/gaia-color_chart.html (chart swatch hex values)",
+  "Gaia English names": "https://newtype.us (retail listings) + official bottle labels (data/sources/gaia_labels.csv)"
  },
  "count": 570,
  "paints": [
@@ -13,14 +14,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "001",
-   "name": "ピュアホワイト",
+   "name": "Pure White",
    "hex": "#ffffff",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ピュアホワイト",
+   "name_sources": {
+    "newtype.us": "Pure White",
+    "bottle label": "Pure White"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/001.jpg",
    "is_color": true,
    "lab": [
@@ -34,14 +39,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "002",
-   "name": "ピュアブラック",
+   "name": "Pure Black",
    "hex": "#000000",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ピュアブラック",
+   "name_sources": {
+    "newtype.us": "Pure Black",
+    "bottle label": "Pure Black"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/002.jpg",
    "is_color": true,
    "lab": [
@@ -55,14 +64,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "003",
-   "name": "ブライトレッド",
+   "name": "Bright Red",
    "hex": "#ff0000",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ブライトレッド",
+   "name_sources": {
+    "newtype.us": "Bright Red",
+    "bottle label": "Bright Red"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/003.jpg",
    "is_color": true,
    "lab": [
@@ -76,14 +89,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "004",
-   "name": "ウルトラブルー",
+   "name": "Ultrablue",
    "hex": "#144ea2",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ウルトラブルー",
+   "name_sources": {
+    "newtype.us": "Ultrablue",
+    "bottle label": "Ultra Blue"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/004.jpg",
    "is_color": true,
    "lab": [
@@ -97,20 +114,27 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "005",
-   "name": "サンシャインイエロー",
+   "name": "Sunshine Yellow",
    "hex": "#ffff00",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "サンシャインイエロー",
+   "name_sources": {
+    "newtype.us": "Sunshine Yellow",
+    "bottle label": "Sunshin Yellow"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/005.jpg",
    "is_color": true,
    "lab": [
     97.14,
     -21.55,
     94.48
+   ],
+   "notes": [
+    "label: label spelling; means \"sunshine yellow\""
    ]
   },
   {
@@ -118,7 +142,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Clear Color",
    "code": "006",
-   "name": "フラットベース",
+   "name": "Flat Base",
    "hex": "#e0e0e0",
    "finish": "clear",
    "finish_source": "inferred",
@@ -126,6 +150,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "フラットベース",
+   "name_sources": {
+    "newtype.us": "Flat Base",
+    "bottle label": "Flat Base"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/006.jpg",
    "is_color": false,
    "lab": [
@@ -139,7 +167,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Clear Color",
    "code": "007",
-   "name": "クリアー",
+   "name": "Clear",
    "hex": "#ffffff",
    "finish": "clear",
    "finish_source": "inferred",
@@ -147,6 +175,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "クリアー",
+   "name_sources": {
+    "newtype.us": "Clear",
+    "bottle label": "Clear"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/007.jpg",
    "is_color": false,
    "lab": [
@@ -160,7 +192,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Clear Color",
    "code": "008",
-   "name": "フラットクリアー",
+   "name": "Flat Clear",
    "hex": "#ffffff",
    "finish": "clear",
    "finish_source": "inferred",
@@ -168,6 +200,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "フラットクリアー",
+   "name_sources": {
+    "newtype.us": "Flat Clear",
+    "bottle label": "Flat Clear"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/008.jpg",
    "is_color": false,
    "lab": [
@@ -181,7 +217,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Metallic Color",
    "code": "009",
-   "name": "ブライトシルバー",
+   "name": "Bright Silver",
    "hex": "#727a7d",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -189,6 +225,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ブライトシルバー",
+   "name_sources": {
+    "newtype.us": "Bright Silver",
+    "bottle label": "Bright Silver"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/009.jpg",
    "is_color": true,
    "lab": [
@@ -202,7 +242,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Metallic Color",
    "code": "010",
-   "name": "ブライトゴールド",
+   "name": "Bright Gold",
    "hex": "#905c20",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -210,6 +250,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ブライトゴールド",
+   "name_sources": {
+    "newtype.us": "Bright Gold",
+    "bottle label": "Bright Gold"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/010.jpg",
    "is_color": true,
    "lab": [
@@ -226,14 +270,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "011",
-   "name": "フラットホワイト",
+   "name": "Flat White",
    "hex": "#ffffff",
    "finish": "flat",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "フラットホワイト",
+   "name_sources": {
+    "newtype.us": "Flat White",
+    "bottle label": "Flat White"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/011.jpg",
    "is_color": true,
    "lab": [
@@ -247,14 +295,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "012",
-   "name": "フラットブラック",
+   "name": "Flat Black",
    "hex": "#000000",
    "finish": "flat",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "フラットブラック",
+   "name_sources": {
+    "newtype.us": "Flat Black",
+    "bottle label": "Flat Black"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/012.jpg",
    "is_color": true,
    "lab": [
@@ -268,14 +320,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "013",
-   "name": "ビリジアングリーン",
+   "name": "Viridian Green",
    "hex": "#007a65",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ビリジアングリーン",
+   "name_sources": {
+    "newtype.us": "Viridian Green",
+    "bottle label": "Viridian Green"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/013.jpg",
    "is_color": true,
    "lab": [
@@ -289,14 +345,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "014",
-   "name": "ナチュラルブラウン",
+   "name": "Natural Brown",
    "hex": "#9e1f0c",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ナチュラルブラウン",
+   "name_sources": {
+    "newtype.us": "Natural Brown",
+    "bottle label": "Natural Brown"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/014.jpg",
    "is_color": true,
    "lab": [
@@ -310,14 +370,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "015",
-   "name": "ピュアオレンジ",
+   "name": "Pure Orange",
    "hex": "#ff3300",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ピュアオレンジ",
+   "name_sources": {
+    "newtype.us": "Pure Orange",
+    "bottle label": "Pure Orange"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/015.jpg",
    "is_color": true,
    "lab": [
@@ -331,14 +395,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "016",
-   "name": "ブリリアントピンク",
+   "name": "Brilliant Pink",
    "hex": "#f75f86",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ブリリアントピンク",
+   "name_sources": {
+    "newtype.us": "Brilliant Pink",
+    "bottle label": "Brilliant Pink"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/016.jpg",
    "is_color": true,
    "lab": [
@@ -352,14 +420,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "017",
-   "name": "パープルヴァイオレット",
+   "name": "Purple Violet",
    "hex": "#4b45bf",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "パープルヴァイオレット",
+   "name_sources": {
+    "newtype.us": "Purple Violet",
+    "bottle label": "Purple Violet"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/017.jpg",
    "is_color": true,
    "lab": [
@@ -373,14 +445,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "018",
-   "name": "エメラルドグリーン",
+   "name": "Emerald Green",
    "hex": "#69e795",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "エメラルドグリーン",
+   "name_sources": {
+    "newtype.us": "Emerald Green",
+    "bottle label": "Emerald Green"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/018.jpg",
    "is_color": true,
    "lab": [
@@ -394,14 +470,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "019",
-   "name": "ラベンダー",
+   "name": "Lavender",
    "hex": "#d8ccf4",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ラベンダー",
+   "name_sources": {
+    "newtype.us": "Lavender",
+    "bottle label": "Lavender"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/019.jpg",
    "is_color": true,
    "lab": [
@@ -415,7 +495,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Metallic Color",
    "code": "020",
-   "name": "ガンメタル",
+   "name": "Gunmetal",
    "hex": "#0c0c0c",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -423,6 +503,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ガンメタル",
+   "name_sources": {
+    "newtype.us": "Gunmetal",
+    "bottle label": "Gun Metal"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/020.jpg",
    "is_color": true,
    "lab": [
@@ -436,14 +520,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "021",
-   "name": "セミグロスホワイト",
+   "name": "Semi-Gloss White",
    "hex": "#ffffff",
-   "finish": "gloss",
-   "finish_source": "inferred",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "セミグロスホワイト",
+   "name_sources": {
+    "newtype.us": "Semi-Gloss White",
+    "bottle label": "Semi Gloss White"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/021.jpg",
    "is_color": true,
    "lab": [
@@ -457,14 +545,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "022",
-   "name": "セミグロスブラック",
+   "name": "Semi-Gloss Black",
    "hex": "#4e4d52",
-   "finish": "gloss",
-   "finish_source": "inferred",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "セミグロスブラック",
+   "name_sources": {
+    "newtype.us": "Semi-Gloss Black",
+    "bottle label": "Semi Gloss Black"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/022.jpg",
    "is_color": true,
    "lab": [
@@ -478,14 +570,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "023",
-   "name": "スカーレット",
+   "name": "Scarlet",
    "hex": "#eb3729",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "スカーレット",
+   "name_sources": {
+    "newtype.us": "Scarlet",
+    "bottle label": "Scarlet"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/023.jpg",
    "is_color": true,
    "lab": [
@@ -499,14 +595,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "024",
-   "name": "コバルトブルー",
+   "name": "Cobalt Blue",
    "hex": "#356bf1",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "コバルトブルー",
+   "name_sources": {
+    "newtype.us": "Cobalt Blue",
+    "bottle label": "Cobalt Blue"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/024.jpg",
    "is_color": true,
    "lab": [
@@ -520,14 +620,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "025",
-   "name": "橙黄色 (とうこうしょく)",
+   "name": "Orange Yellow",
    "hex": "#fe8a01",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "橙黄色 (とうこうしょく)",
+   "name_sources": {
+    "newtype.us": "Orange Yellow",
+    "bottle label": "Orange Yellow"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/025.jpg",
    "is_color": true,
    "lab": [
@@ -541,13 +645,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "026",
-   "name": "ライトグリーン",
+   "name": "Light Green",
    "hex": "#93a267",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ライトグリーン",
+   "name_sources": {
+    "newtype.us": "Light Green",
+    "bottle label": "Light Green"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/026.jpg",
    "is_color": true,
    "lab": [
@@ -561,13 +670,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "027",
-   "name": "ダークグリーン",
+   "name": "Dark Green",
    "hex": "#202a1f",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ダークグリーン",
+   "name_sources": {
+    "newtype.us": "Dark Green",
+    "bottle label": "Dark Green"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/027.jpg",
    "is_color": true,
    "lab": [
@@ -581,13 +695,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "028",
-   "name": "ストーングリーン",
+   "name": "Stone Green",
    "hex": "#01b6ad",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ストーングリーン",
+   "name_sources": {
+    "newtype.us": "Stone Green",
+    "bottle label": "Stone Green"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/028.jpg",
    "is_color": true,
    "lab": [
@@ -601,14 +720,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "031",
-   "name": "アルティメットホワイト",
+   "name": "Ultimate White",
    "hex": "#ffffff",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "アルティメットホワイト",
+   "name_sources": {
+    "newtype.us": "Ultimate White",
+    "bottle label": "Ultimate White"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/031.jpg",
    "is_color": true,
    "lab": [
@@ -622,14 +745,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "032",
-   "name": "アルティメットブラック",
+   "name": "Ultimate Black",
    "hex": "#000000",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "アルティメットブラック",
+   "name_sources": {
+    "newtype.us": "Ultimate Black",
+    "bottle label": "Ultimate Black"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/032.jpg",
    "is_color": true,
    "lab": [
@@ -643,20 +770,27 @@
    "brand": "Gaia",
    "line": "Gaia Color — Primary Color Series",
    "code": "033",
-   "name": "純色シアン",
+   "name": "Primary Pure Cyan",
    "hex": "#0411ad",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "純色シアン",
+   "name_sources": {
+    "newtype.us": "Primary Pure Cyan",
+    "bottle label": "Primary Color Cyan"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/033.jpg",
    "is_color": true,
    "lab": [
     21.74,
     54.54,
     -77.91
+   ],
+   "notes": [
+    "names differ: newtype.us 'Primary Pure Cyan' vs bottle label 'Primary Color Cyan'"
    ]
   },
   {
@@ -664,14 +798,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Primary Color Series",
    "code": "034",
-   "name": "純色マゼンタ",
+   "name": "Primary Color Magenta",
    "hex": "#4d0c10",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "純色マゼンタ",
+   "name_sources": {
+    "newtype.us": "Primary Color Magenta",
+    "bottle label": "Primary Color Magenta"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/034.jpg",
    "is_color": true,
    "lab": [
@@ -685,14 +823,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Primary Color Series",
    "code": "035",
-   "name": "純色イエロー",
+   "name": "Primary Color Yellow",
    "hex": "#f9b605",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "純色イエロー",
+   "name_sources": {
+    "newtype.us": "Primary Color Yellow",
+    "bottle label": "Primary Color Yellow"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/035.jpg",
    "is_color": true,
    "lab": [
@@ -706,14 +848,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Primary Color Series",
    "code": "036",
-   "name": "純色グリーン",
+   "name": "Primary Color Green",
    "hex": "#2e5c58",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "純色グリーン",
+   "name_sources": {
+    "newtype.us": "Primary Color Green",
+    "bottle label": "Primary Color Green"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/036.jpg",
    "is_color": true,
    "lab": [
@@ -727,14 +873,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Primary Color Series",
    "code": "037",
-   "name": "純色バイオレット",
+   "name": "Primary Color Violet",
    "hex": "#403960",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "純色バイオレット",
+   "name_sources": {
+    "newtype.us": "Primary Color Violet",
+    "bottle label": "Primary Color Violet"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/037.jpg",
    "is_color": true,
    "lab": [
@@ -748,7 +898,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Metallic Color",
    "code": "038",
-   "name": "プライマリーメタリックレッド",
+   "name": "Primary Metallic Red",
    "hex": "#a41c1a",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -756,6 +906,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "プライマリーメタリックレッド",
+   "name_sources": {
+    "newtype.us": "Primary Metallic Red",
+    "bottle label": "Primary Metallic Red"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/038.png",
    "is_color": true,
    "lab": [
@@ -769,7 +923,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Metallic Color",
    "code": "039",
-   "name": "プライマリーメタリックブルー",
+   "name": "Primary Metallic Blue",
    "hex": "#004dac",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -777,6 +931,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "プライマリーメタリックブルー",
+   "name_sources": {
+    "newtype.us": "Primary Metallic Blue",
+    "bottle label": "Primary Metallic Blue"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/039.png",
    "is_color": true,
    "lab": [
@@ -790,7 +948,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Metallic Color",
    "code": "040",
-   "name": "プライマリーメタリックイエロー",
+   "name": "Primary Metallic Yellow",
    "hex": "#b79901",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -798,6 +956,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "プライマリーメタリックイエロー",
+   "name_sources": {
+    "newtype.us": "Primary Metallic Yellow",
+    "bottle label": "Primary Metallic Yellow"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/040.png",
    "is_color": true,
    "lab": [
@@ -811,7 +973,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Clear Color",
    "code": "041",
-   "name": "クリアーレッド",
+   "name": "Clear Red",
    "hex": "#be2531",
    "finish": "clear-color",
    "finish_source": "inferred",
@@ -819,6 +981,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "クリアーレッド",
+   "name_sources": {
+    "newtype.us": "Clear Red",
+    "bottle label": "Clear Red"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/041.jpg",
    "is_color": true,
    "lab": [
@@ -832,7 +998,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Clear Color",
    "code": "042",
-   "name": "クリアーオレンジ",
+   "name": "Clear Orange",
    "hex": "#d12f12",
    "finish": "clear-color",
    "finish_source": "inferred",
@@ -840,6 +1006,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "クリアーオレンジ",
+   "name_sources": {
+    "newtype.us": "Clear Orange",
+    "bottle label": "Clear Orange"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/042.jpg",
    "is_color": true,
    "lab": [
@@ -853,7 +1023,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Clear Color",
    "code": "043",
-   "name": "クリアーブラック",
+   "name": "Clear Black",
    "hex": "#3d403b",
    "finish": "clear-color",
    "finish_source": "inferred",
@@ -861,6 +1031,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "クリアーブラック",
+   "name_sources": {
+    "newtype.us": "Clear Black",
+    "bottle label": "Clear Black"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/043.jpg",
    "is_color": true,
    "lab": [
@@ -874,7 +1048,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Clear Color",
    "code": "044",
-   "name": "クリアーブルー",
+   "name": "Clear Blue",
    "hex": "#0243c3",
    "finish": "clear-color",
    "finish_source": "inferred",
@@ -882,6 +1056,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "クリアーブルー",
+   "name_sources": {
+    "newtype.us": "Clear Blue",
+    "bottle label": "Clear Blue"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/044.jpg",
    "is_color": true,
    "lab": [
@@ -895,7 +1073,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Clear Color",
    "code": "045",
-   "name": "クリアーイエロー",
+   "name": "Clear Yellow",
    "hex": "#fff003",
    "finish": "clear-color",
    "finish_source": "inferred",
@@ -903,6 +1081,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "クリアーイエロー",
+   "name_sources": {
+    "newtype.us": "Clear Yellow",
+    "bottle label": "Clear Yellow"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/045.jpg",
    "is_color": true,
    "lab": [
@@ -916,7 +1098,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Clear Color",
    "code": "046",
-   "name": "クリアーブラウン",
+   "name": "Clear Brown",
    "hex": "#6c2a2b",
    "finish": "clear-color",
    "finish_source": "inferred",
@@ -924,6 +1106,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "クリアーブラウン",
+   "name_sources": {
+    "newtype.us": "Clear Brown",
+    "bottle label": "Clear Brown"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/046.jpg",
    "is_color": true,
    "lab": [
@@ -937,7 +1123,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Clear Color",
    "code": "047",
-   "name": "クリアーパープル",
+   "name": "Clear Purple",
    "hex": "#6d2edd",
    "finish": "clear-color",
    "finish_source": "inferred",
@@ -945,6 +1131,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "クリアーパープル",
+   "name_sources": {
+    "newtype.us": "Clear Purple",
+    "bottle label": "Clear Purple"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/047.jpg",
    "is_color": true,
    "lab": [
@@ -958,7 +1148,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Clear Color",
    "code": "048",
-   "name": "クリアーグリーン",
+   "name": "Clear Green",
    "hex": "#00b60a",
    "finish": "clear-color",
    "finish_source": "inferred",
@@ -966,6 +1156,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "クリアーグリーン",
+   "name_sources": {
+    "newtype.us": "Clear Green",
+    "bottle label": "Clear Green"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/048.jpg",
    "is_color": true,
    "lab": [
@@ -979,7 +1173,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Clear Color",
    "code": "049",
-   "name": "クリアーピンク",
+   "name": "Clear Pink",
    "hex": "#ff329c",
    "finish": "clear-color",
    "finish_source": "inferred",
@@ -987,6 +1181,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "クリアーピンク",
+   "name_sources": {
+    "newtype.us": "Clear Pink",
+    "bottle label": "Clear Pink"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/049.jpg",
    "is_color": true,
    "lab": [
@@ -1000,7 +1198,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Clear Color",
    "code": "050",
-   "name": "クリアーホワイト",
+   "name": "Clear White",
    "hex": "#f3f3f3",
    "finish": "clear-color",
    "finish_source": "inferred",
@@ -1008,6 +1206,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "クリアーホワイト",
+   "name_sources": {
+    "newtype.us": "Clear White",
+    "bottle label": "Clear White"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/050.jpg",
    "is_color": true,
    "lab": [
@@ -1021,14 +1223,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "051",
-   "name": "ノーツフレッシュ",
+   "name": "Flesh",
    "hex": "#f7e5cf",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ノーツフレッシュ",
+   "name_sources": {
+    "newtype.us": "Flesh",
+    "bottle label": "Notes Flesh"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/051.jpg",
    "is_color": true,
    "lab": [
@@ -1042,14 +1248,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "052",
-   "name": "ノーツフレッシュ ホワイト",
+   "name": "Flesh White",
    "hex": "#eaded2",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ノーツフレッシュ ホワイト",
+   "name_sources": {
+    "newtype.us": "Flesh White",
+    "bottle label": "Notes Flesh White"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/052.jpg",
    "is_color": true,
    "lab": [
@@ -1063,14 +1273,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "053",
-   "name": "ノーツフレッシュ ピンク",
+   "name": "Flesh Pink",
    "hex": "#f3a69c",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ノーツフレッシュ ピンク",
+   "name_sources": {
+    "newtype.us": "Flesh Pink",
+    "bottle label": "Notes Flesh Pink"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/053.jpg",
    "is_color": true,
    "lab": [
@@ -1084,14 +1298,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "054",
-   "name": "ノーツフレッシュ オレンジ",
+   "name": "Flesh Orange",
    "hex": "#e7b78f",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ノーツフレッシュ オレンジ",
+   "name_sources": {
+    "newtype.us": "Flesh Orange",
+    "bottle label": "Notes Flesh Orange"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/054.jpg",
    "is_color": true,
    "lab": [
@@ -1105,20 +1323,27 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "059",
-   "name": "サフレスフレッシュピンク",
+   "name": "Surfacer-Less Flesh Pink",
    "hex": "#fea29c",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "サフレスフレッシュピンク",
+   "name_sources": {
+    "newtype.us": "Surfacer-Less Flesh Pink",
+    "bottle label": "Surfacer Less Flesh Pink"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/059.jpg",
    "is_color": true,
    "lab": [
     75.65,
     33.4,
     17.43
+   ],
+   "notes": [
+    "label: label prints \"sufacer less\""
    ]
   },
   {
@@ -1126,14 +1351,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "060",
-   "name": "サフレスフレッシュオレンジ",
+   "name": "Surfacer-Less Flesh Orange",
    "hex": "#ffe879",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "サフレスフレッシュオレンジ",
+   "name_sources": {
+    "newtype.us": "Surfacer-Less Flesh Orange",
+    "bottle label": "Surfacer Less Flesh Orange"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/060.jpg",
    "is_color": true,
    "lab": [
@@ -1147,20 +1376,27 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "061",
-   "name": "ミッドナイトブルー",
+   "name": "Midnight Blue",
    "hex": "#222129",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ミッドナイトブルー",
+   "name_sources": {
+    "newtype.us": "Midnight Blue",
+    "bottle label": "Midnight Blue"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/061.jpg",
    "is_color": true,
    "lab": [
     13.16,
     2.57,
     -5.17
+   ],
+   "notes": [
+    "label: label adds 'glossy sea blue'"
    ]
   },
   {
@@ -1168,20 +1404,27 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "062",
-   "name": "ミディアムブルー",
+   "name": "Medium Blue",
    "hex": "#41637f",
-   "finish": "gloss",
-   "finish_source": "inferred",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ミディアムブルー",
+   "name_sources": {
+    "newtype.us": "Medium Blue",
+    "bottle label": "Medium Blue"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/062.jpg",
    "is_color": true,
    "lab": [
     40.54,
     -4.01,
     -19.45
+   ],
+   "notes": [
+    "label: label adds 'intermediate blue'"
    ]
   },
   {
@@ -1189,14 +1432,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "063",
-   "name": "ブルーグレー",
+   "name": "Blue Grey",
    "hex": "#446a6d",
-   "finish": "gloss",
-   "finish_source": "inferred",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ブルーグレー",
+   "name_sources": {
+    "newtype.us": "Blue Grey",
+    "bottle label": "Blue Grey"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/063.jpg",
    "is_color": true,
    "lab": [
@@ -1210,14 +1457,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "071",
-   "name": "ニュートラルグレーI",
+   "name": "Neutral Grey I",
    "hex": "#cecece",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ニュートラルグレーI",
+   "name_sources": {
+    "newtype.us": "Neutral Grey I",
+    "bottle label": "Neutral Grey I"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/071.jpg",
    "is_color": true,
    "lab": [
@@ -1231,14 +1482,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "072",
-   "name": "ニュートラルグレーII",
+   "name": "Neutral Grey II",
    "hex": "#b4b4b4",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ニュートラルグレーII",
+   "name_sources": {
+    "newtype.us": "Neutral Grey II",
+    "bottle label": "Neutral Grey II"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/072.jpg",
    "is_color": true,
    "lab": [
@@ -1252,14 +1507,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "073",
-   "name": "ニュートラルグレーIII",
+   "name": "Neutral Grey III",
    "hex": "#8e8e8e",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ニュートラルグレーIII",
+   "name_sources": {
+    "newtype.us": "Neutral Grey III",
+    "bottle label": "Neutral Grey III"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/073.jpg",
    "is_color": true,
    "lab": [
@@ -1273,14 +1532,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "074",
-   "name": "ニュートラルグレーIV",
+   "name": "Neutral Grey IV",
    "hex": "#6c6c6c",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ニュートラルグレーIV",
+   "name_sources": {
+    "newtype.us": "Neutral Grey IV",
+    "bottle label": "Neutral Grey IV"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/074.jpg",
    "is_color": true,
    "lab": [
@@ -1294,14 +1557,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Basic Color",
    "code": "075",
-   "name": "ニュートラルグレーV",
+   "name": "Neutral Grey V",
    "hex": "#4e4e4e",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ニュートラルグレーV",
+   "name_sources": {
+    "newtype.us": "Neutral Grey V",
+    "bottle label": "Neutral Grey V"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/075.jpg",
    "is_color": true,
    "lab": [
@@ -1315,7 +1582,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Fluorescent Color",
    "code": "101",
-   "name": "蛍光ブルー",
+   "name": "Fluorescent Blue",
    "hex": "#002ac9",
    "finish": "fluorescent",
    "finish_source": "inferred",
@@ -1323,6 +1590,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "蛍光ブルー",
+   "name_sources": {
+    "newtype.us": "Fluorescent Blue",
+    "bottle label": "Fluorescent Blue"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/101.jpg",
    "is_color": true,
    "lab": [
@@ -1336,7 +1607,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Fluorescent Color",
    "code": "102",
-   "name": "蛍光ピンク",
+   "name": "Fluorescent Pink",
    "hex": "#fd0154",
    "finish": "fluorescent",
    "finish_source": "inferred",
@@ -1344,6 +1615,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "蛍光ピンク",
+   "name_sources": {
+    "newtype.us": "Fluorescent Pink",
+    "bottle label": "Fluorescent Pink"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/102.jpg",
    "is_color": true,
    "lab": [
@@ -1357,7 +1632,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Fluorescent Color",
    "code": "103",
-   "name": "蛍光レッド",
+   "name": "Fluorescent Red",
    "hex": "#fd0c15",
    "finish": "fluorescent",
    "finish_source": "inferred",
@@ -1365,6 +1640,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "蛍光レッド",
+   "name_sources": {
+    "newtype.us": "Fluorescent Red",
+    "bottle label": "Fluorescent Red"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/103.jpg",
    "is_color": true,
    "lab": [
@@ -1378,7 +1657,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Fluorescent Color",
    "code": "104",
-   "name": "蛍光グリーン",
+   "name": "Fluorescent Green",
    "hex": "#00d34d",
    "finish": "fluorescent",
    "finish_source": "inferred",
@@ -1386,6 +1665,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "蛍光グリーン",
+   "name_sources": {
+    "newtype.us": "Fluorescent Green",
+    "bottle label": "Fluorescent Green"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/104.jpg",
    "is_color": true,
    "lab": [
@@ -1399,7 +1682,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Fluorescent Color",
    "code": "105",
-   "name": "蛍光イエロー",
+   "name": "Fluorescent Yellow",
    "hex": "#ebff24",
    "finish": "fluorescent",
    "finish_source": "inferred",
@@ -1407,6 +1690,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "蛍光イエロー",
+   "name_sources": {
+    "newtype.us": "Fluorescent Yellow",
+    "bottle label": "Fluorescent Yellow"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/105.jpg",
    "is_color": true,
    "lab": [
@@ -1420,7 +1707,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Fluorescent Color",
    "code": "106",
-   "name": "蛍光オレンジ",
+   "name": "Fluorescent Orange",
    "hex": "#fe2f07",
    "finish": "fluorescent",
    "finish_source": "inferred",
@@ -1428,6 +1715,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "蛍光オレンジ",
+   "name_sources": {
+    "newtype.us": "Fluorescent Orange",
+    "bottle label": "Fluorescent Orange"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/106.jpg",
    "is_color": true,
    "lab": [
@@ -1441,7 +1732,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Fluorescent Color",
    "code": "107",
-   "name": "蛍光イエローグリーン",
+   "name": "Fluorescent Yellow Green",
    "hex": "#00fe07",
    "finish": "fluorescent",
    "finish_source": "inferred",
@@ -1449,6 +1740,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "蛍光イエローグリーン",
+   "name_sources": {
+    "newtype.us": "Fluorescent Yellow Green",
+    "bottle label": "Fluorescent Yellow Green"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/107.jpg",
    "is_color": true,
    "lab": [
@@ -1462,7 +1757,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Fluorescent Color",
    "code": "108",
-   "name": "蛍光ブルーグリーン",
+   "name": "Fluorescent Blue Green",
    "hex": "#04afb7",
    "finish": "fluorescent",
    "finish_source": "inferred",
@@ -1470,6 +1765,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "蛍光ブルーグリーン",
+   "name_sources": {
+    "newtype.us": "Fluorescent Blue Green",
+    "bottle label": "Fluorescent Blue Green"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/108.jpg",
    "is_color": true,
    "lab": [
@@ -1483,7 +1782,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Fluorescent Color",
    "code": "110",
-   "name": "110 蛍光クリアー",
+   "name": "Fluorescent Clear",
    "hex": "#ffffff",
    "finish": "clear-color",
    "finish_source": "inferred",
@@ -1491,6 +1790,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "110 蛍光クリアー",
+   "name_sources": {
+    "newtype.us": "Fluorescent Clear",
+    "bottle label": "Fluorescent Clear"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/110.png",
    "is_color": true,
    "lab": [
@@ -1504,7 +1807,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Metallic Color",
    "code": "121",
-   "name": "スターブライトシルバー",
+   "name": "Star Bright Silver",
    "hex": "#bbbbbb",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -1512,6 +1815,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "スターブライトシルバー",
+   "name_sources": {
+    "newtype.us": "Star Bright Silver",
+    "bottle label": "Star Bright Silver"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/121.jpg",
    "is_color": true,
    "lab": [
@@ -1525,7 +1832,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Metallic Color",
    "code": "122",
-   "name": "スターブライトゴールド",
+   "name": "Star Bright Gold",
    "hex": "#b48334",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -1533,6 +1840,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "スターブライトゴールド",
+   "name_sources": {
+    "newtype.us": "Star Bright Gold",
+    "bottle label": "Star Bright Gold"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/122.jpg",
    "is_color": true,
    "lab": [
@@ -1546,7 +1857,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Metallic Color",
    "code": "124",
-   "name": "スターブライトブラス",
+   "name": "Star Bright Brass",
    "hex": "#a5850a",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -1554,6 +1865,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "スターブライトブラス",
+   "name_sources": {
+    "newtype.us": "Star Bright Brass",
+    "bottle label": "Star Bright Brass"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/124.jpg",
    "is_color": true,
    "lab": [
@@ -1567,7 +1882,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Metallic Color",
    "code": "125",
-   "name": "スターブライトアイアン",
+   "name": "Star Bright Iron",
    "hex": "#5f5f5f",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -1575,6 +1890,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "スターブライトアイアン",
+   "name_sources": {
+    "newtype.us": "Star Bright Iron",
+    "bottle label": "Star Bright Iron"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/125.jpg",
    "is_color": true,
    "lab": [
@@ -1588,7 +1907,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Metallic Color",
    "code": "126",
-   "name": "スターブライト シャンパンゴールド",
+   "name": "Star Bright Champagne Gold",
    "hex": "#ffffff",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -1596,6 +1915,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "low",
    "name_ja": "スターブライト シャンパンゴールド",
+   "name_sources": {
+    "newtype.us": "Star Bright Champagne Gold",
+    "bottle label": "Star Bright Champagne Gold"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/126.png",
    "is_color": true,
    "lab": [
@@ -1612,7 +1935,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Pearl Color",
    "code": "131",
-   "name": "パールシルバー",
+   "name": "Pearl Silver",
    "hex": "#e2dfda",
    "finish": "pearl",
    "finish_source": "inferred",
@@ -1620,6 +1943,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "パールシルバー",
+   "name_sources": {
+    "newtype.us": "Pearl Silver",
+    "bottle label": "Pearl Silver"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/131.jpg",
    "is_color": true,
    "lab": [
@@ -1633,7 +1960,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Pearl Color",
    "code": "132",
-   "name": "パールゴールド",
+   "name": "Pearl Gold",
    "hex": "#c47c34",
    "finish": "pearl",
    "finish_source": "inferred",
@@ -1641,6 +1968,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "パールゴールド",
+   "name_sources": {
+    "newtype.us": "Pearl Gold",
+    "bottle label": "Pearl Gold"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/132.jpg",
    "is_color": true,
    "lab": [
@@ -1654,7 +1985,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Pearl Color",
    "code": "133",
-   "name": "パールカッパー",
+   "name": "Pearl Copper",
    "hex": "#be6f44",
    "finish": "pearl",
    "finish_source": "inferred",
@@ -1662,6 +1993,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "パールカッパー",
+   "name_sources": {
+    "newtype.us": "Pearl Copper",
+    "bottle label": "Pearl Copper"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/133.jpg",
    "is_color": true,
    "lab": [
@@ -1675,7 +2010,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Prism Color",
    "code": "134",
-   "name": "プリズム パープルグリーン",
+   "name": "Prism Purple Green",
    "hex": "#b0c09c",
    "finish": "pearl",
    "finish_source": "inferred",
@@ -1683,6 +2018,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "プリズム パープルグリーン",
+   "name_sources": {
+    "newtype.us": "Prism Purple Green",
+    "bottle label": "Prism Purple Green"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/134.jpg",
    "is_color": true,
    "lab": [
@@ -1696,7 +2035,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Prism Color",
    "code": "135",
-   "name": "プリズム ブルーグリーン",
+   "name": "Prism Blue Green",
    "hex": "#c4d9d4",
    "finish": "pearl",
    "finish_source": "inferred",
@@ -1704,6 +2043,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "プリズム ブルーグリーン",
+   "name_sources": {
+    "newtype.us": "Prism Blue Green",
+    "bottle label": "Prism Blue Green"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/135.jpg",
    "is_color": true,
    "lab": [
@@ -1717,7 +2060,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Prism Color",
    "code": "136",
-   "name": "プリズム マゼンタゴールド",
+   "name": "Prism Magenta Gold",
    "hex": "#cd541b",
    "finish": "pearl",
    "finish_source": "inferred",
@@ -1725,6 +2068,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "プリズム マゼンタゴールド",
+   "name_sources": {
+    "newtype.us": "Prism Magenta Gold",
+    "bottle label": "Prism Magenta Gold"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/136.jpg",
    "is_color": true,
    "lab": [
@@ -1738,7 +2085,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Prism Color",
    "code": "137",
-   "name": "プリズム パステル ターコイズブルーイエロー",
+   "name": "Prism Pastel Turquoise Blue Yellow",
    "hex": "#00b1c5",
    "finish": "pearl",
    "finish_source": "inferred",
@@ -1746,6 +2093,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "プリズム パステル ターコイズブルーイエロー",
+   "name_sources": {
+    "newtype.us": "Prism Pastel Turquoise Blue Yellow",
+    "bottle label": "Prism Pastel Turquoise Blue Yellow"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/137.png",
    "is_color": true,
    "lab": [
@@ -1759,7 +2110,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Prism Color",
    "code": "138",
-   "name": "プリズム パステル チェリーピンクブルー",
+   "name": "Prism Pastel Cherry Pink Blue",
    "hex": "#db519d",
    "finish": "pearl",
    "finish_source": "inferred",
@@ -1767,6 +2118,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "プリズム パステル チェリーピンクブルー",
+   "name_sources": {
+    "newtype.us": "Prism Pastel Cherry Pink Blue",
+    "bottle label": "Prism Pastel Cherry Pink Blue"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/138.png",
    "is_color": true,
    "lab": [
@@ -1780,7 +2135,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Prism Color",
    "code": "139",
-   "name": "プリズム パステル ミントグリーンブルー",
+   "name": "Prism Pastel Mint Green Blue",
    "hex": "#02c0b3",
    "finish": "pearl",
    "finish_source": "inferred",
@@ -1788,6 +2143,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "プリズム パステル ミントグリーンブルー",
+   "name_sources": {
+    "newtype.us": "Prism Pastel Mint Green Blue",
+    "bottle label": "Prism Pastel Mint Green Blue"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/139.png",
    "is_color": true,
    "lab": [
@@ -1801,13 +2160,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "201",
-   "name": "ダークイエロー1 (ドゥンケルゲルプ1)",
+   "name": "Dark Yellow 1",
    "hex": "#b69d4c",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ダークイエロー1 (ドゥンケルゲルプ1)",
+   "name_sources": {
+    "newtype.us": "Dark Yellow 1",
+    "bottle label": "Dark Yellow 1 (Dunkel Gelb 1)"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/201.jpg",
    "is_color": true,
    "lab": [
@@ -1821,13 +2185,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "202",
-   "name": "オリーブグリーン (オリーフグリュン)",
+   "name": "Olive Green",
    "hex": "#485f42",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "オリーブグリーン (オリーフグリュン)",
+   "name_sources": {
+    "newtype.us": "Olive Green",
+    "bottle label": "Olive Green (Oliv Grün)"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/202.jpg",
    "is_color": true,
    "lab": [
@@ -1841,13 +2210,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "203",
-   "name": "レッドブラウン (ロートブラウン)",
+   "name": "Red Brown",
    "hex": "#3a2123",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "レッドブラウン (ロートブラウン)",
+   "name_sources": {
+    "newtype.us": "Red Brown",
+    "bottle label": "Red Brown (Rot Braun)"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/203.jpg",
    "is_color": true,
    "lab": [
@@ -1861,13 +2235,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "204",
-   "name": "ダークイエロー2 (ドゥンケルゲルプ2)",
+   "name": "Dark Yellow 2",
    "hex": "#c1ac7a",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ダークイエロー2 (ドゥンケルゲルプ2)",
+   "name_sources": {
+    "newtype.us": "Dark Yellow 2",
+    "bottle label": "Dark Yellow 2 (Dunkel Gelb 2)"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/204.jpg",
    "is_color": true,
    "lab": [
@@ -1881,19 +2260,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "205",
-   "name": "ゲルプブラウン (イエローブラウン)",
+   "name": "Yellow Brown (Gelbbraun)",
    "hex": "#ac8642",
    "finish_source": "unknown",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ゲルプブラウン (イエローブラウン)",
+   "name_sources": {
+    "bottle label": "Gelb Braun / Yellow Brown",
+    "translated": "Yellow Brown (Gelbbraun)"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/205.jpg",
    "is_color": true,
    "lab": [
     58.24,
     6.73,
     41.48
+   ],
+   "notes": [
+    "label: military 'tank color' label; finish not shown"
    ]
   },
   {
@@ -1901,19 +2287,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "206",
-   "name": "グラウグリュン (グレーグリーン)",
+   "name": "Grey Green (Graugrün)",
    "hex": "#8b693b",
    "finish_source": "unknown",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "グラウグリュン (グレーグリーン)",
+   "name_sources": {
+    "bottle label": "Grau Grün / Grey Green",
+    "translated": "Grey Green (Graugrün)"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/206.jpg",
    "is_color": true,
    "lab": [
     46.85,
     7.94,
     30.86
+   ],
+   "notes": [
+    "label: military 'tank color' label; finish not shown"
    ]
   },
   {
@@ -1921,19 +2314,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "207",
-   "name": "ブラウン",
+   "name": "Brown (Braun)",
    "hex": "#cd9d69",
    "finish_source": "unknown",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ブラウン",
+   "name_sources": {
+    "bottle label": "Braun / Brown",
+    "translated": "Brown (Braun)"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/207.jpg",
    "is_color": true,
    "lab": [
     68.11,
     11.5,
     33.99
+   ],
+   "notes": [
+    "label: military 'tank color' label; finish not shown"
    ]
   },
   {
@@ -1941,19 +2341,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "208",
-   "name": "グラウ (グレー)",
+   "name": "Grey (Grau)",
    "hex": "#cab793",
    "finish_source": "unknown",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "グラウ (グレー)",
+   "name_sources": {
+    "bottle label": "Grau / Grey",
+    "translated": "Grey (Grau)"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/208.jpg",
    "is_color": true,
    "lab": [
     75.16,
     1.22,
     20.8
+   ],
+   "notes": [
+    "label: military 'tank color' label; finish not shown"
    ]
   },
   {
@@ -1961,19 +2368,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "211",
-   "name": "灰緑色(かいりょくしょく)",
+   "name": "Gray Green (Kairyoku-shoku)",
    "hex": "#c4c392",
    "finish_source": "unknown",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "灰緑色(かいりょくしょく)",
+   "name_sources": {
+    "bottle label": "Kai Ryoku Shoku",
+    "translated": "Gray Green (Kairyoku-shoku)"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/211.jpg",
    "is_color": true,
    "lab": [
     77.78,
     -7.53,
     24.84
+   ],
+   "notes": [
+    "label: romanized Japanese (灰緑色) on label"
    ]
   },
   {
@@ -1981,19 +2395,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "212",
-   "name": "緑色(みどりいろ)",
+   "name": "Green (Midori-iro)",
    "hex": "#324134",
    "finish_source": "unknown",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "緑色(みどりいろ)",
+   "name_sources": {
+    "bottle label": "Midori Iro",
+    "translated": "Green (Midori-iro)"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/212.jpg",
    "is_color": true,
    "lab": [
     25.88,
     -9.18,
     5.97
+   ],
+   "notes": [
+    "label: romanized Japanese (緑色) on label"
    ]
   },
   {
@@ -2001,19 +2422,28 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "213",
-   "name": "灰緑色(かいりょくしょく)",
+   "name": "Gray Green (Kairyoku-shoku), 1/144 scale",
    "hex": "#cdcfb4",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "灰緑色(かいりょくしょく)",
+   "name_sources": {
+    "newtype.us": "Kairyoku Shoku",
+    "bottle label": "Kairyokushoku",
+    "translated": "Gray Green (Kairyoku-shoku), 1/144 scale"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/213.jpg",
    "is_color": true,
    "lab": [
     82.33,
     -5.33,
     13.21
+   ],
+   "notes": [
+    "label: 1/144 scale version"
    ]
   },
   {
@@ -2021,19 +2451,28 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "214",
-   "name": "暗緑色(あんりょくしょく)",
+   "name": "Dark Green (Anryoku-shoku), 1/144 scale",
    "hex": "#1f5539",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "暗緑色(あんりょくしょく)",
+   "name_sources": {
+    "newtype.us": "Anryoku Shoku",
+    "bottle label": "Anryokushoku",
+    "translated": "Dark Green (Anryoku-shoku), 1/144 scale"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/214.jpg",
    "is_color": true,
    "lab": [
     32.0,
     -25.31,
     11.14
+   ],
+   "notes": [
+    "label: 1/144 scale version"
    ]
   },
   {
@@ -2041,19 +2480,27 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "215",
-   "name": "215 FS34079 ダークグリーン",
+   "name": "FS34079 Dark Green",
    "hex": "#3e3d21",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "215 FS34079 ダークグリーン",
+   "name_sources": {
+    "newtype.us": "FS34079 Dark Green",
+    "bottle label": "FS34079 Dark Green"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/215.jpg",
    "is_color": true,
    "lab": [
     25.17,
     -4.57,
     17.4
+   ],
+   "notes": [
+    "label says 70% gloss (between gloss and semi-gloss)"
    ]
   },
   {
@@ -2061,19 +2508,27 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "216",
-   "name": "216 FS34102 グリーン",
+   "name": "FS34102 Green",
    "hex": "#484e10",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "216 FS34102 グリーン",
+   "name_sources": {
+    "newtype.us": "FS34102 Green",
+    "bottle label": "FS34102 Green"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/216.jpg",
    "is_color": true,
    "lab": [
     31.5,
     -11.44,
     33.67
+   ],
+   "notes": [
+    "label says 70% gloss (between gloss and semi-gloss)"
    ]
   },
   {
@@ -2081,19 +2536,27 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "217",
-   "name": "217 FS30219 タン",
+   "name": "FS30219 Tan",
    "hex": "#876d48",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "217 FS30219 タン",
+   "name_sources": {
+    "newtype.us": "FS30219 Tan",
+    "bottle label": "FS30219 Tan"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/217.jpg",
    "is_color": true,
    "lab": [
     47.7,
     5.1,
     24.51
+   ],
+   "notes": [
+    "label says 70% gloss (between gloss and semi-gloss)"
    ]
   },
   {
@@ -2101,19 +2564,27 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "218",
-   "name": "218 FS36622 グレー",
+   "name": "FS36622 Grey",
    "hex": "#bebb9c",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "218 FS36622 グレー",
+   "name_sources": {
+    "newtype.us": "FS36622 Grey",
+    "bottle label": "FS36622 Grey"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/218.jpg",
    "is_color": true,
    "lab": [
     75.38,
     -4.17,
     16.11
+   ],
+   "notes": [
+    "label says 70% gloss (between gloss and semi-gloss)"
    ]
   },
   {
@@ -2121,19 +2592,27 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "219",
-   "name": "219 FS36440 ライトガルグレー",
+   "name": "Light Gull Grey",
    "hex": "#999884",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "219 FS36440 ライトガルグレー",
+   "name_sources": {
+    "newtype.us": "Light Gull Grey",
+    "bottle label": "FS36440 Light Gull Grey"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/219.jpg",
    "is_color": true,
    "lab": [
     62.42,
     -3.24,
     10.67
+   ],
+   "notes": [
+    "label says 70% gloss (between gloss and semi-gloss)"
    ]
   },
   {
@@ -2141,13 +2620,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "221",
-   "name": "ジャーマングレー (ドゥンケルグラウ)",
+   "name": "German Gray (Dunkel Grau)",
    "hex": "#29282c",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ジャーマングレー (ドゥンケルグラウ)",
+   "name_sources": {
+    "newtype.us": "German Gray (Dunkel Grau)",
+    "bottle label": "German Gray (Dunkel Grau)"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/221.jpg",
    "is_color": true,
    "lab": [
@@ -2161,13 +2645,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "222",
-   "name": "オキサイドレッド (サビ止め用プライマー色)",
+   "name": "Oxide Red (Primer Color for Rust Prevention)",
    "hex": "#9a3e31",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "オキサイドレッド (サビ止め用プライマー色)",
+   "name_sources": {
+    "newtype.us": "Oxide Red (Primer Color for Rust Prevention)",
+    "bottle label": "Oxide Red"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/222.jpg",
    "is_color": true,
    "lab": [
@@ -2181,13 +2670,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Military Series",
    "code": "223",
-   "name": "インテリアカラー (戦車車内色)",
+   "name": "Interior Color (WWII German Tank)",
    "hex": "#ecdebd",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "インテリアカラー (戦車車内色)",
+   "name_sources": {
+    "newtype.us": "Interior Color (WWII German Tank)",
+    "bottle label": "Interior Color"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/223.jpg",
    "is_color": true,
    "lab": [
@@ -2201,7 +2695,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1000",
-   "name": "ステンレスシルバー",
+   "name": "Stainless Silver",
    "hex": "#dddbd7",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -2209,6 +2703,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ステンレスシルバー",
+   "name_sources": {
+    "newtype.us": "Stainless Silver",
+    "bottle label": "Stainless Silver"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1000.jpg",
    "is_color": true,
    "lab": [
@@ -2222,7 +2720,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1001",
-   "name": "ライトステンレスシルバー",
+   "name": "Light Stainless Silver",
    "hex": "#c5c5c5",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -2230,6 +2728,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ライトステンレスシルバー",
+   "name_sources": {
+    "newtype.us": "Light Stainless Silver",
+    "bottle label": "Light Stainless Silver"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1001.jpg",
    "is_color": true,
    "lab": [
@@ -2243,7 +2745,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1002",
-   "name": "ダークステンレスシルバー",
+   "name": "Dark Stainless Silver",
    "hex": "#9e9da2",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -2251,6 +2753,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ダークステンレスシルバー",
+   "name_sources": {
+    "newtype.us": "Dark Stainless Silver",
+    "bottle label": "Dark Stainless Silver"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1002.jpg",
    "is_color": true,
    "lab": [
@@ -2264,19 +2770,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1003",
-   "name": "青15号",
+   "name": "Blue No. 15",
    "hex": "#3a4559",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "青15号",
+   "name_sources": {
+    "translated": "Blue No. 15"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1003.jpg",
    "is_color": true,
    "lab": [
     29.1,
     1.04,
     -13.33
+   ],
+   "notes": [
+    "label: Japanese-only label (青15号); JNR passenger car color"
    ]
   },
   {
@@ -2284,19 +2797,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1004",
-   "name": "ぶどう色2号",
+   "name": "Grape No. 2",
    "hex": "#362825",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ぶどう色2号",
+   "name_sources": {
+    "translated": "Grape No. 2"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1004.jpg",
    "is_color": true,
    "lab": [
     17.62,
     5.99,
     4.49
+   ],
+   "notes": [
+    "label: Japanese-only label (ぶどう色2号)"
    ]
   },
   {
@@ -2304,19 +2824,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1005",
-   "name": "ねずみ色1号",
+   "name": "Mouse Gray No. 1",
    "hex": "#9e9b92",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ねずみ色1号",
+   "name_sources": {
+    "translated": "Mouse Gray No. 1"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1005.jpg",
    "is_color": true,
    "lab": [
     63.99,
     -0.57,
     5.1
+   ],
+   "notes": [
+    "label: Japanese-only label (ねずみ色1号)"
    ]
   },
   {
@@ -2324,19 +2851,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1006",
-   "name": "灰色9号",
+   "name": "Gray No. 9",
    "hex": "#bebbaf",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "灰色9号",
+   "name_sources": {
+    "translated": "Gray No. 9"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1006.jpg",
    "is_color": true,
    "lab": [
     75.81,
     -1.08,
     6.45
+   ],
+   "notes": [
+    "label: Japanese-only label (灰色9号)"
    ]
   },
   {
@@ -2344,19 +2878,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1007",
-   "name": "ダークグレー",
+   "name": "Dark Gray",
    "hex": "#595a55",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ダークグレー",
+   "name_sources": {
+    "translated": "Dark Gray"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1007.jpg",
    "is_color": true,
    "lab": [
     38.01,
     -1.44,
     2.75
+   ],
+   "notes": [
+    "label: Japanese-only label (ダークグレー)"
    ]
   },
   {
@@ -2364,19 +2905,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1008",
-   "name": "クリーム1号",
+   "name": "Cream No. 1",
    "hex": "#fffcd8",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "クリーム1号",
+   "name_sources": {
+    "translated": "Cream No. 1"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1008.jpg",
    "is_color": true,
    "lab": [
     98.37,
     -4.82,
     17.63
+   ],
+   "notes": [
+    "label: Japanese-only label (クリーム1号)"
    ]
   },
   {
@@ -2384,19 +2932,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1009",
-   "name": "ローズピンク",
+   "name": "Rose Pink",
    "hex": "#c02823",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ローズピンク",
+   "name_sources": {
+    "translated": "Rose Pink"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1009.jpg",
    "is_color": true,
    "lab": [
     42.53,
     58.38,
     41.41
+   ],
+   "notes": [
+    "label: Japanese-only label (ローズピンク)"
    ]
   },
   {
@@ -2404,19 +2959,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1010",
-   "name": "ぶどう色1号",
+   "name": "Grape No. 1",
    "hex": "#0d0d0b",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ぶどう色1号",
+   "name_sources": {
+    "translated": "Grape No. 1"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1010.jpg",
    "is_color": true,
    "lab": [
     3.59,
     -0.31,
     0.85
+   ],
+   "notes": [
+    "label: Japanese-only label (ぶどう色1号)"
    ]
   },
   {
@@ -2424,19 +2986,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1011",
-   "name": "黒",
+   "name": "Black",
    "hex": "#000000",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "黒",
+   "name_sources": {
+    "translated": "Black"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1011.jpg",
    "is_color": true,
    "lab": [
     0.0,
     0.0,
     0.0
+   ],
+   "notes": [
+    "label: Japanese-only label (黒)"
    ]
   },
   {
@@ -2444,19 +3013,25 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1012",
-   "name": "赤サビ",
+   "name": "Red Rust",
    "hex": "#9c4b47",
    "finish_source": "unknown",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "赤サビ",
+   "name_sources": {
+    "translated": "Red Rust"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1012.jpg",
    "is_color": true,
    "lab": [
     42.09,
     33.34,
     18.28
+   ],
+   "notes": [
+    "label: Japanese-only label (赤サビ); finish not shown"
    ]
   },
   {
@@ -2464,19 +3039,25 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1013",
-   "name": "黄サビ",
+   "name": "Yellow Rust",
    "hex": "#f26434",
    "finish_source": "unknown",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "黄サビ",
+   "name_sources": {
+    "translated": "Yellow Rust"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1013.jpg",
    "is_color": true,
    "lab": [
     60.11,
     52.17,
     53.06
+   ],
+   "notes": [
+    "label: Japanese-only label (黄サビ); finish not shown"
    ]
   },
   {
@@ -2484,19 +3065,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1021",
-   "name": "コンテナブルー",
+   "name": "Container Blue",
    "hex": "#3a96ab",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "コンテナブルー",
+   "name_sources": {
+    "translated": "Container Blue"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1021.jpg",
    "is_color": true,
    "lab": [
     57.7,
     -20.3,
     -18.99
+   ],
+   "notes": [
+    "label: Japanese-only label (コンテナブルー)"
    ]
   },
   {
@@ -2504,19 +3092,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1022",
-   "name": "コンテナレッド",
+   "name": "Container Red",
    "hex": "#4c0b21",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "コンテナレッド",
+   "name_sources": {
+    "translated": "Container Red"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1022.jpg",
    "is_color": true,
    "lab": [
     14.88,
     31.25,
     4.0
+   ],
+   "notes": [
+    "label: Japanese-only label (コンテナレッド)"
    ]
   },
   {
@@ -2524,19 +3119,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1023",
-   "name": "名鉄スカーレット",
+   "name": "Meitetsu Scarlet",
    "hex": "#930710",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "名鉄スカーレット",
+   "name_sources": {
+    "translated": "Meitetsu Scarlet"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1023.jpg",
    "is_color": true,
    "lab": [
     30.39,
     52.3,
     36.98
+   ],
+   "notes": [
+    "label: Japanese-only label (名鉄スカーレット)"
    ]
   },
   {
@@ -2544,19 +3146,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1024",
-   "name": "西武101系イエロー",
+   "name": "Seibu 101 Series Yellow",
    "hex": "#e4b559",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "西武101系イエロー",
+   "name_sources": {
+    "translated": "Seibu 101 Series Yellow"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1024.jpg",
    "is_color": true,
    "lab": [
     76.23,
     6.95,
     52.39
+   ],
+   "notes": [
+    "label: Japanese-only label (西武101系イエロー)"
    ]
   },
   {
@@ -2564,19 +3173,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1025",
-   "name": "西武2000系イエロー",
+   "name": "Seibu 2000 Series Yellow",
    "hex": "#e8b542",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "西武2000系イエロー",
+   "name_sources": {
+    "translated": "Seibu 2000 Series Yellow"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1025.jpg",
    "is_color": true,
    "lab": [
     76.44,
     7.31,
     62.84
+   ],
+   "notes": [
+    "label: Japanese-only label (西武2000系イエロー)"
    ]
   },
   {
@@ -2584,19 +3200,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1026",
-   "name": "西武ベージュ",
+   "name": "Seibu Beige",
    "hex": "#bfa276",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "西武ベージュ",
+   "name_sources": {
+    "translated": "Seibu Beige"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1026.jpg",
    "is_color": true,
    "lab": [
     68.19,
     4.42,
     26.86
+   ],
+   "notes": [
+    "label: Japanese-only label (西武ベージュ)"
    ]
   },
   {
@@ -2604,19 +3227,26 @@
    "brand": "Gaia",
    "line": "Gaia Color — Railroad Models Series",
    "code": "1027",
-   "name": "西武レッド",
+   "name": "Seibu Red",
    "hex": "#932a31",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "西武レッド",
+   "name_sources": {
+    "translated": "Seibu Red"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/1027.jpg",
    "is_color": true,
    "lab": [
     34.15,
     44.15,
     21.35
+   ],
+   "notes": [
+    "label: Japanese-only label (西武レッド)"
    ]
   },
   {
@@ -2624,14 +3254,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Ex Series",
    "code": "Ex-01",
-   "name": "Ex-ホワイト",
+   "name": "Ex-White",
    "hex": "#ffffff",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "Ex-ホワイト",
+   "name_sources": {
+    "newtype.us": "Ex-White",
+    "bottle label": "Ex-White"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/ex-01.png",
    "is_color": true,
    "lab": [
@@ -2645,14 +3279,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Ex Series",
    "code": "Ex-02",
-   "name": "Ex-ブラック",
+   "name": "Ex-Black",
    "hex": "#000000",
    "finish": "gloss",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "Ex-ブラック",
+   "name_sources": {
+    "newtype.us": "Ex-Black",
+    "bottle label": "Ex-Black"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/ex-02.png",
    "is_color": true,
    "lab": [
@@ -2666,7 +3304,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Ex Series",
    "code": "Ex-03",
-   "name": "Ex-クリアー",
+   "name": "Ex-Clear",
    "hex": "#ffffff",
    "finish": "clear",
    "finish_source": "inferred",
@@ -2674,6 +3312,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "Ex-クリアー",
+   "name_sources": {
+    "newtype.us": "Ex-Clear",
+    "bottle label": "Ex-Clear"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/ex-03.png",
    "is_color": false,
    "lab": [
@@ -2687,7 +3329,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Ex Series",
    "code": "Ex-04",
-   "name": "Ex-フラットクリアー",
+   "name": "Ex-Flat Clear",
    "hex": "#ffffff",
    "finish": "clear",
    "finish_source": "inferred",
@@ -2695,6 +3337,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "Ex-フラットクリアー",
+   "name_sources": {
+    "newtype.us": "Ex-Flat Clear",
+    "bottle label": "Ex-Flat Clear"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/ex-04.png",
    "is_color": false,
    "lab": [
@@ -2708,14 +3354,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Ex Series",
    "code": "Ex-05",
-   "name": "Ex-フラットホワイト",
+   "name": "Ex-Flat White",
    "hex": "#ffffff",
    "finish": "flat",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "Ex-フラットホワイト",
+   "name_sources": {
+    "newtype.us": "Ex-Flat White",
+    "bottle label": "Ex-Flat White"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/ex-05.png",
    "is_color": true,
    "lab": [
@@ -2729,14 +3379,18 @@
    "brand": "Gaia",
    "line": "Gaia Color — Ex Series",
    "code": "Ex-06",
-   "name": "Ex-フラットブラック",
+   "name": "Ex-Flat Black",
    "hex": "#000000",
    "finish": "flat",
-   "finish_source": "inferred",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "Ex-フラットブラック",
+   "name_sources": {
+    "newtype.us": "Ex-Flat Black",
+    "bottle label": "Ex-Flat Black"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/ex-06.png",
    "is_color": true,
    "lab": [
@@ -2750,7 +3404,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Ex Series",
    "code": "Ex-07",
-   "name": "Ex-シルバー",
+   "name": "Ex-Silver",
    "hex": "#cccccc",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -2758,6 +3412,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "Ex-シルバー",
+   "name_sources": {
+    "newtype.us": "Ex-Silver",
+    "bottle label": "Ex-Silver"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/ex-07.png",
    "is_color": true,
    "lab": [
@@ -2771,7 +3429,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Ex Series",
    "code": "Ex-08",
-   "name": "Ex-ゴールド",
+   "name": "Ex-Gold",
    "hex": "#e3ab47",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -2779,6 +3437,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "Ex-ゴールド",
+   "name_sources": {
+    "newtype.us": "Ex-Gold",
+    "bottle label": "Ex-Gold"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/ex-08.png",
    "is_color": true,
    "lab": [
@@ -2792,7 +3454,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Ex Series",
    "code": "Ex-09",
-   "name": "Ex-セミグロスクリアー プレミアム",
+   "name": "Ex-Semi Gloss Clear Premium",
    "hex": "#ffffff",
    "finish": "clear-color",
    "finish_source": "inferred",
@@ -2800,6 +3462,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "Ex-セミグロスクリアー プレミアム",
+   "name_sources": {
+    "newtype.us": "Ex-Semi Gloss Clear Premium",
+    "bottle label": "Ex-SemiGloss Clear Premium"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/ex-09.png",
    "is_color": true,
    "lab": [
@@ -2813,7 +3479,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Ex Series",
    "code": "Ex-10",
-   "name": "Ex-フラットクリアー プレミアム",
+   "name": "Ex-Flat Clear Premium",
    "hex": "#ffffff",
    "finish": "clear",
    "finish_source": "inferred",
@@ -2821,6 +3487,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "Ex-フラットクリアー プレミアム",
+   "name_sources": {
+    "newtype.us": "Ex-Flat Clear Premium",
+    "bottle label": "Ex-Flat Clear Premium"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/ex-10.png",
    "is_color": false,
    "lab": [
@@ -2834,7 +3504,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Premium Series",
    "code": "GP-01",
-   "name": "ウルトラマリンブルー",
+   "name": "Ultramarine Blue",
    "hex": "#1844d5",
    "finish": "gloss",
    "finish_source": "inferred",
@@ -2842,12 +3512,18 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ウルトラマリンブルー",
+   "name_sources": {
+    "translated": "Ultramarine Blue"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/gp01.jpg",
    "is_color": true,
    "lab": [
     36.23,
     41.71,
     -77.42
+   ],
+   "notes": [
+    "label: label partially visible ('ultra marin…'); translation from chart name ウルトラマリンブルー"
    ]
   },
   {
@@ -2855,7 +3531,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Premium Series",
    "code": "GP-02",
-   "name": "プレミアムレッド",
+   "name": "Premium Red",
    "hex": "#f50100",
    "finish": "gloss",
    "finish_source": "inferred",
@@ -2863,6 +3539,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "プレミアムレッド",
+   "name_sources": {
+    "newtype.us": "Premium Red",
+    "bottle label": "Premium Red"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/gp02.jpg",
    "is_color": true,
    "lab": [
@@ -2876,7 +3556,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Premium Series",
    "code": "GP-03",
-   "name": "ウルトラマリンブルー2",
+   "name": "Ultramarine Blue 2",
    "hex": "#055dd9",
    "finish": "gloss",
    "finish_source": "inferred",
@@ -2884,12 +3564,18 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ウルトラマリンブルー2",
+   "name_sources": {
+    "translated": "Ultramarine Blue 2"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/gp03.jpg",
    "is_color": true,
    "lab": [
     42.56,
     26.47,
     -69.35
+   ],
+   "notes": [
+    "label: label partially visible ('ultra marin…'); translation from chart name ウルトラマリンブルー2"
    ]
   },
   {
@@ -2897,7 +3583,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Premium Series",
    "code": "GP-04",
-   "name": "プレミアムガラスパール",
+   "name": "Premium Glass Pearl",
    "hex": "#f4fbfb",
    "finish": "pearl",
    "finish_source": "inferred",
@@ -2905,6 +3591,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "プレミアムガラスパール",
+   "name_sources": {
+    "newtype.us": "Premium Glass Pearl",
+    "bottle label": "Premium Glass Pearl"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/gp04.jpg",
    "is_color": true,
    "lab": [
@@ -2918,7 +3608,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Premium Series",
    "code": "GP-05",
-   "name": "ウルトラマリンブルー",
+   "name": "Ultra Marine Blue",
    "hex": "#016ad3",
    "finish": "gloss",
    "finish_source": "inferred",
@@ -2926,6 +3616,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ウルトラマリンブルー",
+   "name_sources": {
+    "newtype.us": "Ultra Marine Blue",
+    "bottle label": "Ultra Marine Blue"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/32008.jpg",
    "is_color": true,
    "lab": [
@@ -2939,7 +3633,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Premium Series",
    "code": "GP-06",
-   "name": "クリアーウルトラマリンブルー",
+   "name": "Clear Ultra Marine Blue",
    "hex": "#0031ec",
    "finish": "clear-color",
    "finish_source": "inferred",
@@ -2947,6 +3641,9 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "クリアーウルトラマリンブルー",
+   "name_sources": {
+    "bottle label": "Clear Ultra Marine Blue"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/32009.jpg",
    "is_color": true,
    "lab": [
@@ -2960,7 +3657,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Premium Series",
    "code": "GP-07",
-   "name": "プレミアムメッキシルバー",
+   "name": "Premium Plated Silver",
    "hex": "#bab9c1",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -2968,12 +3665,19 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "プレミアムメッキシルバー",
+   "name_sources": {
+    "newtype.us": "Premium Plated Silver",
+    "bottle label": "Premium Silver Plate"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/32012.jpg",
    "is_color": true,
    "lab": [
     75.44,
     1.86,
     -3.91
+   ],
+   "notes": [
+    "names differ: newtype.us 'Premium Plated Silver' vs bottle label 'Premium Silver Plate'"
    ]
   },
   {
@@ -2981,7 +3685,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Premium Series",
    "code": "GP-08",
-   "name": "プレミアムミラークローム",
+   "name": "Premium Mirror Chrome",
    "hex": "#bab9c1",
    "finish": "metallic",
    "finish_source": "inferred",
@@ -2989,6 +3693,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "プレミアムミラークローム",
+   "name_sources": {
+    "newtype.us": "Premium Mirror Chrome",
+    "bottle label": "Premium Mirror Chrome"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/32013.jpg",
    "is_color": true,
    "lab": [
@@ -3002,7 +3710,7 @@
    "brand": "Gaia",
    "line": "Gaia Color — Premium Series",
    "code": "GP-09",
-   "name": "プリズムブルーブラック",
+   "name": "Prism Blue Black",
    "hex": "#23375a",
    "finish": "gloss",
    "finish_source": "inferred",
@@ -3010,6 +3718,10 @@
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "プリズムブルーブラック",
+   "name_sources": {
+    "newtype.us": "Prism Blue Black",
+    "bottle label": "Prism Blue Black"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/32014.png",
    "is_color": true,
    "lab": [
@@ -3023,13 +3735,17 @@
    "brand": "Gaia",
    "line": "Gaia Color — Tactical Label",
    "code": "TL-001",
-   "name": "NATOグリーン",
+   "name": "NATO Green",
    "hex": "#45543e",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "NATOグリーン",
+   "name_sources": {
+    "bottle label": "NATO Green"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/tl-001.png",
    "is_color": true,
    "lab": [
@@ -3043,13 +3759,17 @@
    "brand": "Gaia",
    "line": "Gaia Color — Tactical Label",
    "code": "TL-002",
-   "name": "NATOブラウン",
+   "name": "NATO Brown",
    "hex": "#544437",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "NATOブラウン",
+   "name_sources": {
+    "bottle label": "NATO Brown"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/tl-002.png",
    "is_color": true,
    "lab": [
@@ -3063,13 +3783,17 @@
    "brand": "Gaia",
    "line": "Gaia Color — Tactical Label",
    "code": "TL-003",
-   "name": "NATOブラック",
+   "name": "NATO Black",
    "hex": "#2f3335",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "NATOブラック",
+   "name_sources": {
+    "bottle label": "NATO Black"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/tl-003.png",
    "is_color": true,
    "lab": [
@@ -3083,13 +3807,17 @@
    "brand": "Gaia",
    "line": "Gaia Color — Tactical Label",
    "code": "TL-004",
-   "name": "ライトグレーFS36251",
+   "name": "Light Gray (FS36251)",
    "hex": "#838882",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ライトグレーFS36251",
+   "name_sources": {
+    "bottle label": "Light Gray (FS36251)"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/tl-004.png",
    "is_color": true,
    "lab": [
@@ -3103,13 +3831,17 @@
    "brand": "Gaia",
    "line": "Gaia Color — Tactical Label",
    "code": "TL-005",
-   "name": "ダークグレーFS36176",
+   "name": "Dark Gray (FS36176)",
    "hex": "#7a8894",
-   "finish_source": "unknown",
+   "finish": "semi-gloss",
+   "finish_source": "official",
    "source_url": "https://www.gaianotes.com/products/gaia-color_chart.html",
    "source_method": "chart page swatch hex",
    "confidence": "medium",
    "name_ja": "ダークグレーFS36176",
+   "name_sources": {
+    "bottle label": "Dark Gray (FS36176)"
+   },
    "image_url": "https://www.gaianotes.com/products/img/gaia_color/tl-005.png",
    "is_color": true,
    "lab": [

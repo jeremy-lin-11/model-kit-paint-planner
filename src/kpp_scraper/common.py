@@ -172,6 +172,7 @@ class Paint:
     source_method: str            # how the color was obtained
     confidence: str               # "medium" | "low" (no paint here is lab-measured)
     name_ja: str | None = None
+    name_sources: dict[str, str] = field(default_factory=dict)  # e.g. {"newtype.us": ..., "bottle label": ...}
     image_url: str | None = None
     is_color: bool = True         # False for clear coats, flat bases, additives
     lab: tuple[float, float, float] | None = None

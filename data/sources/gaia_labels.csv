@@ -1,0 +1,151 @@
+code,label_name,label_finish,translation,note
+001,pure white,gloss,,
+002,pure black,gloss,,
+003,bright red,gloss,,
+004,ultra blue,gloss,,
+005,sunshin yellow,gloss,,"label spelling; means ""sunshine yellow"""
+006,flat base,additive for mat,,
+007,clear,gloss,,
+008,flat clear,flat coat,,
+009,bright silver,metallic,,
+010,bright gold,metallic,,
+011,flat white,flat,,
+012,flat black,flat,,
+013,viridian green,gloss,,
+014,natural brown,gloss,,
+015,pure orange,gloss,,
+016,brilliant pink,gloss,,
+017,purple violet,gloss,,
+018,emerald green,gloss,,
+019,lavender,gloss,,
+020,gun metal,metallic,,
+021,semi gloss white,semi gloss,,
+022,semi gloss black,semi gloss,,
+023,scarlet,gloss,,
+024,cobalt blue,gloss,,
+025,orange yellow,gloss,,
+026,light green,semi gloss,,
+027,dark green,semi gloss,,
+028,stone green,semi gloss,,
+031,ultimate white,gloss,,
+032,ultimate black,gloss,,
+033,primary color cyan,gloss,,
+034,primary color magenta,gloss,,
+035,primary color yellow,gloss,,
+036,primary color green,gloss,,
+037,primary color violet,gloss,,
+038,primary metallic red,metallic,,
+039,primary metallic blue,metallic,,
+040,primary metallic yellow,metallic,,
+041,clear red,clear,,
+042,clear orange,clear,,
+043,clear black,clear,,
+044,clear blue,clear,,
+045,clear yellow,clear,,
+046,clear brown,clear,,
+047,clear purple,clear,,
+048,clear green,clear,,
+049,clear pink,clear,,
+050,clear white,clear,,
+051,notes flesh,gloss,,
+052,notes flesh white,gloss,,
+053,notes flesh pink,gloss,,
+054,notes flesh orange,gloss,,
+059,surfacer less flesh pink,gloss,,"label prints ""sufacer less"""
+060,surfacer less flesh orange,gloss,,
+061,midnight blue,gloss,,label adds 'glossy sea blue'
+062,medium blue,semi gloss,,label adds 'intermediate blue'
+063,blue grey,semi gloss,,
+071,neutral grey I,gloss,,
+072,neutral grey II,gloss,,
+073,neutral grey III,gloss,,
+074,neutral grey IV,gloss,,
+075,neutral grey V,gloss,,
+101,fluorescent blue,gloss,,
+102,fluorescent pink,gloss,,
+103,fluorescent red,gloss,,
+104,fluorescent green,gloss,,
+105,fluorescent yellow,gloss,,
+106,fluorescent orange,gloss,,
+107,fluorescent yellow green,gloss,,
+108,fluorescent blue green,gloss,,
+110,fluorescent clear,gloss,,
+121,star bright silver,metallic,,
+122,star bright gold,metallic,,
+124,star bright brass,metallic,,
+125,star bright iron,metallic,,
+126,star bright champagne gold,metallic,,
+131,pearl silver,pearl color,,
+132,pearl gold,pearl color,,
+133,pearl copper,pearl color,,
+134,prism purple green,polarization pearl color,,
+135,prism blue green,polarization pearl color,,
+136,prism magenta gold,polarization pearl color,,
+137,prism pastel turquoise blue yellow,polarized pearl,,
+138,prism pastel cherry pink blue,polarized pearl,,
+139,prism pastel mint green blue,polarized pearl,,
+201,dark yellow 1 (dunkel gelb 1),semi gloss,,
+202,olive green (oliv grün),semi gloss,,
+203,red brown (rot braun),semi gloss,,
+204,dark yellow 2 (dunkel gelb 2),semi gloss,,
+205,gelb braun / yellow brown,,Yellow Brown (Gelbbraun),military 'tank color' label; finish not shown
+206,grau grün / grey green,,Grey Green (Graugrün),military 'tank color' label; finish not shown
+207,braun / brown,,Brown (Braun),military 'tank color' label; finish not shown
+208,grau / grey,,Grey (Grau),military 'tank color' label; finish not shown
+211,kai ryoku shoku,,Gray Green (Kairyoku-shoku),romanized Japanese (灰緑色) on label
+212,midori iro,,Green (Midori-iro),romanized Japanese (緑色) on label
+213,kairyokushoku,semi gloss,"Gray Green (Kairyoku-shoku), 1/144 scale",1/144 scale version
+214,anryokushoku,semi gloss,"Dark Green (Anryoku-shoku), 1/144 scale",1/144 scale version
+215,FS34079 dark green,70 gloss level,,
+216,FS34102 green,70 gloss level,,
+217,FS30219 tan,70 gloss level,,
+218,FS36622 grey,70 gloss level,,
+219,FS36440 light gull grey,70 gloss level,,
+221,german gray (dunkel grau),semi gloss,,
+222,oxide red,semi gloss,,
+223,interior color,semi gloss,,
+1000,stainless silver,metallic,,
+1001,light stainless silver,metallic,,
+1002,dark stainless silver,metallic,,
+1003,,semigloss,Blue No. 15,Japanese-only label (青15号); JNR passenger car color
+1004,,semigloss,Grape No. 2,Japanese-only label (ぶどう色2号)
+1005,,semigloss,Mouse Gray No. 1,Japanese-only label (ねずみ色1号)
+1006,,semigloss,Gray No. 9,Japanese-only label (灰色9号)
+1007,,semigloss,Dark Gray,Japanese-only label (ダークグレー)
+1008,,semigloss,Cream No. 1,Japanese-only label (クリーム1号)
+1009,,semigloss,Rose Pink,Japanese-only label (ローズピンク)
+1010,,semigloss,Grape No. 1,Japanese-only label (ぶどう色1号)
+1011,,semigloss,Black,Japanese-only label (黒)
+1012,,,Red Rust,Japanese-only label (赤サビ); finish not shown
+1013,,,Yellow Rust,Japanese-only label (黄サビ); finish not shown
+1021,,semigloss,Container Blue,Japanese-only label (コンテナブルー)
+1022,,semigloss,Container Red,Japanese-only label (コンテナレッド)
+1023,,semigloss,Meitetsu Scarlet,Japanese-only label (名鉄スカーレット)
+1024,,semigloss,Seibu 101 Series Yellow,Japanese-only label (西武101系イエロー)
+1025,,semigloss,Seibu 2000 Series Yellow,Japanese-only label (西武2000系イエロー)
+1026,,semigloss,Seibu Beige,Japanese-only label (西武ベージュ)
+1027,,semigloss,Seibu Red,Japanese-only label (西武レッド)
+Ex-01,Ex-White,gloss,,
+Ex-02,Ex-Black,gloss,,
+Ex-03,Ex-Clear,gloss,,
+Ex-04,Ex-Flat Clear,flat,,
+Ex-05,Ex-Flat White,flat,,
+Ex-06,Ex-Flat Black,flat,,
+Ex-07,Ex-Silver,metallic,,
+Ex-08,Ex-Gold,metallic,,
+Ex-09,Ex-SemiGloss Clear Premium,semi gloss,,
+Ex-10,Ex-Flat Clear Premium,flat,,
+GP-01,,,Ultramarine Blue,label partially visible ('ultra marin…'); translation from chart name ウルトラマリンブルー
+GP-02,premium red,,,
+GP-03,,,Ultramarine Blue 2,label partially visible ('ultra marin…'); translation from chart name ウルトラマリンブルー2
+GP-04,premium glass pearl,,,
+GP-05,ultra marine blue,,,
+GP-06,clear ultra marine blue,,,
+GP-07,premium silver plate,,,
+GP-08,premium mirror chrome,,,
+GP-09,prism blue black,,,
+TL-001,NATO green,semi gloss,,
+TL-002,NATO brown,semi gloss,,
+TL-003,NATO black,semi gloss,,
+TL-004,light gray (FS36251),semi gloss,,
+TL-005,dark gray (FS36176),semi gloss,,

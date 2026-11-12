@@ -32,6 +32,7 @@ META = {
         "Mr. Color": "https://www.mr-hobby.com/ (GSI Creos color lineup chart + English color list PDF)",
         "Tamiya": "https://www.tamiya.com/english/ (product color chips and pages)",
         "Gaia": "https://www.gaianotes.com/products/gaia-color_chart.html (chart swatch hex values)",
+        "Gaia English names": "https://newtype.us (retail listings) + official bottle labels (data/sources/gaia_labels.csv)",
     },
 }
 

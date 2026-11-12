@@ -17,7 +17,11 @@ proportions and details stay exactly as built.
 |---|---|---|---|
 | Mr. Color (C1–C189) | mr-hobby.com | Official color lineup chart (chip median) | Official English color list PDF (G / SG / M / ME / PA) |
 | Tamiya (LP, X/XF, TS) | tamiya.com | Product color chip (chip median) | Product title + description (finish inferred) |
-| Gaia Color | gaianotes.com | Swatch hex on the official color chart page | Japanese name + series (finish inferred) |
+| Gaia Color | gaianotes.com | Swatch hex on the official color chart page | English names from [Newtype](https://newtype.us) retail listings, cross-checked against the English printed on Gaia's bottle labels (`data/sources/gaia_labels.csv`); finish from the labels where printed |
+
+Gaia's chart is Japanese-only. `data/sources/gaia_labels.csv` is a hand transcription of the
+official bottle labels, plus English translations for Japanese-only labels (railroad series)
+and romanized/German names. Corrections to that file are welcome.
 
 > **These are screen approximations, not measurements of dried paint.** Manufacturers draw
 > idealized swatches (e.g. Mr. Color C1 White is pure `#ffffff`). Use them for planning, and
@@ -27,10 +31,11 @@ proportions and details stay exactly as built.
 
 | Field | Meaning |
 |---|---|
-| `id`, `brand`, `line`, `code`, `name`, `name_ja` | Identity |
+| `id`, `brand`, `line`, `code`, `name`, `name_ja` | Identity (`name` is English; `name_ja` is the original Japanese for Gaia) |
+| `name_sources` | Gaia only: each candidate English name by source (`newtype.us`, `bottle label`, `translated`) |
 | `hex`, `lab` | sRGB hex and CIELAB (D65) |
 | `finish` | `gloss`, `semi-gloss`, `flat`, `metallic`, `pearl`, `clear`, `clear-color` (tinted clear / candy), `fluorescent`, or absent if unknown |
-| `finish_source` | `official` (printed by the maker), `inferred` (from name/series/description), `manual`, `unknown` |
+| `finish_source` | `official` (printed by the maker), `retailer` (from a store listing), `inferred` (from name/series/description), `manual`, `unknown` |
 | `is_color` | `false` for clear coats, flat bases and topcoats; scheme generation should skip these |
 | `confidence` | `medium` by default; `low` when the source value looks wrong (see `notes`) |
 | `sheen_lab_range` | For metallic/pearl chips drawn as gradients: darkest/brightest Lab, a rough sheen hint |
