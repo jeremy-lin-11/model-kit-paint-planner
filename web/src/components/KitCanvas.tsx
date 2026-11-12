@@ -15,6 +15,7 @@ export function KitCanvas() {
   const overlay = useStore((s) => s.overlay);
   const samStatus = useStore((s) => s.sam.status);
   const applyMask = useStore((s) => s.applyMask);
+  const refinePick = useStore((s) => s.refinePick);
   const recolored = useRecolored();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [busy, setBusy] = useState(false);
@@ -52,16 +53,29 @@ export function KitCanvas() {
     canvas.getContext("2d")!.putImageData(new ImageData(out, image.width, image.height), 0, 0);
   }, [image, recolored, view, overlay, edges, active, regionMap]);
 
-  async function onClick(e: React.MouseEvent<HTMLCanvasElement>) {
+  /**
+   * Left click: select the part under the cursor (Shift = remove it from the region).
+   * Right click or Alt+click: exclude this spot from the last pick and re-run SAM with all points.
+   */
+  async function onPointer(e: React.MouseEvent<HTMLCanvasElement>, exclude: boolean) {
     if (!image || busy || samStatus !== "ready") return;
     const rect = e.currentTarget.getBoundingClientRect();
     const x = Math.round(((e.clientX - rect.left) / rect.width) * image.width);
     const y = Math.round(((e.clientY - rect.top) / rect.height) * image.height);
+    const lastPick = useStore.getState().lastPick;
+    if (exclude && !lastPick) return;
     setBusy(true);
     setError(null);
     try {
-      const res = await getSam().decode([{ x, y, positive: true }]);
-      applyMask(res.masks, res.scores, !e.shiftKey);
+      if (exclude && lastPick) {
+        const points = [...lastPick.points, { x, y, positive: false }];
+        const res = await getSam().decode(points);
+        refinePick(res.masks, res.scores, points);
+      } else {
+        const point = { x, y, positive: true };
+        const res = await getSam().decode([point]);
+        applyMask(res.masks, res.scores, !e.shiftKey, point);
+      }
     } catch (err) {
       setError(err instanceof Error ? err.message : String(err));
     } finally {
@@ -74,9 +88,10 @@ export function KitCanvas() {
     <div className="canvas-wrap">
       <canvas
         ref={canvasRef}
-        onClick={onClick}
+        onClick={(e) => onPointer(e, e.altKey)}
+        onContextMenu={(e) => { e.preventDefault(); onPointer(e, true); }}
         className={busy || samStatus !== "ready" ? "busy" : ""}
-        title="Click a part to add it to the selected region. Shift+click removes it."
+        title="Click a part to add it to the selected region. Shift+click removes it. Right-click (or Alt+click) excludes a spot from the last pick."
       />
       {error && <div className="toast error">{error}</div>}
     </div>

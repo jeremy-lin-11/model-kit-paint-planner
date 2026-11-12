@@ -24,7 +24,10 @@ export function RegionPanel() {
   return (
     <aside className="panel">
       <h2>Regions</h2>
-      <p className="hint">Select a region, then click parts on the photo to add them. <kbd>Shift</kbd>+click removes a part.</p>
+      <p className="hint">
+        Select a region, then click parts on the photo to add them. <kbd>Shift</kbd>+click removes a part.
+        Grabbed too much? <strong>Right-click</strong> (or <kbd>Alt</kbd>+click) the extra bit, or use Smaller.
+      </p>
       <ul className="regions">
         {regions.map((r, i) => {
           const paint = chosen[i];

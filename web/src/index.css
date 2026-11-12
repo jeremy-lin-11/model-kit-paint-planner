@@ -23,6 +23,7 @@ button, input, select { font: inherit; color: inherit; }
 .status { margin-left: auto; font-size: 13px; color: var(--muted); }
 .status.s-error { color: var(--err); }
 .status.s-loading, .status.s-embedding { color: var(--warn); }
+.hint-inline { font-size: 12px; color: var(--muted); margin-left: 4px; }
 .part-size { display: inline-flex; gap: 4px; align-items: center; font-size: 13px; color: var(--muted); }
 .foot { font-size: 12px; color: var(--muted); padding: 6px 16px; border-top: 1px solid var(--line); }
 

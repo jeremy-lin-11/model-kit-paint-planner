@@ -13,7 +13,8 @@ export default function App() {
   const overlay = useStore((s) => s.overlay);
   const lastPick = useStore((s) => s.lastPick);
   const historyLen = useStore((s) => s.history.length);
-  const { setPaints, setSam, setView, setOverlay, undo, cycleCandidate } = useStore.getState();
+  const guard = useStore((s) => s.guard);
+  const { setPaints, setSam, setView, setOverlay, setGuard, undo, cycleCandidate } = useStore.getState();
 
   // Paint data + model load (once).
   useEffect(() => {
@@ -65,12 +66,17 @@ export default function App() {
               {view === "before" ? "Showing original" : "Showing repaint"}
             </button>
             <button className={`btn ${overlay ? "on" : ""}`} onClick={() => setOverlay(!overlay)}>Outlines</button>
+            <button className={`btn ${guard ? "on" : ""}`} onClick={() => setGuard(!guard)}
+              title="Trim each selection to the color you clicked, so neighboring parts of another color aren't grabbed">
+              Color-aware
+            </button>
             <button className="btn" onClick={undo} disabled={!historyLen} title="Ctrl/Cmd+Z">Undo</button>
             {lastPick && (
               <span className="part-size">
                 Part size:
                 <button className="btn small" onClick={() => cycleCandidate(-1)} title="[">Smaller</button>
                 <button className="btn small" onClick={() => cycleCandidate(1)} title="]">Larger</button>
+                <span className="hint-inline">Right-click to exclude a spot</span>
               </span>
             )}
             <Uploader compact />

@@ -1,5 +1,6 @@
 import { create } from "zustand";
 import { rgbToHex, rgbToLab, labToRgb, type Lab } from "./core/color";
+import { chooseCandidate, colorGuard } from "./core/maskSelect";
 
 export interface Paint {
   id: string;
@@ -33,13 +34,18 @@ export interface Region {
 
 export type SamStatus = "loading" | "ready" | "embedding" | "error";
 
-/** Last click, kept so the user can swap in a smaller/larger candidate mask. */
+export interface ClickPoint { x: number; y: number; positive: boolean }
+
+/** Last pick, kept so the user can swap candidates or refine it with more points. */
 export interface LastPick {
   masks: Uint8Array;
   scores: number[];
   candidate: number;
   region: number;
-  positive: boolean;
+  /** true = add to region, false = remove from region (Shift+click). */
+  add: boolean;
+  /** SAM prompt so far: the first click plus any exclude points. */
+  points: ClickPoint[];
   before: Int16Array; // region map before this pick
 }
 
@@ -56,6 +62,8 @@ interface State {
   sam: { status: SamStatus; device?: string; progress?: number; error?: string };
   view: "after" | "before";
   overlay: boolean;
+  /** Trim SAM masks to the clicked plastic's hue. */
+  guard: boolean;
 
   setPaints(p: Paint[]): void;
   setImage(img: KitImage): void;
@@ -65,8 +73,10 @@ interface State {
   renameRegion(i: number, name: string): void;
   setActive(i: number): void;
   setPaint(i: number, paintId: string | null): void;
-  applyMask(masks: Uint8Array, scores: number[], positive: boolean): void;
-  cycleCandidate(dir: 1 | -1): void;
+  applyMask(masks: Uint8Array, scores: number[], add: boolean, point: ClickPoint): void;
+  refinePick(masks: Uint8Array, scores: number[], points: ClickPoint[]): void;
+  cycleCandidate(dir: -1 | 0 | 1): void;
+  setGuard(v: boolean): void;
   undo(): void;
   setView(v: State["view"]): void;
   setOverlay(v: boolean): void;
@@ -89,14 +99,22 @@ function regionSourceHex(img: KitImage, map: Int16Array, region: number): string
   return rgbToHex(labToRgb([q(Ls, 0.85), q(as, 0.5), q(bs, 0.5)]));
 }
 
-function writeMask(base: Int16Array, mask: Uint8Array, offset: number, region: number, positive: boolean): Int16Array {
+function writeMask(base: Int16Array, mask: Uint8Array, region: number, add: boolean): Int16Array {
   const next = base.slice();
   for (let i = 0; i < next.length; i++) {
-    if (!mask[offset + i]) continue;
-    if (positive) next[i] = region;
+    if (!mask[i]) continue;
+    if (add) next[i] = region;
     else if (next[i] === region) next[i] = -1;
   }
   return next;
+}
+
+/** One candidate as a full-image 0/1 mask, trimmed to the clicked plastic if the guard is on. */
+function candidateMask(img: KitImage, masks: Uint8Array, k: number, anchor: ClickPoint, guard: boolean): Uint8Array {
+  const plane = img.width * img.height;
+  return guard
+    ? colorGuard(masks, k * plane, img.data, img.width, img.height, anchor.x, anchor.y)
+    : masks.slice(k * plane, (k + 1) * plane);
 }
 
 export const useStore = create<State>((set, get) => ({
@@ -112,6 +130,7 @@ export const useStore = create<State>((set, get) => ({
   sam: { status: "loading" },
   view: "after",
   overlay: true,
+  guard: true,
 
   setPaints: (paints) => set({ paints, paintsById: new Map(paints.map((p) => [p.id, p])) }),
   setImage: (image) => set({
@@ -149,31 +168,45 @@ export const useStore = create<State>((set, get) => ({
   setActive: (active) => set({ active, lastPick: null }),
   setPaint: (i, paintId) => set((st) => ({ regions: st.regions.map((r, k) => (k === i ? { ...r, paintId } : r)) })),
 
-  applyMask: (masks, scores, positive) => {
+  applyMask: (masks, scores, add, point) => {
     const st = get();
     if (!st.image || !st.regions.length) return;
     const plane = st.image.width * st.image.height;
-    const candidate = scores.indexOf(Math.max(...scores));
+    const candidate = chooseCandidate(masks, scores, plane);
     const before = st.regionMap;
-    const map = writeMask(before, masks, candidate * plane, st.active, positive);
+    const map = writeMask(before, candidateMask(st.image, masks, candidate, point, st.guard), st.active, add);
     const regions = st.regions.map((r, k) => (k === st.active ? { ...r, sourceHex: regionSourceHex(st.image!, map, k) } : r));
     set({
       regionMap: map,
       mapVersion: st.mapVersion + 1,
       regions,
       history: [...st.history, before].slice(-MAX_HISTORY),
-      lastPick: { masks, scores, candidate, region: st.active, positive, before },
+      lastPick: { masks, scores, candidate, region: st.active, add, points: [point], before },
     });
+  },
+  refinePick: (masks, scores, points) => {
+    const st = get();
+    const lp = st.lastPick;
+    if (!lp || !st.image) return;
+    // With several prompt points SAM's top-scoring mask is the reliable one.
+    const candidate = scores.indexOf(Math.max(...scores));
+    const map = writeMask(lp.before, candidateMask(st.image, masks, candidate, points[0], st.guard), lp.region, lp.add);
+    const regions = st.regions.map((r, k) => (k === lp.region ? { ...r, sourceHex: regionSourceHex(st.image!, map, k) } : r));
+    set({ regionMap: map, mapVersion: st.mapVersion + 1, regions, lastPick: { ...lp, masks, scores, candidate, points } });
   },
   cycleCandidate: (dir) => {
     const st = get();
     const lp = st.lastPick;
     if (!lp || !st.image) return;
-    const plane = st.image.width * st.image.height;
     const candidate = (lp.candidate + dir + 3) % 3;
-    const map = writeMask(lp.before, lp.masks, candidate * plane, lp.region, lp.positive);
+    const map = writeMask(lp.before, candidateMask(st.image, lp.masks, candidate, lp.points[0], st.guard), lp.region, lp.add);
     const regions = st.regions.map((r, k) => (k === lp.region ? { ...r, sourceHex: regionSourceHex(st.image!, map, k) } : r));
     set({ regionMap: map, mapVersion: st.mapVersion + 1, regions, lastPick: { ...lp, candidate } });
+  },
+  setGuard: (guard) => {
+    set({ guard });
+    const lp = get().lastPick;
+    if (lp) get().cycleCandidate(0); // re-apply the last pick with the new setting
   },
   undo: () => {
     const st = get();
