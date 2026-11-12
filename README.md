@@ -16,6 +16,7 @@ proportions and details stay exactly as built.
 | Brand | Source | Color from | Names / finish from |
 |---|---|---|---|
 | Mr. Color (C1–C189) | mr-hobby.com | Official color lineup chart (chip median) | Official English color list PDF (G / SG / M / ME / PA) |
+| Mr. Color lines: GX, GX Clear, GX Metal, Crystal, Super Metallic 2, Velvet, GGX, Gundam Color (UG), C511–530, Lascivus | mr-hobby.com | Per-line lineup charts: chips, or photographed painted samples (GX Metal spheres, GX Clear discs); swatches detected automatically | Transcribed from the charts in `data/sources/mrcolor_lines.csv` (finish printed on the chart); GX Metal/Clear names cross-checked with the color list PDF |
 | Tamiya (LP, X/XF, TS) | tamiya.com | Product color chip (chip median) | Product title + description (finish inferred) |
 | Gaia Color | gaianotes.com | Swatch hex on the official color chart page | English names from [Newtype](https://newtype.us) retail listings, cross-checked against the English printed on Gaia's bottle labels (`data/sources/gaia_labels.csv`); finish from the labels where printed |
 
@@ -32,7 +33,7 @@ and romanized/German names. Corrections to that file are welcome.
 | Field | Meaning |
 |---|---|
 | `id`, `brand`, `line`, `code`, `name`, `name_ja` | Identity (`name` is English; `name_ja` is the original Japanese for Gaia) |
-| `name_sources` | Gaia only: each candidate English name by source (`newtype.us`, `bottle label`, `translated`) |
+| `name_sources` | Gaia and the Mr. Color lines: each candidate English name by source (`newtype.us`, `bottle label`, `translated`, `chart (translated)`) |
 | `hex`, `lab` | sRGB hex and CIELAB (D65) |
 | `finish` | `gloss`, `semi-gloss`, `flat`, `metallic`, `pearl`, `clear`, `clear-color` (tinted clear / candy), `fluorescent`, or absent if unknown |
 | `finish_source` | `official` (printed by the maker), `retailer` (from a store listing), `inferred` (from name/series/description), `manual`, `unknown` |
@@ -40,6 +41,7 @@ and romanized/German names. Corrections to that file are welcome.
 | `confidence` | `medium` by default; `low` when the source value looks wrong (see `notes`) |
 | `sheen_lab_range` | For metallic/pearl chips drawn as gradients: darkest/brightest Lab, a rough sheen hint |
 | `equivalents` | Same-maker equivalents (e.g. Tamiya LP-72 ↔ TS-76) |
+| `samples` | Extra swatches, e.g. Mr. Crystal Color sampled `over white` and `over black` |
 | `source_url`, `image_url`, `source_method` | Where the value came from |
 
 ### Rebuilding

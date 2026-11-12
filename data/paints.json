@@ -7,7 +7,7 @@
   "Gaia": "https://www.gaianotes.com/products/gaia-color_chart.html (chart swatch hex values)",
   "Gaia English names": "https://newtype.us (retail listings) + official bottle labels (data/sources/gaia_labels.csv)"
  },
- "count": 570,
+ "count": 695,
  "paints": [
   {
    "id": "gaia-001",
@@ -3862,13 +3862,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (54, 12, 116, 48)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     100.0,
     -0.0,
     0.0
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c2",
@@ -3882,13 +3884,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (170, 12, 232, 48)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     9.91,
     4.59,
     3.32
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c3",
@@ -3902,13 +3906,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (286, 12, 348, 48)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     48.32,
     74.5,
     56.34
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c4",
@@ -3922,13 +3928,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (402, 12, 464, 48)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     89.36,
     -7.37,
     88.81
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c5",
@@ -3942,13 +3950,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (517, 12, 579, 48)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     34.03,
     13.57,
     -50.46
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c6",
@@ -3962,13 +3972,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (634, 12, 696, 48)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     38.42,
     -39.94,
     24.16
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c7",
@@ -3982,13 +3994,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (750, 12, 812, 48)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     46.46,
     55.42,
     42.15
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c8",
@@ -4002,6 +4016,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (866, 12, 928, 48)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
@@ -4020,7 +4035,8 @@
      -0.85,
      0.25
     ]
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c9",
@@ -4034,6 +4050,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (981, 12, 1043, 48)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
@@ -4052,7 +4069,8 @@
      0.8,
      23.85
     ]
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c10",
@@ -4066,6 +4084,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (1097, 12, 1159, 48)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
@@ -4084,7 +4103,8 @@
      9.51,
      18.21
     ]
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c11",
@@ -4098,13 +4118,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (54, 94, 116, 130)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     73.06,
     3.25,
     5.76
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c12",
@@ -4118,13 +4140,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (170, 94, 232, 130)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     34.36,
     10.37,
     20.27
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c13",
@@ -4138,13 +4162,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (286, 94, 348, 130)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     54.07,
     -4.36,
     -6.38
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c14",
@@ -4158,13 +4184,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (402, 94, 464, 130)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     26.38,
     -5.38,
     -2.49
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c15",
@@ -4178,13 +4206,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (517, 94, 579, 130)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     20.19,
     -24.31,
     10.88
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c16",
@@ -4198,13 +4228,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (634, 94, 696, 130)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     26.85,
     -0.41,
     12.77
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c17",
@@ -4218,13 +4250,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (750, 94, 812, 130)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     37.7,
     -3.42,
     7.25
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c18",
@@ -4238,13 +4272,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (866, 94, 928, 130)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     30.26,
     3.9,
     4.13
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c19",
@@ -4258,13 +4294,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (981, 94, 1043, 130)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     67.2,
     13.45,
     41.81
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c20",
@@ -4278,13 +4316,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (1097, 94, 1159, 130)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     79.7,
     -17.95,
     4.81
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c21",
@@ -4298,13 +4338,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (54, 176, 116, 212)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     62.1,
     3.11,
     46.52
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c22",
@@ -4318,13 +4360,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (170, 176, 232, 212)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     48.73,
     12.73,
     22.11
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c23",
@@ -4338,13 +4382,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (286, 176, 348, 212)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     51.24,
     1.49,
     22.35
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c25",
@@ -4358,13 +4404,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (402, 176, 464, 212)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     64.12,
     -2.3,
     10.35
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c26",
@@ -4378,13 +4426,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (517, 176, 579, 212)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     87.28,
     -11.95,
     24.41
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c27",
@@ -4398,13 +4448,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (634, 176, 696, 212)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     68.1,
     -8.86,
     68.42
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c28",
@@ -4418,6 +4470,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (750, 176, 812, 212)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
@@ -4436,7 +4489,8 @@
      4.49,
      0.97
     ]
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c29",
@@ -4450,13 +4504,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (866, 176, 928, 212)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     24.32,
     19.38,
     2.97
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c30",
@@ -4470,6 +4526,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (981, 176, 1043, 212)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": false,
    "lab": [
@@ -4477,6 +4534,7 @@
     -0.0,
     0.0
    ],
+   "samples": {},
    "notes": [
     "flat base"
    ]
@@ -4493,13 +4551,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (1097, 176, 1159, 212)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     62.41,
     1.27,
     2.23
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c32",
@@ -4513,13 +4573,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (54, 259, 116, 295)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     40.72,
     4.81,
     6.25
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c33",
@@ -4533,13 +4595,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (170, 259, 232, 295)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     9.91,
     4.59,
     3.32
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c34",
@@ -4553,13 +4617,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (286, 259, 348, 295)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     55.75,
     -3.94,
     -47.01
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c35",
@@ -4573,13 +4639,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (402, 259, 464, 295)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     72.29,
     -4.65,
     -2.18
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c36",
@@ -4593,13 +4661,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (517, 259, 579, 295)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     37.7,
     -3.42,
     7.25
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c37",
@@ -4613,13 +4683,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (634, 259, 696, 295)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     39.9,
     5.62,
     -0.52
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c38",
@@ -4633,13 +4705,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (750, 259, 812, 295)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     32.71,
     3.92,
     17.2
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c39",
@@ -4653,13 +4727,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (866, 259, 928, 295)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     66.58,
     4.76,
     39.13
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c40",
@@ -4673,13 +4749,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (981, 259, 1043, 295)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     22.77,
     -16.75,
     -0.05
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c41",
@@ -4693,13 +4771,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (1097, 259, 1159, 295)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     22.34,
     13.22,
     1.9
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c42",
@@ -4713,13 +4793,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (54, 342, 116, 378)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     21.29,
     6.24,
     -0.5
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c43",
@@ -4733,13 +4815,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (170, 342, 232, 378)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     34.36,
     10.37,
     20.27
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c44",
@@ -4753,13 +4837,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (286, 342, 348, 378)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     70.8,
     3.49,
     38.88
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c45",
@@ -4773,13 +4859,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (402, 342, 464, 378)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     82.61,
     -1.81,
     26.46
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c46",
@@ -4793,6 +4881,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (517, 342, 579, 378)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": false,
    "lab": [
@@ -4800,6 +4889,7 @@
     -0.0,
     0.0
    ],
+   "samples": {},
    "notes": [
     "clear"
    ]
@@ -4816,13 +4906,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (634, 342, 696, 378)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     61.92,
     45.17,
     43.78
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c48",
@@ -4836,13 +4928,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (750, 342, 812, 378)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     91.39,
     -4.48,
     53.78
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c49",
@@ -4856,13 +4950,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (866, 342, 928, 378)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     74.3,
     22.91,
     47.23
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c50",
@@ -4876,13 +4972,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (981, 342, 1043, 378)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     81.25,
     -13.09,
     -23.47
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c51",
@@ -4896,13 +4994,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (1097, 342, 1159, 378)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     85.13,
     4.03,
     16.95
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c52",
@@ -4916,13 +5016,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (54, 424, 116, 460)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     43.03,
     -6.5,
     16.0
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c54",
@@ -4936,13 +5038,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (170, 424, 232, 460)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     29.76,
     -7.62,
     11.53
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c55",
@@ -4956,13 +5060,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (286, 424, 348, 460)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     41.67,
     8.54,
     31.45
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c56",
@@ -4976,13 +5082,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (402, 424, 464, 460)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     55.32,
     -12.66,
     16.22
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c57",
@@ -4996,6 +5104,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (517, 424, 579, 460)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
@@ -5014,7 +5123,8 @@
      -15.79,
      -2.35
     ]
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c58",
@@ -5028,13 +5138,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (634, 424, 696, 460)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     68.41,
     30.0,
     73.96
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c59",
@@ -5048,13 +5160,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (750, 424, 812, 460)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     54.57,
     58.38,
     63.38
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c60",
@@ -5068,13 +5182,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (866, 424, 928, 460)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     64.56,
     -1.65,
     7.06
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c61",
@@ -5088,6 +5204,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (981, 424, 1043, 460)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
@@ -5106,7 +5223,8 @@
      3.23,
      5.73
     ]
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c62",
@@ -5120,13 +5238,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (1097, 424, 1159, 460)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     100.0,
     -0.0,
     0.0
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c63",
@@ -5140,13 +5260,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (54, 507, 116, 543)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     62.53,
     52.22,
     1.8
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c64",
@@ -5160,13 +5282,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (170, 507, 232, 543)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     59.0,
     -56.88,
     43.51
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c65",
@@ -5180,13 +5304,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (286, 507, 348, 543)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     29.24,
     19.44,
     -52.78
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c66",
@@ -5200,13 +5326,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (402, 507, 464, 543)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     40.43,
     -39.04,
     18.79
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c67",
@@ -5220,13 +5348,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (517, 507, 579, 543)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     22.82,
     36.37,
     -48.9
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c68",
@@ -5240,13 +5370,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (634, 507, 696, 543)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     45.37,
     69.52,
     50.64
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c69",
@@ -5260,13 +5392,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (750, 507, 812, 543)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     97.21,
     -0.37,
     2.03
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c70",
@@ -5280,13 +5414,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (866, 507, 928, 543)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     33.35,
     0.66,
     22.81
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c71",
@@ -5300,13 +5436,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (981, 507, 1043, 543)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     25.65,
     -11.34,
     -6.34
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c72",
@@ -5320,13 +5458,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (1097, 507, 1159, 543)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     43.42,
     0.81,
     -23.37
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c73",
@@ -5340,13 +5480,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (54, 590, 116, 626)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     65.57,
     -6.25,
     -5.06
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c74",
@@ -5360,13 +5502,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (170, 590, 232, 626)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     65.68,
     -2.49,
     -14.4
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c75",
@@ -5380,6 +5524,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (286, 590, 348, 626)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
@@ -5398,7 +5543,8 @@
      17.73,
      14.96
     ]
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c76",
@@ -5412,6 +5558,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (402, 590, 464, 626)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
@@ -5430,7 +5577,8 @@
      5.5,
      -24.31
     ]
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c77",
@@ -5444,6 +5592,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (517, 590, 579, 626)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
@@ -5462,7 +5611,8 @@
      -18.68,
      9.21
     ]
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c78",
@@ -5476,6 +5626,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (634, 590, 696, 626)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
@@ -5494,7 +5645,8 @@
      4.59,
      3.32
     ]
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c79",
@@ -5508,13 +5660,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (750, 590, 812, 626)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     48.32,
     74.5,
     56.34
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c80",
@@ -5528,13 +5682,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (866, 590, 928, 626)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     20.44,
     36.76,
     -57.93
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c81",
@@ -5548,13 +5704,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (981, 590, 1043, 626)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     28.93,
     34.35,
     12.89
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c90",
@@ -5568,6 +5726,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (1097, 590, 1159, 626)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
@@ -5586,7 +5745,8 @@
      -0.0,
      0.0
     ]
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c92",
@@ -5600,13 +5760,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (54, 672, 116, 708)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     9.91,
     4.59,
     3.32
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c97",
@@ -5620,13 +5782,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (170, 672, 232, 708)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     86.84,
     -5.03,
     5.45
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c100",
@@ -5640,13 +5804,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (286, 672, 348, 708)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     29.38,
     49.97,
     18.2
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c101",
@@ -5660,13 +5826,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (402, 672, 464, 708)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     20.41,
     3.27,
     12.52
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c104",
@@ -5680,6 +5848,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (517, 672, 579, 708)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
@@ -5698,7 +5867,8 @@
      -0.0,
      0.0
     ]
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c107",
@@ -5712,13 +5882,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (634, 672, 696, 708)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     96.14,
     -0.35,
     0.96
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c108",
@@ -5732,13 +5904,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (750, 672, 812, 708)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     43.11,
     65.11,
     44.78
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c109",
@@ -5752,13 +5926,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (866, 672, 928, 708)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     65.49,
     36.3,
     72.07
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c110",
@@ -5772,13 +5948,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (981, 672, 1043, 708)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     29.24,
     19.44,
     -52.78
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c111",
@@ -5792,13 +5970,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (1097, 672, 1159, 708)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     92.17,
     6.13,
     9.32
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c112",
@@ -5812,13 +5992,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (54, 755, 116, 791)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     82.37,
     18.69,
     11.11
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c113",
@@ -5832,13 +6014,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (170, 755, 232, 791)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     75.28,
     16.99,
     78.67
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c114",
@@ -5852,13 +6036,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (286, 755, 348, 791)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     39.93,
     61.96,
     42.91
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c115",
@@ -5872,13 +6058,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (402, 755, 464, 791)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     68.46,
     -13.6,
     3.05
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c116",
@@ -5892,13 +6080,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (517, 755, 579, 791)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     25.02,
     2.6,
     0.94
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c117",
@@ -5912,13 +6102,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (634, 755, 696, 791)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     73.81,
     -6.17,
     -2.11
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c118",
@@ -5932,13 +6124,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (750, 755, 812, 791)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     66.06,
     -8.28,
     -13.35
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c119",
@@ -5952,13 +6146,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (866, 755, 928, 791)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     49.77,
     10.67,
     20.0
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c120",
@@ -5972,13 +6168,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (981, 755, 1043, 791)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     28.11,
     0.64,
     22.6
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c121",
@@ -5992,13 +6190,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (1097, 755, 1159, 791)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     37.7,
     -3.42,
     7.25
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c122",
@@ -6012,13 +6212,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (54, 838, 116, 874)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     51.14,
     -24.15,
     22.67
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c123",
@@ -6032,13 +6234,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (170, 838, 232, 874)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     37.18,
     -2.09,
     9.01
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c124",
@@ -6052,13 +6256,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (286, 838, 348, 874)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     28.27,
     -32.86,
     21.19
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c125",
@@ -6072,13 +6278,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (402, 838, 464, 874)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     3.06,
     3.69,
     -16.47
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c126",
@@ -6092,13 +6300,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (517, 838, 579, 874)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     39.19,
     -18.84,
     15.77
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c127",
@@ -6112,13 +6322,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (634, 838, 696, 874)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     62.45,
     -9.07,
     36.44
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c128",
@@ -6132,13 +6344,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (750, 838, 812, 874)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     73.36,
     -4.14,
     7.15
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c129",
@@ -6152,13 +6366,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (866, 838, 928, 874)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     39.38,
     -17.04,
     9.39
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c130",
@@ -6172,13 +6388,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (981, 838, 1043, 874)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     37.19,
     -13.41,
     13.09
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c131",
@@ -6192,13 +6410,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (1097, 838, 1159, 874)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     18.65,
     23.48,
     20.75
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c132",
@@ -6212,13 +6432,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (54, 920, 116, 956)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     38.72,
     -0.1,
     24.52
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c135",
@@ -6232,13 +6454,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (170, 920, 232, 956)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     54.02,
     -47.85,
     29.76
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c136",
@@ -6252,13 +6476,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (286, 920, 348, 956)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     39.92,
     -5.95,
     19.47
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c137",
@@ -6272,13 +6498,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (402, 920, 464, 956)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     31.43,
     1.87,
     -0.0
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c138",
@@ -6292,13 +6520,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (517, 920, 579, 956)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     66.47,
     -47.3,
     23.79
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c151",
@@ -6312,6 +6542,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (634, 920, 696, 956)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
@@ -6330,7 +6561,8 @@
      -0.35,
      0.95
     ]
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c156",
@@ -6344,13 +6576,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (750, 920, 812, 956)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     99.1,
     -1.88,
     7.41
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c158",
@@ -6364,13 +6598,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (866, 920, 928, 956)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     45.37,
     69.52,
     50.64
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c159",
@@ -6384,6 +6620,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (981, 920, 1043, 956)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
@@ -6402,7 +6639,8 @@
      -0.0,
      0.0
     ]
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c171",
@@ -6416,13 +6654,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (1097, 920, 1159, 956)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     54.17,
     59.04,
     58.26
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c172",
@@ -6436,6 +6676,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (54, 1003, 116, 1039)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
@@ -6443,6 +6684,7 @@
     -14.83,
     91.85
    ],
+   "samples": {},
    "notes": [
     "not in color list PDF; name taken from the chart image"
    ]
@@ -6459,13 +6701,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (170, 1003, 232, 1039)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     61.34,
     45.22,
     53.55
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c174",
@@ -6479,13 +6723,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (286, 1003, 348, 1039)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     68.15,
     43.96,
     -1.87
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c175",
@@ -6499,13 +6745,15 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (402, 1003, 464, 1039)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": true,
    "lab": [
     73.46,
     -35.47,
     42.61
-   ]
+   ],
+   "samples": {}
   },
   {
    "id": "mrcolor-c181",
@@ -6519,6 +6767,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (634, 1003, 696, 1039)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": false,
    "lab": [
@@ -6526,6 +6775,7 @@
     -0.0,
     0.0
    ],
+   "samples": {},
    "notes": [
     "clear"
    ]
@@ -6542,6 +6792,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (750, 1003, 812, 1039)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": false,
    "lab": [
@@ -6549,6 +6800,7 @@
     -0.0,
     0.0
    ],
+   "samples": {},
    "notes": [
     "clear"
    ]
@@ -6565,6 +6817,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (866, 1003, 928, 1039)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": false,
    "lab": [
@@ -6572,6 +6825,7 @@
     0.02,
     -1.08
    ],
+   "samples": {},
    "notes": [
     "clear"
    ]
@@ -6588,6 +6842,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (981, 1003, 1043, 1039)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": false,
    "lab": [
@@ -6595,6 +6850,7 @@
     -0.0,
     0.0
    ],
+   "samples": {},
    "notes": [
     "flat base"
    ]
@@ -6611,6 +6867,7 @@
    "source_url": "https://www.mr-hobby.com/ja/products/detail/1",
    "source_method": "chart chip median, box (1097, 1003, 1159, 1039)",
    "confidence": "medium",
+   "name_sources": {},
    "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30AYG30Y2FRE9H1T4AMJ8AH.png",
    "is_color": false,
    "lab": [
@@ -6618,8 +6875,3935 @@
     -0.0,
     0.0
    ],
+   "samples": {},
    "notes": [
     "flat base"
+   ]
+  },
+  {
+   "id": "mrcolor-c511",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C511",
+   "name": "Russian Green (4BO) WWII",
+   "hex": "#6a5e2a",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (40, 2, 113, 49)",
+   "confidence": "medium",
+   "name_ja": "ロシアングリーン4BO WWII",
+   "name_sources": {
+    "chart (translated)": "Russian Green (4BO) WWII"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    39.98,
+    -2.4,
+    31.08
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-c512",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C512",
+   "name": "Russian Green (4BO) 1947-",
+   "hex": "#5a6030",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (156, 2, 229, 49)",
+   "confidence": "medium",
+   "name_ja": "ロシアングリーン4BO 1947年以降",
+   "name_sources": {
+    "chart (translated)": "Russian Green (4BO) 1947-"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    39.16,
+    -10.43,
+    26.47
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-c513",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C513",
+   "name": "Dark Gray (Dunkelgrau)",
+   "hex": "#3e4f5f",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (272, 2, 345, 49)",
+   "confidence": "medium",
+   "name_ja": "ジャーマングレー ドゥンケルグラウ",
+   "name_sources": {
+    "chart (translated)": "Dark Gray (Dunkelgrau)"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    32.79,
+    -2.26,
+    -11.5
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-c514",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C514",
+   "name": "German Gray (Panzergrau)",
+   "hex": "#4e7280",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (389, 2, 462, 49)",
+   "confidence": "medium",
+   "name_ja": "ジャーマングレー パンツァーグラウ",
+   "name_sources": {
+    "chart (translated)": "German Gray (Panzergrau)"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    45.92,
+    -8.94,
+    -11.77
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-c515",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C515",
+   "name": "German Gray (Panzergrau) Faded",
+   "hex": "#5b7b86",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (505, 2, 578, 49)",
+   "confidence": "medium",
+   "name_ja": "ジャーマングレー パンツァーグラウ 退色",
+   "name_sources": {
+    "chart (translated)": "German Gray (Panzergrau) Faded"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    49.63,
+    -8.55,
+    -9.67
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-c516",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C516",
+   "name": "Dark Green 3414",
+   "hex": "#404737",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (620, 2, 693, 49)",
+   "confidence": "medium",
+   "name_ja": "濃緑色 3414",
+   "name_sources": {
+    "chart (translated)": "Dark Green 3414"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    29.09,
+    -6.29,
+    8.69
+   ],
+   "samples": {},
+   "notes": [
+    "3/4 flat (semi-matte)"
+   ]
+  },
+  {
+   "id": "mrcolor-c517",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C517",
+   "name": "Brown 3606",
+   "hex": "#4e3b2a",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (736, 2, 809, 49)",
+   "confidence": "medium",
+   "name_ja": "茶色 3606",
+   "name_sources": {
+    "chart (translated)": "Brown 3606"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    26.49,
+    5.73,
+    13.75
+   ],
+   "samples": {},
+   "notes": [
+    "3/4 flat (semi-matte)"
+   ]
+  },
+  {
+   "id": "mrcolor-c518",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C518",
+   "name": "OD 2314",
+   "hex": "#3a341c",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (852, 2, 925, 49)",
+   "confidence": "medium",
+   "name_ja": "OD色 2314",
+   "name_sources": {
+    "chart (translated)": "OD 2314"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    21.72,
+    -1.45,
+    16.11
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-c519",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C519",
+   "name": "Bronzegrün RAL6031",
+   "hex": "#3b4d37",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (967, 2, 1040, 49)",
+   "confidence": "medium",
+   "name_ja": "ブロンセグリュン RAL6031",
+   "name_sources": {
+    "chart (translated)": "Bronzegrün RAL6031"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    30.67,
+    -12.01,
+    10.81
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-c520",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C520",
+   "name": "Lederbraun RAL8027",
+   "hex": "#543924",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (1083, 2, 1156, 49)",
+   "confidence": "medium",
+   "name_ja": "レーダァブラオン RAL8027",
+   "name_sources": {
+    "chart (translated)": "Lederbraun RAL8027"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    26.56,
+    9.22,
+    17.81
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-c521",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C521",
+   "name": "Teerschwarz RAL9021",
+   "hex": "#232929",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (40, 86, 113, 133)",
+   "confidence": "medium",
+   "name_ja": "テーアシュバルツ RAL9021",
+   "name_sources": {
+    "chart (translated)": "Teerschwarz RAL9021"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    16.02,
+    -2.65,
+    -0.9
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-c522",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C522",
+   "name": "Earth Color",
+   "hex": "#4d4845",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (156, 86, 229, 133)",
+   "confidence": "medium",
+   "name_ja": "土地色",
+   "name_sources": {
+    "chart (translated)": "Earth Color"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    30.98,
+    1.47,
+    2.55
+   ],
+   "samples": {},
+   "notes": [
+    "3/4 flat (semi-matte)"
+   ]
+  },
+  {
+   "id": "mrcolor-c523",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C523",
+   "name": "Grass Green",
+   "hex": "#4e5d46",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (272, 86, 345, 133)",
+   "confidence": "medium",
+   "name_ja": "草色",
+   "name_sources": {
+    "chart (translated)": "Grass Green"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    37.65,
+    -10.64,
+    11.35
+   ],
+   "samples": {},
+   "notes": [
+    "3/4 flat (semi-matte)"
+   ]
+  },
+  {
+   "id": "mrcolor-c524",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C524",
+   "name": "Dry Grass",
+   "hex": "#87793c",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (389, 86, 462, 133)",
+   "confidence": "medium",
+   "name_ja": "枯草色",
+   "name_sources": {
+    "chart (translated)": "Dry Grass"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    50.87,
+    -2.98,
+    35.01
+   ],
+   "samples": {},
+   "notes": [
+    "3/4 flat (semi-matte)"
+   ]
+  },
+  {
+   "id": "mrcolor-c525",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C525",
+   "name": "Green",
+   "hex": "#1b4a38",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (505, 86, 578, 133)",
+   "confidence": "medium",
+   "name_ja": "緑色",
+   "name_sources": {
+    "chart (translated)": "Green"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    27.89,
+    -21.03,
+    6.03
+   ],
+   "samples": {},
+   "notes": [
+    "3/4 flat (semi-matte)"
+   ]
+  },
+  {
+   "id": "mrcolor-c526",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C526",
+   "name": "Brown",
+   "hex": "#8a594b",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (620, 86, 693, 133)",
+   "confidence": "medium",
+   "name_ja": "茶色",
+   "name_sources": {
+    "chart (translated)": "Brown"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    42.85,
+    18.47,
+    16.43
+   ],
+   "samples": {},
+   "notes": [
+    "3/4 flat (semi-matte)"
+   ]
+  },
+  {
+   "id": "mrcolor-c527",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C527",
+   "name": "Army Khaki",
+   "hex": "#aa7553",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (736, 86, 809, 133)",
+   "confidence": "medium",
+   "name_ja": "陸軍カーキ",
+   "name_sources": {
+    "chart (translated)": "Army Khaki"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    53.92,
+    16.86,
+    27.06
+   ],
+   "samples": {},
+   "notes": [
+    "3/4 flat (semi-matte)"
+   ]
+  },
+  {
+   "id": "mrcolor-c528",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C528",
+   "name": "IDF Gray 1 (-1981 Sinai)",
+   "hex": "#c9b384",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (852, 86, 925, 133)",
+   "confidence": "medium",
+   "name_ja": "IDFグレー1 (-1981シナイ半島)",
+   "name_sources": {
+    "chart (translated)": "IDF Gray 1 (-1981 Sinai)"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    73.76,
+    1.0,
+    26.92
+   ],
+   "samples": {},
+   "notes": [
+    "3/4 flat (semi-matte)"
+   ]
+  },
+  {
+   "id": "mrcolor-c529",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C529",
+   "name": "IDF Gray 2 (-1981 Golan)",
+   "hex": "#867e69",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (967, 86, 1040, 133)",
+   "confidence": "medium",
+   "name_ja": "IDFグレー2 (-1981ゴラン高原)",
+   "name_sources": {
+    "chart (translated)": "IDF Gray 2 (-1981 Golan)"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    52.96,
+    -0.63,
+    12.55
+   ],
+   "samples": {},
+   "notes": [
+    "3/4 flat (semi-matte)"
+   ]
+  },
+  {
+   "id": "mrcolor-c530",
+   "brand": "Mr. Color",
+   "line": "Mr. Color (C511–530 AFV)",
+   "code": "C530",
+   "name": "IDF Gray 3 (Current)",
+   "hex": "#7b7458",
+   "finish": "flat",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/3",
+   "source_method": "grid chart sample, box (1083, 86, 1156, 133)",
+   "confidence": "medium",
+   "name_ja": "IDFグレー3 (現用)",
+   "name_sources": {
+    "chart (translated)": "IDF Gray 3 (Current)"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01K30B4P695X0C9A9CW7J3WBWK.png",
+   "is_color": true,
+   "lab": [
+    48.77,
+    -2.09,
+    16.48
+   ],
+   "samples": {},
+   "notes": [
+    "3/4 flat (semi-matte)"
+   ]
+  },
+  {
+   "id": "mrcolor-cl01",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Lascivus",
+   "code": "CL01",
+   "name": "White Peach",
+   "hex": "#fbd7bd",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/5",
+   "source_method": "grid chart sample, box (521, 51, 631, 123)",
+   "confidence": "medium",
+   "name_ja": "ホワイトピーチ",
+   "name_sources": {
+    "chart (translated)": "White Peach"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHMC88BHMG59SKE1KAVJ4K1.jpg",
+   "is_color": true,
+   "lab": [
+    88.35,
+    8.69,
+    17.48
+   ],
+   "samples": {},
+   "notes": [
+    "Lascivus skin base color"
+   ]
+  },
+  {
+   "id": "mrcolor-cl02",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Lascivus",
+   "code": "CL02",
+   "name": "Cocoa Milk",
+   "hex": "#a97f71",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/5",
+   "source_method": "grid chart sample, box (688, 51, 798, 123)",
+   "confidence": "medium",
+   "name_ja": "ココアミルク",
+   "name_sources": {
+    "chart (translated)": "Cocoa Milk"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHMC88BHMG59SKE1KAVJ4K1.jpg",
+   "is_color": true,
+   "lab": [
+    56.89,
+    14.24,
+    13.93
+   ],
+   "samples": {},
+   "notes": [
+    "Lascivus skin base color"
+   ]
+  },
+  {
+   "id": "mrcolor-cl03",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Lascivus",
+   "code": "CL03",
+   "name": "Clear Pale Red",
+   "hex": "#fbdcd5",
+   "finish": "clear-color",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/5",
+   "source_method": "grid chart sample, box (521, 292, 631, 364)",
+   "confidence": "medium",
+   "name_ja": "クリアーペールレッド",
+   "name_sources": {
+    "chart (translated)": "Clear Pale Red"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHMC88BHMG59SKE1KAVJ4K1.jpg",
+   "is_color": true,
+   "lab": [
+    90.09,
+    9.6,
+    7.37
+   ],
+   "samples": {},
+   "notes": [
+    "Lascivus overcoat for skin shading"
+   ]
+  },
+  {
+   "id": "mrcolor-cl04",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Lascivus",
+   "code": "CL04",
+   "name": "Clear Pale Orange",
+   "hex": "#fcddb6",
+   "finish": "clear-color",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/5",
+   "source_method": "grid chart sample, box (688, 292, 798, 364)",
+   "confidence": "medium",
+   "name_ja": "クリアーペールオレンジ",
+   "name_sources": {
+    "chart (translated)": "Clear Pale Orange"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHMC88BHMG59SKE1KAVJ4K1.jpg",
+   "is_color": true,
+   "lab": [
+    89.76,
+    5.03,
+    23.11
+   ],
+   "samples": {},
+   "notes": [
+    "Lascivus overcoat for skin shading"
+   ]
+  },
+  {
+   "id": "mrcolor-cl05",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Lascivus",
+   "code": "CL05",
+   "name": "Clear Pale Brown",
+   "hex": "#f6b782",
+   "finish": "clear-color",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/5",
+   "source_method": "grid chart sample, box (856, 292, 966, 364)",
+   "confidence": "medium",
+   "name_ja": "クリアーペールブラウン",
+   "name_sources": {
+    "chart (translated)": "Clear Pale Brown"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHMC88BHMG59SKE1KAVJ4K1.jpg",
+   "is_color": true,
+   "lab": [
+    79.08,
+    16.61,
+    35.8
+   ],
+   "samples": {},
+   "notes": [
+    "Lascivus overcoat for skin shading"
+   ]
+  },
+  {
+   "id": "mrcolor-cl06",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Lascivus",
+   "code": "CL06",
+   "name": "Clear White",
+   "hex": "#ffffff",
+   "finish": "clear",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/5",
+   "source_method": "grid chart sample, box (1024, 292, 1134, 364)",
+   "confidence": "medium",
+   "name_ja": "クリアーホワイト",
+   "name_sources": {
+    "chart (translated)": "Clear White"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHMC88BHMG59SKE1KAVJ4K1.jpg",
+   "is_color": false,
+   "lab": [
+    100.0,
+    -0.0,
+    0.0
+   ],
+   "samples": {},
+   "notes": [
+    "Lascivus overcoat to lighten"
+   ]
+  },
+  {
+   "id": "mrcolor-cl07",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Lascivus",
+   "code": "CL07",
+   "name": "Toki-iro (Ibis Pink)",
+   "hex": "#f7bcb4",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/5",
+   "source_method": "grid chart sample, box (856, 51, 966, 123)",
+   "confidence": "medium",
+   "name_ja": "鴇羽色",
+   "name_sources": {
+    "chart (translated)": "Toki-iro (Ibis Pink)"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHMC88BHMG59SKE1KAVJ4K1.jpg",
+   "is_color": true,
+   "lab": [
+    81.31,
+    20.11,
+    12.29
+   ],
+   "samples": {},
+   "notes": [
+    "Lascivus skin base color"
+   ]
+  },
+  {
+   "id": "mrcolor-cl08",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Lascivus",
+   "code": "CL08",
+   "name": "Nuts White",
+   "hex": "#fffcf7",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/5",
+   "source_method": "grid chart sample, box (1024, 51, 1134, 123)",
+   "confidence": "medium",
+   "name_ja": "ナッツホワイト",
+   "name_sources": {
+    "chart (translated)": "Nuts White"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHMC88BHMG59SKE1KAVJ4K1.jpg",
+   "is_color": true,
+   "lab": [
+    99.06,
+    0.13,
+    2.74
+   ],
+   "samples": {},
+   "notes": [
+    "Lascivus skin base color"
+   ]
+  },
+  {
+   "id": "mrcolor-cl09",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Lascivus",
+   "code": "CL09",
+   "name": "Smooth Pearl Coat",
+   "hex": "#ffffff",
+   "finish": "pearl",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/5",
+   "source_method": "grid chart sample, box (521, 534, 631, 606)",
+   "confidence": "medium",
+   "name_ja": "スムースパールコート",
+   "name_sources": {
+    "chart (translated)": "Smooth Pearl Coat"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHMC88BHMG59SKE1KAVJ4K1.jpg",
+   "is_color": false,
+   "lab": [
+    100.0,
+    -0.0,
+    0.0
+   ],
+   "sheen_lab_range": [
+    [
+     100.0,
+     -0.0,
+     0.0
+    ],
+    [
+     100.0,
+     -0.0,
+     0.0
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "pearl topcoat"
+   ]
+  },
+  {
+   "id": "mrcolor-cv01",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Velvet",
+   "code": "CV01",
+   "name": "Velvet Red",
+   "hex": "#b14632",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/2504",
+   "source_method": "grid chart sample, box (87, 10, 268, 128)",
+   "confidence": "medium",
+   "name_ja": "ベルベット レッド",
+   "name_sources": {
+    "chart (translated)": "Velvet Red"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JM8VZ0Y94R4QYETB1E9HPNDG.png",
+   "is_color": true,
+   "lab": [
+    44.18,
+    42.41,
+    34.04
+   ],
+   "sheen_lab_range": [
+    [
+     36.14,
+     41.78,
+     32.42
+    ],
+    [
+     50.68,
+     41.33,
+     32.78
+    ]
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-cv02",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Velvet",
+   "code": "CV02",
+   "name": "Velvet Blue",
+   "hex": "#10468b",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/2504",
+   "source_method": "grid chart sample, box (360, 10, 541, 128)",
+   "confidence": "medium",
+   "name_ja": "ベルベット ブルー",
+   "name_sources": {
+    "chart (translated)": "Velvet Blue"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JM8VZ0Y94R4QYETB1E9HPNDG.png",
+   "is_color": true,
+   "lab": [
+    30.29,
+    10.69,
+    -43.11
+   ],
+   "sheen_lab_range": [
+    [
+     24.39,
+     18.42,
+     -47.08
+    ],
+    [
+     44.9,
+     -17.77,
+     -20.67
+    ]
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-cv03",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Velvet",
+   "code": "CV03",
+   "name": "Velvet Green",
+   "hex": "#1d7d5e",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/2504",
+   "source_method": "grid chart sample, box (633, 10, 814, 128)",
+   "confidence": "medium",
+   "name_ja": "ベルベット グリーン",
+   "name_sources": {
+    "chart (translated)": "Velvet Green"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JM8VZ0Y94R4QYETB1E9HPNDG.png",
+   "is_color": true,
+   "lab": [
+    46.63,
+    -35.0,
+    9.23
+   ],
+   "sheen_lab_range": [
+    [
+     39.58,
+     -32.0,
+     9.41
+    ],
+    [
+     55.11,
+     -34.32,
+     9.19
+    ]
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-ggx1",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GGX",
+   "code": "GGX1",
+   "name": "White",
+   "hex": "#ffffff",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/2947",
+   "source_method": "grid chart sample, box (35, 5, 107, 54)",
+   "confidence": "medium",
+   "name_ja": "ホワイト",
+   "name_sources": {
+    "chart (translated)": "White"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KVY8KYGMPY2M2VK7DQ8W0W15.png",
+   "is_color": true,
+   "lab": [
+    100.0,
+    -0.0,
+    0.0
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-ggx2",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GGX",
+   "code": "GGX2",
+   "name": "Black",
+   "hex": "#231916",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/2947",
+   "source_method": "grid chart sample, box (146, 5, 218, 54)",
+   "confidence": "medium",
+   "name_ja": "ブラック",
+   "name_sources": {
+    "chart (translated)": "Black"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KVY8KYGMPY2M2VK7DQ8W0W15.png",
+   "is_color": true,
+   "lab": [
+    9.88,
+    4.4,
+    4.01
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-ggx3",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GGX",
+   "code": "GGX3",
+   "name": "Harman Red",
+   "hex": "#e60013",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/2947",
+   "source_method": "grid chart sample, box (257, 5, 329, 54)",
+   "confidence": "medium",
+   "name_ja": "ハーマンレッド",
+   "name_sources": {
+    "chart (translated)": "Harman Red"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KVY8KYGMPY2M2VK7DQ8W0W15.png",
+   "is_color": true,
+   "lab": [
+    48.1,
+    74.24,
+    56.48
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-ggx4",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GGX",
+   "code": "GGX4",
+   "name": "Kiara Yellow",
+   "hex": "#ffe100",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/2947",
+   "source_method": "grid chart sample, box (35, 89, 107, 138)",
+   "confidence": "medium",
+   "name_ja": "キアライエロー",
+   "name_sources": {
+    "chart (translated)": "Kiara Yellow"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KVY8KYGMPY2M2VK7DQ8W0W15.png",
+   "is_color": true,
+   "lab": [
+    89.45,
+    -6.95,
+    88.92
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-ggx5",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GGX",
+   "code": "GGX5",
+   "name": "Suzy Blue",
+   "hex": "#004ea2",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/2947",
+   "source_method": "grid chart sample, box (146, 89, 218, 138)",
+   "confidence": "medium",
+   "name_ja": "スージーブルー",
+   "name_sources": {
+    "chart (translated)": "Suzy Blue"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KVY8KYGMPY2M2VK7DQ8W0W15.png",
+   "is_color": true,
+   "lab": [
+    34.1,
+    13.99,
+    -50.94
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-ggx6",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GGX",
+   "code": "GGX6",
+   "name": "Moury Green",
+   "hex": "#006831",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/2947",
+   "source_method": "grid chart sample, box (257, 89, 329, 138)",
+   "confidence": "medium",
+   "name_ja": "モウリーグリーン",
+   "name_sources": {
+    "chart (translated)": "Moury Green"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KVY8KYGMPY2M2VK7DQ8W0W15.png",
+   "is_color": true,
+   "lab": [
+    38.06,
+    -39.57,
+    23.71
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-ggx100",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GGX",
+   "code": "GGX100",
+   "name": "Super Clear IV",
+   "hex": "#ffffff",
+   "finish": "clear",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/2947",
+   "source_method": "grid chart sample, box (35, 173, 107, 222)",
+   "confidence": "medium",
+   "name_ja": "スーパークリアーIV",
+   "name_sources": {
+    "chart (translated)": "Super Clear IV"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KVY8KYGMPY2M2VK7DQ8W0W15.png",
+   "is_color": false,
+   "lab": [
+    100.0,
+    -0.0,
+    0.0
+   ],
+   "samples": {},
+   "notes": [
+    "gloss clear coat"
+   ]
+  },
+  {
+   "id": "mrcolor-gx1",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX",
+   "code": "GX1",
+   "name": "Cool White",
+   "hex": "#ffffff",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/11",
+   "source_method": "grid chart sample, box (70, 33, 158, 91)",
+   "confidence": "medium",
+   "name_ja": "クールホワイト",
+   "name_sources": {
+    "chart (translated)": "Cool White"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPDNTHJ5MXFTP72H5KGX7C.jpg",
+   "is_color": true,
+   "lab": [
+    100.0,
+    -0.0,
+    0.0
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-gx2",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX",
+   "code": "GX2",
+   "name": "Ueno Black",
+   "hex": "#000000",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/11",
+   "source_method": "grid chart sample, box (203, 33, 291, 91)",
+   "confidence": "medium",
+   "name_ja": "ウイノーブラック",
+   "name_sources": {
+    "chart (translated)": "Ueno Black"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPDNTHJ5MXFTP72H5KGX7C.jpg",
+   "is_color": true,
+   "lab": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-gx3",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX",
+   "code": "GX3",
+   "name": "Harman Red",
+   "hex": "#e70012",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/11",
+   "source_method": "grid chart sample, box (339, 33, 427, 91)",
+   "confidence": "medium",
+   "name_ja": "ハーマンレッド",
+   "name_sources": {
+    "chart (translated)": "Harman Red"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPDNTHJ5MXFTP72H5KGX7C.jpg",
+   "is_color": true,
+   "lab": [
+    48.31,
+    74.47,
+    57.07
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-gx4",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX",
+   "code": "GX4",
+   "name": "Kiara Yellow",
+   "hex": "#fee100",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/11",
+   "source_method": "grid chart sample, box (473, 33, 561, 91)",
+   "confidence": "medium",
+   "name_ja": "キアライエロー",
+   "name_sources": {
+    "chart (translated)": "Kiara Yellow"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPDNTHJ5MXFTP72H5KGX7C.jpg",
+   "is_color": true,
+   "lab": [
+    89.36,
+    -7.37,
+    88.81
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-gx5",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX",
+   "code": "GX5",
+   "name": "Suzy Blue",
+   "hex": "#004ea1",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/11",
+   "source_method": "grid chart sample, box (608, 33, 696, 91)",
+   "confidence": "medium",
+   "name_ja": "スージーブルー",
+   "name_sources": {
+    "chart (translated)": "Suzy Blue"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPDNTHJ5MXFTP72H5KGX7C.jpg",
+   "is_color": true,
+   "lab": [
+    34.03,
+    13.57,
+    -50.46
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-gx6",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX",
+   "code": "GX6",
+   "name": "Moury Green",
+   "hex": "#016831",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/11",
+   "source_method": "grid chart sample, box (742, 33, 830, 91)",
+   "confidence": "medium",
+   "name_ja": "モウリーグリーン",
+   "name_sources": {
+    "chart (translated)": "Moury Green"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPDNTHJ5MXFTP72H5KGX7C.jpg",
+   "is_color": true,
+   "lab": [
+    38.07,
+    -39.48,
+    23.73
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-gx100",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX",
+   "code": "GX100",
+   "name": "Super Clear III",
+   "hex": "#ffffff",
+   "finish": "clear",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/11",
+   "source_method": "grid chart sample, box (876, 33, 964, 91)",
+   "confidence": "medium",
+   "name_ja": "スーパークリアーIII",
+   "name_sources": {
+    "chart (translated)": "Super Clear III"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPDNTHJ5MXFTP72H5KGX7C.jpg",
+   "is_color": false,
+   "lab": [
+    100.0,
+    -0.0,
+    0.0
+   ],
+   "samples": {},
+   "notes": [
+    "gloss clear coat"
+   ]
+  },
+  {
+   "id": "mrcolor-gx101",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Clear",
+   "code": "GX101",
+   "name": "GX Clear Black",
+   "hex": "#6e7c92",
+   "finish": "clear-color",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/12",
+   "source_method": "blobs chart sample, box (333, 40, 551, 216)",
+   "confidence": "medium",
+   "name_ja": "GXクリアブラック",
+   "name_sources": {
+    "chart (translated)": "GX Clear Black"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHQ1DBR95YXRF9ZP71KP5Q6E.png",
+   "is_color": true,
+   "lab": [
+    51.62,
+    0.0,
+    -13.59
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx102",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Clear",
+   "code": "GX102",
+   "name": "GX Deep Clear Red",
+   "hex": "#c12a2c",
+   "finish": "clear-color",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/12",
+   "source_method": "blobs chart sample, box (643, 40, 860, 216)",
+   "confidence": "medium",
+   "name_ja": "GXディープクリアレッド",
+   "name_sources": {
+    "chart (translated)": "GX Deep Clear Red"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHQ1DBR95YXRF9ZP71KP5Q6E.png",
+   "is_color": true,
+   "lab": [
+    43.03,
+    58.38,
+    37.0
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx103",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Clear",
+   "code": "GX103",
+   "name": "GX Deep Clear Blue",
+   "hex": "#0078c3",
+   "finish": "clear-color",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/12",
+   "source_method": "blobs chart sample, box (954, 39, 1172, 216)",
+   "confidence": "medium",
+   "name_ja": "GXディープクリアブルー",
+   "name_sources": {
+    "chart (translated)": "GX Deep Clear Blue"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHQ1DBR95YXRF9ZP71KP5Q6E.png",
+   "is_color": true,
+   "lab": [
+    48.72,
+    0.3,
+    -46.81
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx104",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Clear",
+   "code": "GX104",
+   "name": "GX Clear Green",
+   "hex": "#14ab58",
+   "finish": "clear-color",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/12",
+   "source_method": "blobs chart sample, box (1263, 40, 1478, 215)",
+   "confidence": "medium",
+   "name_ja": "GXクリアグリーン",
+   "name_sources": {
+    "chart (translated)": "GX Clear Green"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHQ1DBR95YXRF9ZP71KP5Q6E.png",
+   "is_color": true,
+   "lab": [
+    61.63,
+    -55.08,
+    32.57
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx105",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Clear",
+   "code": "GX105",
+   "name": "GX Clear Pink",
+   "hex": "#e05299",
+   "finish": "clear-color",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/12",
+   "source_method": "blobs chart sample, box (1573, 40, 1792, 214)",
+   "confidence": "medium",
+   "name_ja": "GXクリアピンク",
+   "name_sources": {
+    "chart (translated)": "GX Clear Pink"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHQ1DBR95YXRF9ZP71KP5Q6E.png",
+   "is_color": true,
+   "lab": [
+    56.27,
+    61.63,
+    -9.35
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx106",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Clear",
+   "code": "GX106",
+   "name": "GX Clear Orange",
+   "hex": "#eb650a",
+   "finish": "clear-color",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/12",
+   "source_method": "blobs chart sample, box (1884, 40, 2102, 216)",
+   "confidence": "medium",
+   "name_ja": "GXクリアオレンジ",
+   "name_sources": {
+    "chart (translated)": "GX Clear Orange"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHQ1DBR95YXRF9ZP71KP5Q6E.png",
+   "is_color": true,
+   "lab": [
+    58.97,
+    48.31,
+    66.0
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx107",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Clear",
+   "code": "GX107",
+   "name": "GX Clear Purple",
+   "hex": "#5f54a2",
+   "finish": "clear-color",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/12",
+   "source_method": "blobs chart sample, box (23, 266, 241, 443)",
+   "confidence": "medium",
+   "name_ja": "GXクリアパープル",
+   "name_sources": {
+    "chart (translated)": "GX Clear Purple"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHQ1DBR95YXRF9ZP71KP5Q6E.png",
+   "is_color": true,
+   "lab": [
+    40.22,
+    24.3,
+    -40.87
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx108",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Clear",
+   "code": "GX108",
+   "name": "GX Clear Violet",
+   "hex": "#462e88",
+   "finish": "clear-color",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/12",
+   "source_method": "blobs chart sample, box (333, 266, 552, 443)",
+   "confidence": "medium",
+   "name_ja": "GXクリアバイオレット",
+   "name_sources": {
+    "chart (translated)": "GX Clear Violet"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHQ1DBR95YXRF9ZP71KP5Q6E.png",
+   "is_color": true,
+   "lab": [
+    26.83,
+    34.01,
+    -46.7
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-gx109",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Clear",
+   "code": "GX109",
+   "name": "GX Clear Brown",
+   "hex": "#d29c36",
+   "finish": "clear-color",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/12",
+   "source_method": "blobs chart sample, box (643, 266, 859, 443)",
+   "confidence": "medium",
+   "name_ja": "GXクリアブラウン",
+   "name_sources": {
+    "chart (translated)": "GX Clear Brown"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHQ1DBR95YXRF9ZP71KP5Q6E.png",
+   "is_color": true,
+   "lab": [
+    67.83,
+    10.62,
+    58.35
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-gx110",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Clear",
+   "code": "GX110",
+   "name": "GX Clear Silver",
+   "hex": "#d1d0cc",
+   "finish": "clear-color",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/12",
+   "source_method": "blobs chart sample, box (953, 266, 1175, 443)",
+   "confidence": "medium",
+   "name_ja": "GXクリアシルバー",
+   "name_sources": {
+    "chart (translated)": "GX Clear Silver"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHQ1DBR95YXRF9ZP71KP5Q6E.png",
+   "is_color": true,
+   "lab": [
+    83.46,
+    -0.38,
+    2.1
+   ],
+   "samples": {},
+   "notes": [
+    "metallic clear (thin transparent metallic film); English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx111",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Clear",
+   "code": "GX111",
+   "name": "GX Clear Gold",
+   "hex": "#ccb068",
+   "finish": "clear-color",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/12",
+   "source_method": "blobs chart sample, box (1264, 266, 1482, 443)",
+   "confidence": "medium",
+   "name_ja": "GXクリアゴールド",
+   "name_sources": {
+    "chart (translated)": "GX Clear Gold"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHQ1DBR95YXRF9ZP71KP5Q6E.png",
+   "is_color": true,
+   "lab": [
+    72.82,
+    0.78,
+    40.41
+   ],
+   "samples": {},
+   "notes": [
+    "metallic clear (thin transparent metallic film)"
+   ]
+  },
+  {
+   "id": "mrcolor-gx121",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Clear",
+   "code": "GX121",
+   "name": "GX Clear Rouge",
+   "hex": "#890000",
+   "finish": "clear-color",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/12",
+   "source_method": "blobs chart sample, box (1574, 266, 1794, 443)",
+   "confidence": "medium",
+   "name_ja": "GXクリアルージュ",
+   "name_sources": {
+    "chart (translated)": "GX Clear Rouge"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHQ1DBR95YXRF9ZP71KP5Q6E.png",
+   "is_color": true,
+   "lab": [
+    27.63,
+    50.47,
+    40.72
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-gx122",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Clear",
+   "code": "GX122",
+   "name": "GX Clear Peacock Green",
+   "hex": "#008b7e",
+   "finish": "clear-color",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/12",
+   "source_method": "blobs chart sample, box (1884, 267, 2104, 442)",
+   "confidence": "medium",
+   "name_ja": "GXクリアピーコックグリーン",
+   "name_sources": {
+    "chart (translated)": "GX Clear Peacock Green"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHQ1DBR95YXRF9ZP71KP5Q6E.png",
+   "is_color": true,
+   "lab": [
+    51.8,
+    -34.66,
+    -2.04
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-gx201",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX201",
+   "name": "GX Metal Black",
+   "hex": "#64666d",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (31, 48, 185, 172)",
+   "confidence": "medium",
+   "name_ja": "GXメタルブラック",
+   "name_sources": {
+    "chart (translated)": "GX Metal Black"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    43.24,
+    0.74,
+    -4.2
+   ],
+   "sheen_lab_range": [
+    [
+     39.33,
+     1.75,
+     -4.57
+    ],
+    [
+     49.2,
+     0.35,
+     -4.23
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx202",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX202",
+   "name": "GX Metal Red",
+   "hex": "#cd6469",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (226, 48, 378, 172)",
+   "confidence": "medium",
+   "name_ja": "GXメタルレッド",
+   "name_sources": {
+    "chart (translated)": "GX Metal Red"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    55.19,
+    42.0,
+    16.93
+   ],
+   "sheen_lab_range": [
+    [
+     51.59,
+     40.82,
+     14.63
+    ],
+    [
+     62.04,
+     44.95,
+     18.22
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx203",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX203",
+   "name": "GX Metal Yellow",
+   "hex": "#a59b60",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (422, 48, 574, 171)",
+   "confidence": "medium",
+   "name_ja": "GXメタルイエロー",
+   "name_sources": {
+    "chart (translated)": "GX Metal Yellow"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    63.58,
+    -5.06,
+    32.22
+   ],
+   "sheen_lab_range": [
+    [
+     60.55,
+     -4.97,
+     32.5
+    ],
+    [
+     69.89,
+     -5.43,
+     32.67
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx204",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX204",
+   "name": "GX Metal Blue",
+   "hex": "#3d7fb7",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (616, 48, 768, 169)",
+   "confidence": "medium",
+   "name_ja": "GXメタルブルー",
+   "name_sources": {
+    "chart (translated)": "GX Metal Blue"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    51.37,
+    -2.94,
+    -35.66
+   ],
+   "sheen_lab_range": [
+    [
+     48.54,
+     -1.12,
+     -36.06
+    ],
+    [
+     56.66,
+     -6.33,
+     -33.07
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx205",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX205",
+   "name": "GX Metal Green",
+   "hex": "#43a9a1",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (803, 48, 958, 172)",
+   "confidence": "medium",
+   "name_ja": "GXメタルグリーン",
+   "name_sources": {
+    "chart (translated)": "GX Metal Green"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    63.46,
+    -31.22,
+    -4.68
+   ],
+   "sheen_lab_range": [
+    [
+     60.15,
+     -28.64,
+     -4.5
+    ],
+    [
+     69.37,
+     -32.96,
+     -5.89
+    ]
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-gx206",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX206",
+   "name": "GX Metal Purple",
+   "hex": "#9576a0",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (30, 217, 184, 338)",
+   "confidence": "medium",
+   "name_ja": "GXメタルパープル",
+   "name_sources": {
+    "chart (translated)": "GX Metal Purple"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    53.9,
+    19.97,
+    -17.96
+   ],
+   "sheen_lab_range": [
+    [
+     51.48,
+     19.43,
+     -15.27
+    ],
+    [
+     58.41,
+     19.4,
+     -19.07
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx207",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX207",
+   "name": "GX Metal Violet",
+   "hex": "#7464a6",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (227, 217, 380, 340)",
+   "confidence": "medium",
+   "name_ja": "GXメタルバイオレット",
+   "name_sources": {
+    "chart (translated)": "GX Metal Violet"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    46.42,
+    21.45,
+    -33.31
+   ],
+   "sheen_lab_range": [
+    [
+     44.24,
+     18.13,
+     -33.86
+    ],
+    [
+     50.43,
+     17.89,
+     -30.5
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx208",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX208",
+   "name": "GX Rough Silver",
+   "hex": "#a7a8ae",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (421, 217, 573, 342)",
+   "confidence": "medium",
+   "name_ja": "GXラフシルバー",
+   "name_sources": {
+    "chart (translated)": "GX Rough Silver"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    68.95,
+    0.8,
+    -3.21
+   ],
+   "sheen_lab_range": [
+    [
+     65.02,
+     1.97,
+     -5.19
+    ],
+    [
+     75.94,
+     0.59,
+     -2.64
+    ]
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-gx209",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX209",
+   "name": "GX Red Gold",
+   "hex": "#b28a71",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (622, 216, 759, 328)",
+   "confidence": "medium",
+   "name_ja": "GXレッドゴールド",
+   "name_sources": {
+    "chart (translated)": "GX Red Gold"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    60.64,
+    11.72,
+    19.24
+   ],
+   "sheen_lab_range": [
+    [
+     57.64,
+     10.54,
+     19.5
+    ],
+    [
+     66.27,
+     12.74,
+     20.53
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "special colored metal flake; can discolor from skin oils"
+   ]
+  },
+  {
+   "id": "mrcolor-gx210",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX210",
+   "name": "GX Blue Gold",
+   "hex": "#a88e6c",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (816, 216, 955, 326)",
+   "confidence": "medium",
+   "name_ja": "GXブルーゴールド",
+   "name_sources": {
+    "chart (translated)": "GX Blue Gold"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    60.56,
+    4.75,
+    21.77
+   ],
+   "sheen_lab_range": [
+    [
+     58.04,
+     3.77,
+     22.72
+    ],
+    [
+     67.1,
+     4.92,
+     23.16
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "special colored metal flake; can discolor from skin oils"
+   ]
+  },
+  {
+   "id": "mrcolor-gx211",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX211",
+   "name": "GX Metal Yellow Green",
+   "hex": "#849075",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (28, 384, 191, 510)",
+   "confidence": "medium",
+   "name_ja": "GXメタルイエローグリーン",
+   "name_sources": {
+    "chart (translated)": "GX Metal Yellow Green"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    58.17,
+    -9.47,
+    12.92
+   ],
+   "sheen_lab_range": [
+    [
+     53.37,
+     -10.5,
+     14.65
+    ],
+    [
+     65.61,
+     -12.02,
+     12.31
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx212",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX212",
+   "name": "GX Metal Peach",
+   "hex": "#975e67",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (222, 384, 385, 509)",
+   "confidence": "medium",
+   "name_ja": "GXメタルピーチ",
+   "name_sources": {
+    "chart (translated)": "GX Metal Peach"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    46.4,
+    24.49,
+    4.7
+   ],
+   "sheen_lab_range": [
+    [
+     41.15,
+     21.96,
+     6.06
+    ],
+    [
+     52.95,
+     26.44,
+     3.14
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx213",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX213",
+   "name": "GX White Silver",
+   "hex": "#9291a1",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (415, 384, 578, 507)",
+   "confidence": "medium",
+   "name_ja": "GXホワイトシルバー",
+   "name_sources": {
+    "chart (translated)": "GX White Silver"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    60.72,
+    3.61,
+    -8.28
+   ],
+   "sheen_lab_range": [
+    [
+     57.07,
+     4.58,
+     -8.65
+    ],
+    [
+     67.91,
+     3.51,
+     -8.1
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx214",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX214",
+   "name": "GX Ice Silver",
+   "hex": "#737a90",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (608, 385, 770, 509)",
+   "confidence": "medium",
+   "name_ja": "GXアイスシルバー",
+   "name_sources": {
+    "chart (translated)": "GX Ice Silver"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    51.36,
+    2.35,
+    -12.78
+   ],
+   "sheen_lab_range": [
+    [
+     47.6,
+     1.35,
+     -11.45
+    ],
+    [
+     59.09,
+     2.11,
+     -13.1
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-gx215",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX215",
+   "name": "GX Metal Bloody Red",
+   "hex": "#5f2a37",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (802, 383, 967, 508)",
+   "confidence": "medium",
+   "name_ja": "GXメタルブラッディレッド",
+   "name_sources": {
+    "chart (translated)": "GX Metal Bloody Red"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    24.84,
+    25.62,
+    3.23
+   ],
+   "sheen_lab_range": [
+    [
+     19.7,
+     24.57,
+     7.34
+    ],
+    [
+     34.16,
+     30.89,
+     3.45
+    ]
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-gx216",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX216",
+   "name": "GX Metal Dark Blue",
+   "hex": "#3e4976",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (29, 554, 193, 676)",
+   "confidence": "medium",
+   "name_ja": "GXメタルダークブルー",
+   "name_sources": {
+    "chart (translated)": "GX Metal Dark Blue"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    32.03,
+    8.76,
+    -27.17
+   ],
+   "sheen_lab_range": [
+    [
+     26.52,
+     8.88,
+     -23.16
+    ],
+    [
+     40.29,
+     4.13,
+     -27.07
+    ]
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-gx217",
+   "brand": "Mr. Color",
+   "line": "Mr. Color GX Metal",
+   "code": "GX217",
+   "name": "GX Rough Gold",
+   "hex": "#a5875f",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/16",
+   "source_method": "blobs chart sample, box (221, 556, 384, 680)",
+   "confidence": "medium",
+   "name_ja": "GXラフゴールド",
+   "name_sources": {
+    "chart (translated)": "GX Rough Gold"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHPVR1K6H4K406DAE9J8SRZ.jpg",
+   "is_color": true,
+   "lab": [
+    58.18,
+    5.84,
+    25.79
+   ],
+   "sheen_lab_range": [
+    [
+     53.07,
+     5.74,
+     26.12
+    ],
+    [
+     66.36,
+     4.75,
+     25.97
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "English name confirmed in color list PDF"
+   ]
+  },
+  {
+   "id": "mrcolor-sm201",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Super Metallic 2",
+   "code": "SM201",
+   "name": "Super Fine Silver 2",
+   "hex": "#dbdbdb",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/21",
+   "source_method": "grid chart sample, box (111, 254, 260, 350)",
+   "confidence": "medium",
+   "name_ja": "スーパーファインシルバー2",
+   "name_sources": {
+    "chart (translated)": "Super Fine Silver 2"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHQ2HBJ206871GQC04T95N6.jpg",
+   "is_color": true,
+   "lab": [
+    87.41,
+    -0.0,
+    0.0
+   ],
+   "sheen_lab_range": [
+    [
+     84.73,
+     0.86,
+     -0.25
+    ],
+    [
+     88.82,
+     -0.0,
+     0.0
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "Super Metallic 2: spray over a gloss black base"
+   ]
+  },
+  {
+   "id": "mrcolor-sm202",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Super Metallic 2",
+   "code": "SM202",
+   "name": "Super Gold 2",
+   "hex": "#d3b976",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/21",
+   "source_method": "grid chart sample, box (338, 254, 487, 350)",
+   "confidence": "medium",
+   "name_ja": "スーパーゴールド2",
+   "name_sources": {
+    "chart (translated)": "Super Gold 2"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHQ2HBJ206871GQC04T95N6.jpg",
+   "is_color": true,
+   "lab": [
+    75.98,
+    0.27,
+    37.34
+   ],
+   "sheen_lab_range": [
+    [
+     71.14,
+     3.28,
+     39.84
+    ],
+    [
+     78.74,
+     -0.35,
+     35.32
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "Super Metallic 2: spray over a gloss black base"
+   ]
+  },
+  {
+   "id": "mrcolor-sm203",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Super Metallic 2",
+   "code": "SM203",
+   "name": "Super Iron 2",
+   "hex": "#c8c8c8",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/21",
+   "source_method": "grid chart sample, box (564, 254, 713, 350)",
+   "confidence": "medium",
+   "name_ja": "スーパーアイアン2",
+   "name_sources": {
+    "chart (translated)": "Super Iron 2"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHQ2HBJ206871GQC04T95N6.jpg",
+   "is_color": true,
+   "lab": [
+    80.6,
+    -0.0,
+    0.0
+   ],
+   "sheen_lab_range": [
+    [
+     76.61,
+     -0.0,
+     0.0
+    ],
+    [
+     83.12,
+     -0.0,
+     0.0
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "Super Metallic 2: spray over a gloss black base"
+   ]
+  },
+  {
+   "id": "mrcolor-sm204",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Super Metallic 2",
+   "code": "SM204",
+   "name": "Super Stainless 2",
+   "hex": "#cfcfcf",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/21",
+   "source_method": "grid chart sample, box (791, 254, 940, 350)",
+   "confidence": "medium",
+   "name_ja": "スーパーステンレス2",
+   "name_sources": {
+    "chart (translated)": "Super Stainless 2"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHQ2HBJ206871GQC04T95N6.jpg",
+   "is_color": true,
+   "lab": [
+    83.12,
+    -0.0,
+    0.0
+   ],
+   "sheen_lab_range": [
+    [
+     79.7,
+     0.87,
+     -0.26
+    ],
+    [
+     85.27,
+     -0.0,
+     0.0
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "Super Metallic 2: spray over a gloss black base"
+   ]
+  },
+  {
+   "id": "mrcolor-sm205",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Super Metallic 2",
+   "code": "SM205",
+   "name": "Super Titanium 2",
+   "hex": "#e1dfe0",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/21",
+   "source_method": "grid chart sample, box (1017, 254, 1166, 350)",
+   "confidence": "medium",
+   "name_ja": "スーパーチタン2",
+   "name_sources": {
+    "chart (translated)": "Super Titanium 2"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHQ2HBJ206871GQC04T95N6.jpg",
+   "is_color": true,
+   "lab": [
+    89.0,
+    0.85,
+    -0.25
+   ],
+   "sheen_lab_range": [
+    [
+     87.03,
+     1.54,
+     -0.01
+    ],
+    [
+     90.41,
+     0.85,
+     -0.25
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "Super Metallic 2: spray over a gloss black base"
+   ]
+  },
+  {
+   "id": "mrcolor-sm206",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Super Metallic 2",
+   "code": "SM206",
+   "name": "Chrome Silver 2",
+   "hex": "#dbdbdb",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/21",
+   "source_method": "grid chart sample, box (1244, 254, 1393, 350)",
+   "confidence": "medium",
+   "name_ja": "クロームシルバー2",
+   "name_sources": {
+    "chart (translated)": "Chrome Silver 2"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHQ2HBJ206871GQC04T95N6.jpg",
+   "is_color": true,
+   "lab": [
+    87.41,
+    -0.0,
+    0.0
+   ],
+   "sheen_lab_range": [
+    [
+     84.73,
+     0.86,
+     -0.25
+    ],
+    [
+     89.18,
+     -0.0,
+     0.0
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "Super Metallic 2: spray over a gloss black base; dulls under clear coat"
+   ]
+  },
+  {
+   "id": "mrcolor-sm207",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Super Metallic 2",
+   "code": "SM207",
+   "name": "Super Rich Gold",
+   "hex": "#e5c215",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/21",
+   "source_method": "grid chart sample, box (111, 411, 260, 507)",
+   "confidence": "medium",
+   "name_ja": "スーパーリッチゴールド",
+   "name_sources": {
+    "chart (translated)": "Super Rich Gold"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHQ2HBJ206871GQC04T95N6.jpg",
+   "is_color": true,
+   "lab": [
+    79.21,
+    -2.14,
+    78.16
+   ],
+   "sheen_lab_range": [
+    [
+     75.77,
+     2.32,
+     75.85
+    ],
+    [
+     81.29,
+     -4.41,
+     79.55
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "Super Metallic 2: spray over a gloss black base"
+   ]
+  },
+  {
+   "id": "mrcolor-sm208",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Super Metallic 2",
+   "code": "SM208",
+   "name": "Super Duralumin",
+   "hex": "#e3e3e3",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/21",
+   "source_method": "grid chart sample, box (338, 411, 487, 507)",
+   "confidence": "medium",
+   "name_ja": "スーパージュラルミン",
+   "name_sources": {
+    "chart (translated)": "Super Duralumin"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHQ2HBJ206871GQC04T95N6.jpg",
+   "is_color": true,
+   "lab": [
+    90.24,
+    -0.0,
+    0.0
+   ],
+   "sheen_lab_range": [
+    [
+     88.47,
+     -0.0,
+     0.0
+    ],
+    [
+     91.64,
+     -0.0,
+     0.0
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "Super Metallic 2: spray over a gloss black base"
+   ]
+  },
+  {
+   "id": "mrcolor-sm209",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Super Metallic 2",
+   "code": "SM209",
+   "name": "Super Copper",
+   "hex": "#d37655",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/21",
+   "source_method": "grid chart sample, box (564, 411, 713, 507)",
+   "confidence": "medium",
+   "name_ja": "スーパーカッパー",
+   "name_sources": {
+    "chart (translated)": "Super Copper"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHQ2HBJ206871GQC04T95N6.jpg",
+   "is_color": true,
+   "lab": [
+    59.4,
+    33.32,
+    33.98
+   ],
+   "sheen_lab_range": [
+    [
+     54.76,
+     37.76,
+     34.09
+    ],
+    [
+     62.47,
+     29.76,
+     33.01
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "Super Metallic 2: spray over a gloss black base"
+   ]
+  },
+  {
+   "id": "mrcolor-sm210",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Super Metallic 2",
+   "code": "SM210",
+   "name": "Super Pink Gold",
+   "hex": "#e0abaa",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/21",
+   "source_method": "grid chart sample, box (791, 411, 940, 507)",
+   "confidence": "medium",
+   "name_ja": "スーパーピンクゴールド",
+   "name_sources": {
+    "chart (translated)": "Super Pink Gold"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHQ2HBJ206871GQC04T95N6.jpg",
+   "is_color": true,
+   "lab": [
+    74.75,
+    19.25,
+    8.05
+   ],
+   "sheen_lab_range": [
+    [
+     69.78,
+     24.05,
+     10.82
+    ],
+    [
+     77.9,
+     17.34,
+     6.64
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "Super Metallic 2: spray over a gloss black base"
+   ]
+  },
+  {
+   "id": "mrcolor-sm211",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Super Metallic 2",
+   "code": "SM211",
+   "name": "Super Red Gold",
+   "hex": "#e2aa18",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/21",
+   "source_method": "grid chart sample, box (1017, 411, 1166, 507)",
+   "confidence": "medium",
+   "name_ja": "スーパーレッドゴールド",
+   "name_sources": {
+    "chart (translated)": "Super Red Gold"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHQ2HBJ206871GQC04T95N6.jpg",
+   "is_color": true,
+   "lab": [
+    72.88,
+    9.18,
+    72.64
+   ],
+   "sheen_lab_range": [
+    [
+     67.94,
+     16.58,
+     69.03
+    ],
+    [
+     75.69,
+     5.24,
+     74.53
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "Super Metallic 2: spray over a gloss black base"
+   ]
+  },
+  {
+   "id": "mrcolor-sm212",
+   "brand": "Mr. Color",
+   "line": "Mr. Color Super Metallic 2",
+   "code": "SM212",
+   "name": "Super Matte Aluminum",
+   "hex": "#e3e3e3",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/21",
+   "source_method": "grid chart sample, box (1244, 411, 1393, 507)",
+   "confidence": "medium",
+   "name_ja": "スーパーマットアルミ",
+   "name_sources": {
+    "chart (translated)": "Super Matte Aluminum"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHQ2HBJ206871GQC04T95N6.jpg",
+   "is_color": true,
+   "lab": [
+    90.24,
+    -0.0,
+    0.0
+   ],
+   "sheen_lab_range": [
+    [
+     88.47,
+     -0.0,
+     0.0
+    ],
+    [
+     91.64,
+     -0.0,
+     0.0
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "Super Metallic 2: matte metallic"
+   ]
+  },
+  {
+   "id": "mrcolor-ug01",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG01",
+   "name": "MS White",
+   "hex": "#f0f5f9",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (63, 9, 158, 75)",
+   "confidence": "medium",
+   "name_ja": "MSホワイト",
+   "name_sources": {
+    "chart (translated)": "MS White"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    96.27,
+    -0.93,
+    -2.5
+   ],
+   "samples": {},
+   "notes": [
+    "Federation mobile suits"
+   ]
+  },
+  {
+   "id": "mrcolor-ug02",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG02",
+   "name": "MS Blue",
+   "hex": "#00489c",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (214, 9, 309, 75)",
+   "confidence": "medium",
+   "name_ja": "MSブルー",
+   "name_sources": {
+    "chart (translated)": "MS Blue"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    31.88,
+    15.57,
+    -50.92
+   ],
+   "samples": {},
+   "notes": [
+    "Federation mobile suits"
+   ]
+  },
+  {
+   "id": "mrcolor-ug03",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG03",
+   "name": "MS Yellow",
+   "hex": "#fbc000",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (366, 9, 461, 75)",
+   "confidence": "medium",
+   "name_ja": "MSイエロー",
+   "name_sources": {
+    "chart (translated)": "MS Yellow"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    80.86,
+    8.16,
+    82.71
+   ],
+   "samples": {},
+   "notes": [
+    "Federation mobile suits"
+   ]
+  },
+  {
+   "id": "mrcolor-ug04",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG04",
+   "name": "MS Red",
+   "hex": "#ca2222",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (518, 9, 613, 75)",
+   "confidence": "medium",
+   "name_ja": "MSレッド",
+   "name_sources": {
+    "chart (translated)": "MS Red"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    43.97,
+    62.79,
+    44.0
+   ],
+   "samples": {},
+   "notes": [
+    "Federation mobile suits"
+   ]
+  },
+  {
+   "id": "mrcolor-ug05",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG05",
+   "name": "MS Gray Federation",
+   "hex": "#323232",
+   "finish": "metallic",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (669, 9, 764, 75)",
+   "confidence": "medium",
+   "name_ja": "MSグレー連邦系",
+   "name_sources": {
+    "chart (translated)": "MS Gray Federation"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    20.79,
+    -0.0,
+    0.0
+   ],
+   "sheen_lab_range": [
+    [
+     20.79,
+     -0.0,
+     0.0
+    ],
+    [
+     20.79,
+     -0.0,
+     0.0
+    ]
+   ],
+   "samples": {},
+   "notes": [
+    "Federation mobile suits"
+   ]
+  },
+  {
+   "id": "mrcolor-ug06",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG06",
+   "name": "MS Green",
+   "hex": "#8daf8c",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (819, 9, 914, 75)",
+   "confidence": "medium",
+   "name_ja": "MSグリーン",
+   "name_sources": {
+    "chart (translated)": "MS Green"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    68.18,
+    -18.49,
+    14.21
+   ],
+   "samples": {},
+   "notes": [
+    "Zeon mobile suits"
+   ]
+  },
+  {
+   "id": "mrcolor-ug07",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG07",
+   "name": "MS Deep Green",
+   "hex": "#436b50",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (970, 9, 1065, 75)",
+   "confidence": "medium",
+   "name_ja": "MSディープグリーン",
+   "name_sources": {
+    "chart (translated)": "MS Deep Green"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    41.67,
+    -20.51,
+    10.77
+   ],
+   "samples": {},
+   "notes": [
+    "Zeon mobile suits"
+   ]
+  },
+  {
+   "id": "mrcolor-ug08",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG08",
+   "name": "MS Purple",
+   "hex": "#a587bd",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (1122, 9, 1217, 75)",
+   "confidence": "medium",
+   "name_ja": "MSパープル",
+   "name_sources": {
+    "chart (translated)": "MS Purple"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    60.78,
+    21.75,
+    -23.92
+   ],
+   "samples": {},
+   "notes": [
+    "Zeon mobile suits"
+   ]
+  },
+  {
+   "id": "mrcolor-ug09",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG09",
+   "name": "MS Gray Zeon",
+   "hex": "#585a69",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (1270, 9, 1365, 75)",
+   "confidence": "medium",
+   "name_ja": "MSグレージオン系",
+   "name_sources": {
+    "chart (translated)": "MS Gray Zeon"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    38.56,
+    2.65,
+    -8.83
+   ],
+   "samples": {},
+   "notes": [
+    "Zeon mobile suits"
+   ]
+  },
+  {
+   "id": "mrcolor-ug10",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG10",
+   "name": "MS Char Pink",
+   "hex": "#dd6b6a",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (1429, 9, 1524, 75)",
+   "confidence": "medium",
+   "name_ja": "MSシャアピンク",
+   "name_sources": {
+    "chart (translated)": "MS Char Pink"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    58.91,
+    44.41,
+    21.79
+   ],
+   "samples": {},
+   "notes": [
+    "Char's mobile suits"
+   ]
+  },
+  {
+   "id": "mrcolor-ug11",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG11",
+   "name": "MS Char Red",
+   "hex": "#882446",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (63, 128, 158, 194)",
+   "confidence": "medium",
+   "name_ja": "MSシャアレッド",
+   "name_sources": {
+    "chart (translated)": "MS Char Red"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    31.67,
+    44.6,
+    4.0
+   ],
+   "samples": {},
+   "notes": [
+    "Char's mobile suits"
+   ]
+  },
+  {
+   "id": "mrcolor-ug12",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG12",
+   "name": "MS Sazabi Red",
+   "hex": "#d0121c",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (214, 128, 309, 194)",
+   "confidence": "medium",
+   "name_ja": "MSサザビーレッド",
+   "name_sources": {
+    "chart (translated)": "MS Sazabi Red"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    44.13,
+    67.21,
+    47.64
+   ],
+   "samples": {},
+   "notes": [
+    "Sazabi"
+   ]
+  },
+  {
+   "id": "mrcolor-ug13",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG13",
+   "name": "MS Blue Zeta",
+   "hex": "#013e97",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (366, 128, 461, 194)",
+   "confidence": "medium",
+   "name_ja": "MSブルーZ系",
+   "name_sources": {
+    "chart (translated)": "MS Blue Zeta"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    28.6,
+    20.46,
+    -53.22
+   ],
+   "samples": {},
+   "notes": [
+    "Zeta Gundam"
+   ]
+  },
+  {
+   "id": "mrcolor-ug14",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG14",
+   "name": "MS Light Blue",
+   "hex": "#427bc0",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (518, 128, 613, 194)",
+   "confidence": "medium",
+   "name_ja": "MSライトブルー",
+   "name_sources": {
+    "chart (translated)": "MS Light Blue"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    50.84,
+    3.44,
+    -41.65
+   ],
+   "samples": {},
+   "notes": [
+    "mobile suit body color"
+   ]
+  },
+  {
+   "id": "mrcolor-ug15",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG15",
+   "name": "MS Phantom Gray",
+   "hex": "#030210",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (669, 128, 764, 194)",
+   "confidence": "medium",
+   "name_ja": "MSファントムグレー",
+   "name_sources": {
+    "chart (translated)": "MS Phantom Gray"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    0.9,
+    2.36,
+    -5.61
+   ],
+   "samples": {},
+   "notes": [
+    "mobile suit frames/joints"
+   ]
+  },
+  {
+   "id": "mrcolor-ug16",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG16",
+   "name": "Titans Blue 1",
+   "hex": "#0c0819",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (819, 128, 914, 194)",
+   "confidence": "medium",
+   "name_ja": "ティターンズブルー1",
+   "name_sources": {
+    "chart (translated)": "Titans Blue 1"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    2.91,
+    4.42,
+    -8.71
+   ],
+   "samples": {},
+   "notes": [
+    "Titans mobile suits"
+   ]
+  },
+  {
+   "id": "mrcolor-ug17",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG17",
+   "name": "Titans Blue 2",
+   "hex": "#050b59",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (970, 128, 1065, 194)",
+   "confidence": "medium",
+   "name_ja": "ティターンズブルー2",
+   "name_sources": {
+    "chart (translated)": "Titans Blue 2"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    8.93,
+    30.23,
+    -45.84
+   ],
+   "samples": {},
+   "notes": [
+    "Titans mobile suits"
+   ]
+  },
+  {
+   "id": "mrcolor-ug18",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG18",
+   "name": "RX-78 White (Anime Color)",
+   "hex": "#deeee1",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (1122, 128, 1217, 194)",
+   "confidence": "medium",
+   "name_ja": "RX-78ホワイト Ver.アニメカラー",
+   "name_sources": {
+    "chart (translated)": "RX-78 White (Anime Color)"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    92.63,
+    -7.64,
+    4.47
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-ug19",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG19",
+   "name": "RX-78 Blue (Anime Color)",
+   "hex": "#0098d7",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (1270, 128, 1365, 194)",
+   "confidence": "medium",
+   "name_ja": "RX-78ブルー Ver.アニメカラー",
+   "name_sources": {
+    "chart (translated)": "RX-78 Blue (Anime Color)"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    59.31,
+    -10.82,
+    -41.38
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-ug20",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG20",
+   "name": "RX-78 Red (Anime Color)",
+   "hex": "#e7251c",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (1429, 128, 1524, 194)",
+   "confidence": "medium",
+   "name_ja": "RX-78レッド Ver.アニメカラー",
+   "name_sources": {
+    "chart (translated)": "RX-78 Red (Anime Color)"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    49.98,
+    69.95,
+    54.24
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-ug21",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG21",
+   "name": "RX-78 Yellow (Anime Color)",
+   "hex": "#f8b600",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (63, 246, 158, 312)",
+   "confidence": "medium",
+   "name_ja": "RX-78イエロー Ver.アニメカラー",
+   "name_sources": {
+    "chart (translated)": "RX-78 Yellow (Anime Color)"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    78.12,
+    12.08,
+    80.69
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-ug22",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG22",
+   "name": "MS-06S Red (Anime Color)",
+   "hex": "#6d2c30",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (214, 246, 309, 312)",
+   "confidence": "medium",
+   "name_ja": "MS-06S レッド Ver.アニメカラー",
+   "name_sources": {
+    "chart (translated)": "MS-06S Red (Anime Color)"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    27.48,
+    29.31,
+    11.96
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-ug23",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG23",
+   "name": "MS-06S Pink (Anime Color)",
+   "hex": "#e9546a",
+   "finish": "semi-gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (366, 246, 461, 312)",
+   "confidence": "medium",
+   "name_ja": "MS-06S ピンク Ver.アニメカラー",
+   "name_sources": {
+    "chart (translated)": "MS-06S Pink (Anime Color)"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    56.79,
+    58.99,
+    19.25
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-ug24",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG24",
+   "name": "Trans-Am Red Pearl",
+   "hex": "#d70542",
+   "finish": "pearl",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (518, 246, 613, 312)",
+   "confidence": "medium",
+   "name_ja": "トランザムレッドパール",
+   "name_sources": {
+    "chart (translated)": "Trans-Am Red Pearl"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    45.57,
+    71.47,
+    27.95
+   ],
+   "sheen_lab_range": [
+    [
+     45.57,
+     71.47,
+     27.95
+    ],
+    [
+     45.57,
+     71.47,
+     27.95
+    ]
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-ug25",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG25",
+   "name": "Trans-Am Highlight Red",
+   "hex": "#e7316e",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (669, 246, 764, 312)",
+   "confidence": "medium",
+   "name_ja": "トランザムハイライトレッド",
+   "name_sources": {
+    "chart (translated)": "Trans-Am Highlight Red"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    52.19,
+    70.72,
+    10.46
+   ],
+   "samples": {}
+  },
+  {
+   "id": "mrcolor-ug26",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG26",
+   "name": "Nu Dark Blue",
+   "hex": "#000038",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (819, 246, 914, 312)",
+   "confidence": "medium",
+   "name_ja": "νダークブルー",
+   "name_sources": {
+    "chart (translated)": "Nu Dark Blue"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    2.58,
+    18.12,
+    -33.09
+   ],
+   "samples": {},
+   "notes": [
+    "ν Gundam"
+   ]
+  },
+  {
+   "id": "mrcolor-ug27",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG27",
+   "name": "Hi-Nu Blue",
+   "hex": "#2e59a8",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (970, 246, 1065, 312)",
+   "confidence": "medium",
+   "name_ja": "Hi-ν ブルー",
+   "name_sources": {
+    "chart (translated)": "Hi-Nu Blue"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    38.81,
+    12.91,
+    -46.86
+   ],
+   "samples": {},
+   "notes": [
+    "Hi-ν Gundam"
+   ]
+  },
+  {
+   "id": "mrcolor-ug28",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG28",
+   "name": "Hi-Nu Violet",
+   "hex": "#363290",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (1122, 246, 1217, 312)",
+   "confidence": "medium",
+   "name_ja": "Hi-ν バイオレット",
+   "name_sources": {
+    "chart (translated)": "Hi-Nu Violet"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    26.96,
+    31.14,
+    -51.52
+   ],
+   "samples": {},
+   "notes": [
+    "Hi-ν Gundam"
+   ]
+  },
+  {
+   "id": "mrcolor-ug29",
+   "brand": "Mr. Color",
+   "line": "Gundam Color (UG)",
+   "code": "UG29",
+   "name": "Hi-Nu Purple",
+   "hex": "#541b86",
+   "finish": "gloss",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/90",
+   "source_method": "grid chart sample, box (1270, 246, 1365, 312)",
+   "confidence": "medium",
+   "name_ja": "Hi-ν パープル",
+   "name_sources": {
+    "chart (translated)": "Hi-Nu Purple"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01KC5MXCSSK843D9H2VN0N0A28.jpg",
+   "is_color": true,
+   "lab": [
+    24.92,
+    45.89,
+    -48.48
+   ],
+   "samples": {},
+   "notes": [
+    "Hi-ν Gundam"
+   ]
+  },
+  {
+   "id": "mrcolor-xc01",
+   "brand": "Mr. Color",
+   "line": "Mr. Crystal Color",
+   "code": "XC01",
+   "name": "Diamond Silver",
+   "hex": "#9aafc1",
+   "finish": "pearl",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/33",
+   "source_method": "pairs chart sample, box (131, 37, 227, 91)",
+   "confidence": "medium",
+   "name_ja": "ダイヤモンドシルバー",
+   "name_sources": {
+    "chart (translated)": "Diamond Silver"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHT6SWSAM5SG05WRZ958RTY.jpg",
+   "is_color": true,
+   "lab": [
+    70.44,
+    -3.35,
+    -11.6
+   ],
+   "sheen_lab_range": [
+    [
+     67.7,
+     -3.98,
+     -11.89
+    ],
+    [
+     73.76,
+     -5.0,
+     -12.63
+    ]
+   ],
+   "samples": {
+    "over white": "#b4cae1",
+    "over black": "#9aafc1"
+   },
+   "notes": [
+    "crystal pearl: shifts with undercoat (sampled over white and over black)"
+   ]
+  },
+  {
+   "id": "mrcolor-xc02",
+   "brand": "Mr. Color",
+   "line": "Mr. Crystal Color",
+   "code": "XC02",
+   "name": "Topaz Gold",
+   "hex": "#b2b993",
+   "finish": "pearl",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/33",
+   "source_method": "pairs chart sample, box (381, 37, 477, 91)",
+   "confidence": "medium",
+   "name_ja": "トパーズゴールド",
+   "name_sources": {
+    "chart (translated)": "Topaz Gold"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHT6SWSAM5SG05WRZ958RTY.jpg",
+   "is_color": true,
+   "lab": [
+    73.72,
+    -9.01,
+    18.51
+   ],
+   "sheen_lab_range": [
+    [
+     72.02,
+     -5.03,
+     22.17
+    ],
+    [
+     75.74,
+     -9.5,
+     14.89
+    ]
+   ],
+   "samples": {
+    "over white": "#bbcdcb",
+    "over black": "#b2b993"
+   },
+   "notes": [
+    "crystal pearl: shifts with undercoat (sampled over white and over black)"
+   ]
+  },
+  {
+   "id": "mrcolor-xc03",
+   "brand": "Mr. Color",
+   "line": "Mr. Crystal Color",
+   "code": "XC03",
+   "name": "Ruby Red",
+   "hex": "#a36d70",
+   "finish": "pearl",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/33",
+   "source_method": "pairs chart sample, box (631, 37, 727, 91)",
+   "confidence": "medium",
+   "name_ja": "ルビーレッド",
+   "name_sources": {
+    "chart (translated)": "Ruby Red"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHT6SWSAM5SG05WRZ958RTY.jpg",
+   "is_color": true,
+   "lab": [
+    51.72,
+    21.92,
+    7.14
+   ],
+   "sheen_lab_range": [
+    [
+     47.24,
+     23.16,
+     5.93
+    ],
+    [
+     55.49,
+     21.17,
+     8.57
+    ]
+   ],
+   "samples": {
+    "over white": "#bfbbce",
+    "over black": "#a36d70"
+   },
+   "notes": [
+    "crystal pearl: shifts with undercoat (sampled over white and over black)"
+   ]
+  },
+  {
+   "id": "mrcolor-xc04",
+   "brand": "Mr. Color",
+   "line": "Mr. Crystal Color",
+   "code": "XC04",
+   "name": "Amethyst Purple",
+   "hex": "#7f549d",
+   "finish": "pearl",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/33",
+   "source_method": "pairs chart sample, box (881, 37, 977, 91)",
+   "confidence": "medium",
+   "name_ja": "アメジストパープル",
+   "name_sources": {
+    "chart (translated)": "Amethyst Purple"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHT6SWSAM5SG05WRZ958RTY.jpg",
+   "is_color": true,
+   "lab": [
+    43.19,
+    32.03,
+    -32.97
+   ],
+   "sheen_lab_range": [
+    [
+     40.0,
+     34.14,
+     -36.89
+    ],
+    [
+     46.98,
+     27.61,
+     -26.39
+    ]
+   ],
+   "samples": {
+    "over white": "#b0b5d9",
+    "over black": "#7f549d"
+   },
+   "notes": [
+    "crystal pearl: shifts with undercoat (sampled over white and over black)"
+   ]
+  },
+  {
+   "id": "mrcolor-xc05",
+   "brand": "Mr. Color",
+   "line": "Mr. Crystal Color",
+   "code": "XC05",
+   "name": "Sapphire Blue",
+   "hex": "#4579bc",
+   "finish": "pearl",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/33",
+   "source_method": "pairs chart sample, box (131, 170, 227, 224)",
+   "confidence": "medium",
+   "name_ja": "サファイアブルー",
+   "name_sources": {
+    "chart (translated)": "Sapphire Blue"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHT6SWSAM5SG05WRZ958RTY.jpg",
+   "is_color": true,
+   "lab": [
+    50.18,
+    3.81,
+    -40.39
+   ],
+   "sheen_lab_range": [
+    [
+     47.88,
+     4.47,
+     -41.15
+    ],
+    [
+     53.42,
+     5.08,
+     -36.36
+    ]
+   ],
+   "samples": {
+    "over white": "#a0b8df",
+    "over black": "#4579bc"
+   },
+   "notes": [
+    "crystal pearl: shifts with undercoat (sampled over white and over black)"
+   ]
+  },
+  {
+   "id": "mrcolor-xc06",
+   "brand": "Mr. Color",
+   "line": "Mr. Crystal Color",
+   "code": "XC06",
+   "name": "Tourmaline Green",
+   "hex": "#56a4a7",
+   "finish": "pearl",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/33",
+   "source_method": "pairs chart sample, box (381, 170, 477, 224)",
+   "confidence": "medium",
+   "name_ja": "トルマリングリーン",
+   "name_sources": {
+    "chart (translated)": "Tourmaline Green"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHT6SWSAM5SG05WRZ958RTY.jpg",
+   "is_color": true,
+   "lab": [
+    62.77,
+    -23.14,
+    -8.99
+   ],
+   "sheen_lab_range": [
+    [
+     61.73,
+     -15.45,
+     -13.31
+    ],
+    [
+     64.05,
+     -26.99,
+     -7.11
+    ]
+   ],
+   "samples": {
+    "over white": "#9dc0d6",
+    "over black": "#56a4a7"
+   },
+   "notes": [
+    "crystal pearl: shifts with undercoat (sampled over white and over black)"
+   ]
+  },
+  {
+   "id": "mrcolor-xc07",
+   "brand": "Mr. Color",
+   "line": "Mr. Crystal Color",
+   "code": "XC07",
+   "name": "Turquoise Green",
+   "hex": "#2491bc",
+   "finish": "pearl",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/33",
+   "source_method": "pairs chart sample, box (631, 170, 727, 224)",
+   "confidence": "medium",
+   "name_ja": "ターコイズグリーン",
+   "name_sources": {
+    "chart (translated)": "Turquoise Green"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHT6SWSAM5SG05WRZ958RTY.jpg",
+   "is_color": true,
+   "lab": [
+    56.34,
+    -14.79,
+    -30.8
+   ],
+   "sheen_lab_range": [
+    [
+     54.62,
+     -11.05,
+     -32.9
+    ],
+    [
+     59.44,
+     -21.92,
+     -27.16
+    ]
+   ],
+   "samples": {
+    "over white": "#97bbdc",
+    "over black": "#2491bc"
+   },
+   "notes": [
+    "crystal pearl: shifts with undercoat (sampled over white and over black)"
+   ]
+  },
+  {
+   "id": "mrcolor-xc08",
+   "brand": "Mr. Color",
+   "line": "Mr. Crystal Color",
+   "code": "XC08",
+   "name": "Moonstone Pearl",
+   "hex": "#b0bdcf",
+   "finish": "pearl",
+   "finish_source": "official",
+   "source_url": "https://www.mr-hobby.com/ja/products/detail/33",
+   "source_method": "pairs chart sample, box (881, 170, 977, 224)",
+   "confidence": "medium",
+   "name_ja": "ムーンストーンパール",
+   "name_sources": {
+    "chart (translated)": "Moonstone Pearl"
+   },
+   "image_url": "https://www.mr-hobby.com/uploads/products/color_lineup/01JHHT6SWSAM5SG05WRZ958RTY.jpg",
+   "is_color": true,
+   "lab": [
+    76.15,
+    -0.79,
+    -10.56
+   ],
+   "sheen_lab_range": [
+    [
+     74.63,
+     -0.78,
+     -12.32
+    ],
+    [
+     76.91,
+     -0.58,
+     -11.03
+    ]
+   ],
+   "samples": {
+    "over white": "#b1c5df",
+    "over black": "#b0bdcf"
+   },
+   "notes": [
+    "crystal pearl: shifts with undercoat (sampled over white and over black)"
    ]
   },
   {

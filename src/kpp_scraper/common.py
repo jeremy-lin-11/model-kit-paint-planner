@@ -178,6 +178,7 @@ class Paint:
     lab: tuple[float, float, float] | None = None
     sheen_lab_range: tuple[tuple[float, float, float], tuple[float, float, float]] | None = None
     equivalents: list[str] = field(default_factory=list)  # same-maker codes, e.g. "TS-76"
+    samples: dict[str, str] = field(default_factory=dict)  # extra swatches, e.g. {"over black": hex}
     description: str | None = None
     notes: list[str] = field(default_factory=list)
 

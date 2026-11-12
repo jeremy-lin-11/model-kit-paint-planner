@@ -5,7 +5,7 @@ import { join } from "node:path";
 
 const root = join(import.meta.dirname, "..", "..");
 const src = JSON.parse(readFileSync(join(root, "data", "paints.json"), "utf8"));
-const keep = ["id", "brand", "line", "code", "name", "name_ja", "hex", "lab", "finish", "confidence", "equivalents", "notes"];
+const keep = ["id", "brand", "line", "code", "name", "name_ja", "hex", "lab", "finish", "confidence", "equivalents", "samples", "notes"];
 const paints = src.paints.map((p) => {
   const out = Object.fromEntries(keep.filter((k) => p[k] !== undefined).map((k) => [k, p[k]]));
   out.is_color = p.is_color !== false;

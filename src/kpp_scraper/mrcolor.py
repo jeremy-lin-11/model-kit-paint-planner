@@ -13,6 +13,7 @@ import re
 
 from pypdf import PdfReader
 
+from . import mrcolor_lines
 from .common import Paint, fetch, fetch_image, fetch_text, rgb_to_hex, sample_chip
 
 BRAND = "Mr. Color"
@@ -138,4 +139,4 @@ def scrape() -> list[Paint]:
                 sheen_lab_range=(chip.lab_p10, chip.lab_p90) if finish in ("metallic", "pearl") else None,
                 notes=notes,
             ))
-    return paints
+    return paints + mrcolor_lines.scrape()  # GX, GX Metal, Crystal, UG, ...

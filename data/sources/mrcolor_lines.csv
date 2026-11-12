@@ -1,0 +1,126 @@
+page,code,name,name_ja,finish,is_color,note
+11,GX1,Cool White,クールホワイト,gloss,true,
+11,GX2,Ueno Black,ウイノーブラック,gloss,true,
+11,GX3,Harman Red,ハーマンレッド,gloss,true,
+11,GX4,Kiara Yellow,キアライエロー,gloss,true,
+11,GX5,Suzy Blue,スージーブルー,gloss,true,
+11,GX6,Moury Green,モウリーグリーン,gloss,true,
+11,GX100,Super Clear III,スーパークリアーIII,clear,false,gloss clear coat
+12,GX101,GX Clear Black,GXクリアブラック,clear-color,true,English name confirmed in color list PDF
+12,GX102,GX Deep Clear Red,GXディープクリアレッド,clear-color,true,English name confirmed in color list PDF
+12,GX103,GX Deep Clear Blue,GXディープクリアブルー,clear-color,true,English name confirmed in color list PDF
+12,GX104,GX Clear Green,GXクリアグリーン,clear-color,true,English name confirmed in color list PDF
+12,GX105,GX Clear Pink,GXクリアピンク,clear-color,true,English name confirmed in color list PDF
+12,GX106,GX Clear Orange,GXクリアオレンジ,clear-color,true,English name confirmed in color list PDF
+12,GX107,GX Clear Purple,GXクリアパープル,clear-color,true,English name confirmed in color list PDF
+12,GX108,GX Clear Violet,GXクリアバイオレット,clear-color,true,
+12,GX109,GX Clear Brown,GXクリアブラウン,clear-color,true,
+12,GX110,GX Clear Silver,GXクリアシルバー,clear-color,true,metallic clear (thin transparent metallic film); English name confirmed in color list PDF
+12,GX111,GX Clear Gold,GXクリアゴールド,clear-color,true,metallic clear (thin transparent metallic film)
+12,GX121,GX Clear Rouge,GXクリアルージュ,clear-color,true,
+12,GX122,GX Clear Peacock Green,GXクリアピーコックグリーン,clear-color,true,
+16,GX201,GX Metal Black,GXメタルブラック,metallic,true,English name confirmed in color list PDF
+16,GX202,GX Metal Red,GXメタルレッド,metallic,true,English name confirmed in color list PDF
+16,GX203,GX Metal Yellow,GXメタルイエロー,metallic,true,English name confirmed in color list PDF
+16,GX204,GX Metal Blue,GXメタルブルー,metallic,true,English name confirmed in color list PDF
+16,GX205,GX Metal Green,GXメタルグリーン,metallic,true,
+16,GX206,GX Metal Purple,GXメタルパープル,metallic,true,English name confirmed in color list PDF
+16,GX207,GX Metal Violet,GXメタルバイオレット,metallic,true,English name confirmed in color list PDF
+16,GX208,GX Rough Silver,GXラフシルバー,metallic,true,
+16,GX209,GX Red Gold,GXレッドゴールド,metallic,true,special colored metal flake; can discolor from skin oils, clear coat recommended
+16,GX210,GX Blue Gold,GXブルーゴールド,metallic,true,special colored metal flake; can discolor from skin oils, clear coat recommended
+16,GX211,GX Metal Yellow Green,GXメタルイエローグリーン,metallic,true,English name confirmed in color list PDF
+16,GX212,GX Metal Peach,GXメタルピーチ,metallic,true,English name confirmed in color list PDF
+16,GX213,GX White Silver,GXホワイトシルバー,metallic,true,English name confirmed in color list PDF
+16,GX214,GX Ice Silver,GXアイスシルバー,metallic,true,English name confirmed in color list PDF
+16,GX215,GX Metal Bloody Red,GXメタルブラッディレッド,metallic,true,
+16,GX216,GX Metal Dark Blue,GXメタルダークブルー,metallic,true,
+16,GX217,GX Rough Gold,GXラフゴールド,metallic,true,English name confirmed in color list PDF
+33,XC01,Diamond Silver,ダイヤモンドシルバー,pearl,true,crystal pearl: shifts with undercoat (sampled over white and over black)
+33,XC02,Topaz Gold,トパーズゴールド,pearl,true,crystal pearl: shifts with undercoat (sampled over white and over black)
+33,XC03,Ruby Red,ルビーレッド,pearl,true,crystal pearl: shifts with undercoat (sampled over white and over black)
+33,XC04,Amethyst Purple,アメジストパープル,pearl,true,crystal pearl: shifts with undercoat (sampled over white and over black)
+33,XC05,Sapphire Blue,サファイアブルー,pearl,true,crystal pearl: shifts with undercoat (sampled over white and over black)
+33,XC06,Tourmaline Green,トルマリングリーン,pearl,true,crystal pearl: shifts with undercoat (sampled over white and over black)
+33,XC07,Turquoise Green,ターコイズグリーン,pearl,true,crystal pearl: shifts with undercoat (sampled over white and over black)
+33,XC08,Moonstone Pearl,ムーンストーンパール,pearl,true,crystal pearl: shifts with undercoat (sampled over white and over black)
+21,SM201,Super Fine Silver 2,スーパーファインシルバー2,metallic,true,Super Metallic 2: spray over a gloss black base
+21,SM202,Super Gold 2,スーパーゴールド2,metallic,true,Super Metallic 2: spray over a gloss black base
+21,SM203,Super Iron 2,スーパーアイアン2,metallic,true,Super Metallic 2: spray over a gloss black base
+21,SM204,Super Stainless 2,スーパーステンレス2,metallic,true,Super Metallic 2: spray over a gloss black base
+21,SM205,Super Titanium 2,スーパーチタン2,metallic,true,Super Metallic 2: spray over a gloss black base
+21,SM206,Chrome Silver 2,クロームシルバー2,metallic,true,Super Metallic 2: spray over a gloss black base; dulls under clear coat
+21,SM207,Super Rich Gold,スーパーリッチゴールド,metallic,true,Super Metallic 2: spray over a gloss black base
+21,SM208,Super Duralumin,スーパージュラルミン,metallic,true,Super Metallic 2: spray over a gloss black base
+21,SM209,Super Copper,スーパーカッパー,metallic,true,Super Metallic 2: spray over a gloss black base
+21,SM210,Super Pink Gold,スーパーピンクゴールド,metallic,true,Super Metallic 2: spray over a gloss black base
+21,SM211,Super Red Gold,スーパーレッドゴールド,metallic,true,Super Metallic 2: spray over a gloss black base
+21,SM212,Super Matte Aluminum,スーパーマットアルミ,metallic,true,Super Metallic 2: matte metallic
+2504,CV01,Velvet Red,ベルベット レッド,metallic,true,
+2504,CV02,Velvet Blue,ベルベット ブルー,metallic,true,
+2504,CV03,Velvet Green,ベルベット グリーン,metallic,true,
+2947,GGX1,White,ホワイト,gloss,true,English name confirmed in color list PDF
+2947,GGX2,Black,ブラック,gloss,true,English name confirmed in color list PDF
+2947,GGX3,Harman Red,ハーマンレッド,gloss,true,
+2947,GGX4,Kiara Yellow,キアライエロー,gloss,true,
+2947,GGX5,Suzy Blue,スージーブルー,gloss,true,
+2947,GGX6,Moury Green,モウリーグリーン,gloss,true,
+2947,GGX100,Super Clear IV,スーパークリアーIV,clear,false,gloss clear coat
+90,UG01,MS White,MSホワイト,semi-gloss,true,Federation mobile suits
+90,UG02,MS Blue,MSブルー,semi-gloss,true,Federation mobile suits
+90,UG03,MS Yellow,MSイエロー,semi-gloss,true,Federation mobile suits
+90,UG04,MS Red,MSレッド,semi-gloss,true,Federation mobile suits
+90,UG05,MS Gray Federation,MSグレー連邦系,metallic,true,Federation mobile suits
+90,UG06,MS Green,MSグリーン,semi-gloss,true,Zeon mobile suits
+90,UG07,MS Deep Green,MSディープグリーン,semi-gloss,true,Zeon mobile suits
+90,UG08,MS Purple,MSパープル,semi-gloss,true,Zeon mobile suits
+90,UG09,MS Gray Zeon,MSグレージオン系,semi-gloss,true,Zeon mobile suits
+90,UG10,MS Char Pink,MSシャアピンク,semi-gloss,true,Char's mobile suits
+90,UG11,MS Char Red,MSシャアレッド,semi-gloss,true,Char's mobile suits
+90,UG12,MS Sazabi Red,MSサザビーレッド,semi-gloss,true,Sazabi
+90,UG13,MS Blue Zeta,MSブルーZ系,semi-gloss,true,Zeta Gundam
+90,UG14,MS Light Blue,MSライトブルー,semi-gloss,true,mobile suit body color
+90,UG15,MS Phantom Gray,MSファントムグレー,semi-gloss,true,mobile suit frames/joints
+90,UG16,Titans Blue 1,ティターンズブルー1,semi-gloss,true,Titans mobile suits
+90,UG17,Titans Blue 2,ティターンズブルー2,semi-gloss,true,Titans mobile suits
+90,UG18,RX-78 White (Anime Color),RX-78ホワイト Ver.アニメカラー,semi-gloss,true,
+90,UG19,RX-78 Blue (Anime Color),RX-78ブルー Ver.アニメカラー,semi-gloss,true,
+90,UG20,RX-78 Red (Anime Color),RX-78レッド Ver.アニメカラー,semi-gloss,true,
+90,UG21,RX-78 Yellow (Anime Color),RX-78イエロー Ver.アニメカラー,semi-gloss,true,
+90,UG22,MS-06S Red (Anime Color),MS-06S レッド Ver.アニメカラー,semi-gloss,true,
+90,UG23,MS-06S Pink (Anime Color),MS-06S ピンク Ver.アニメカラー,semi-gloss,true,
+90,UG24,Trans-Am Red Pearl,トランザムレッドパール,pearl,true,
+90,UG25,Trans-Am Highlight Red,トランザムハイライトレッド,gloss,true,
+90,UG26,Nu Dark Blue,νダークブルー,gloss,true,ν Gundam
+90,UG27,Hi-Nu Blue,Hi-ν ブルー,gloss,true,Hi-ν Gundam
+90,UG28,Hi-Nu Violet,Hi-ν バイオレット,gloss,true,Hi-ν Gundam
+90,UG29,Hi-Nu Purple,Hi-ν パープル,gloss,true,Hi-ν Gundam
+3,C511,Russian Green (4BO) WWII,ロシアングリーン4BO WWII,flat,true,
+3,C512,Russian Green (4BO) 1947-,ロシアングリーン4BO 1947年以降,flat,true,
+3,C513,Dark Gray (Dunkelgrau),ジャーマングレー ドゥンケルグラウ,flat,true,
+3,C514,German Gray (Panzergrau),ジャーマングレー パンツァーグラウ,flat,true,
+3,C515,German Gray (Panzergrau) Faded,ジャーマングレー パンツァーグラウ 退色,flat,true,
+3,C516,Dark Green 3414,濃緑色 3414,flat,true,3/4 flat (semi-matte)
+3,C517,Brown 3606,茶色 3606,flat,true,3/4 flat (semi-matte)
+3,C518,OD 2314,OD色 2314,semi-gloss,true,
+3,C519,Bronzegrün RAL6031,ブロンセグリュン RAL6031,flat,true,
+3,C520,Lederbraun RAL8027,レーダァブラオン RAL8027,flat,true,
+3,C521,Teerschwarz RAL9021,テーアシュバルツ RAL9021,flat,true,
+3,C522,Earth Color,土地色,flat,true,3/4 flat (semi-matte)
+3,C523,Grass Green,草色,flat,true,3/4 flat (semi-matte)
+3,C524,Dry Grass,枯草色,flat,true,3/4 flat (semi-matte)
+3,C525,Green,緑色,flat,true,3/4 flat (semi-matte)
+3,C526,Brown,茶色,flat,true,3/4 flat (semi-matte)
+3,C527,Army Khaki,陸軍カーキ,flat,true,3/4 flat (semi-matte)
+3,C528,IDF Gray 1 (-1981 Sinai),IDFグレー1 (-1981シナイ半島),flat,true,3/4 flat (semi-matte)
+3,C529,IDF Gray 2 (-1981 Golan),IDFグレー2 (-1981ゴラン高原),flat,true,3/4 flat (semi-matte)
+3,C530,IDF Gray 3 (Current),IDFグレー3 (現用),flat,true,3/4 flat (semi-matte)
+5,CL01,White Peach,ホワイトピーチ,gloss,true,Lascivus skin base color
+5,CL02,Cocoa Milk,ココアミルク,gloss,true,Lascivus skin base color
+5,CL07,Toki-iro (Ibis Pink),鴇羽色,gloss,true,Lascivus skin base color
+5,CL08,Nuts White,ナッツホワイト,gloss,true,Lascivus skin base color
+5,CL03,Clear Pale Red,クリアーペールレッド,clear-color,true,Lascivus overcoat for skin shading
+5,CL04,Clear Pale Orange,クリアーペールオレンジ,clear-color,true,Lascivus overcoat for skin shading
+5,CL05,Clear Pale Brown,クリアーペールブラウン,clear-color,true,Lascivus overcoat for skin shading
+5,CL06,Clear White,クリアーホワイト,clear,false,Lascivus overcoat to lighten
+5,CL09,Smooth Pearl Coat,スムースパールコート,pearl,false,pearl topcoat
