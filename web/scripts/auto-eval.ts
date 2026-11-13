@@ -7,18 +7,15 @@ import { join, parse } from "node:path";
 import sharp from "sharp";
 import { AutoProcessor, env, RawImage, SamModel, Tensor } from "@huggingface/transformers";
 import { backgroundMask } from "../src/core/autoRegions";
-import {
-  acceptMask, buildPartMap, plasticDistance, colorName, gridPoints, groupMap, groupParts, isDuplicate, labImage, partColors, type Part,
-} from "../src/core/autoParts";
+import { colorName, findParts, groupMap, groupParts, plasticDistance } from "../src/core/autoParts";
 import { labToRgb, rgbToHex } from "../src/core/color";
-import { chooseCandidate, colorGuard } from "../src/core/maskSelect";
 
 const ROOT = join(import.meta.dirname, "..", "..");
 env.cacheDir = join(ROOT, ".cache", "hf");
 const MODEL = "Xenova/slimsam-77-uniform";
 const IMG_DIR = join(ROOT, "data", "Test Product Shots");
 const OUT_DIR = join(ROOT, ".cache", "spike");
-const STEP = Number(process.argv[2] ?? 20);
+const STEP = process.argv[2] ? Number(process.argv[2]) : undefined;
 const BATCH = Number(process.argv[3] ?? 16);
 const THRESHOLD = Number(process.argv[4] ?? 18);
 const ONLY = process.argv[5];
@@ -42,20 +39,8 @@ for (const file of readdirSync(IMG_DIR).filter((f) => /\.(jpe?g|png|webp)$/i.tes
   const [rh, rw] = inputs.reshaped_input_sizes[0];
   const tEmbed = performance.now();
 
-  const bg = backgroundMask({ width: w, height: h, data: rgba });
-  let fgArea = 0;
-  for (let i = 0; i < n; i++) if (!bg[i]) fgArea++;
-  const points = gridPoints(w, h, bg, STEP);
-  const owner = new Int32Array(n).fill(-1);
-  const parts: Part[] = [];
-  let decoded = 0, tDecode = 0;
-  for (let start = 0; start < points.length;) {
-    const batch: [number, number][] = [];
-    while (start < points.length && batch.length < BATCH) {
-      const [x, y] = points[start++];
-      if (owner[y * w + x] < 0) batch.push([x, y]);
-    }
-    if (!batch.length) break;
+  let tDecode = 0;
+  const found = await findParts(rgba, w, h, async (batch) => {
     const td = performance.now();
     const out = await model({
       ...emb,
@@ -63,29 +48,15 @@ for (const file of readdirSync(IMG_DIR).filter((f) => /\.(jpe?g|png|webp)$/i.tes
       input_labels: new Tensor("int64", batch.map(() => 1n), [1, batch.length, 1]),
     });
     const masks = (await (processor as any).post_process_masks(out.pred_masks, inputs.original_sizes, inputs.reshaped_input_sizes))[0].data as Uint8Array;
-    const scores = Array.from(out.iou_scores.data as Float32Array);
     tDecode += performance.now() - td;
-    decoded += batch.length;
-    batch.forEach(([x, y], b) => {
-      const three = masks.subarray(b * 3 * n, (b + 1) * 3 * n);
-      const sc = scores.slice(b * 3, b * 3 + 3);
-      const k = chooseCandidate(three, sc, n);
-      const mask = colorGuard(three, k * n, rgba, w, h, x, y);
-      const pixels = acceptMask(mask, bg, fgArea, sc[k]);
-      if (!pixels || isDuplicate(pixels, owner, parts.map((p) => p.pixels.length))) return;
-      const id = parts.length;
-      parts.push({ pixels, score: sc[k] });
-      for (const i of pixels) if (owner[i] < 0 || parts[owner[i]].pixels.length > pixels.length) owner[i] = id;
-    });
-  }
-
-  const lab = labImage(rgba, n);
-  const partMap = buildPartMap(parts, w, h, bg, lab);
-  const colors = partColors(partMap, parts.length, lab);
+    return { masks, scores: Array.from(out.iou_scores.data as Float32Array) };
+  }, { step: STEP, batch: BATCH });
+  const { partMap, colors } = found;
+  const bg = backgroundMask({ width: w, height: h, data: rgba });
+  let fgArea = 0;
+  for (let i = 0; i < n; i++) if (!bg[i]) fgArea++;
   const { groups, assign } = groupParts(colors, THRESHOLD);
   const regions = groupMap(partMap, assign);
-  let covered = 0;
-  for (let i = 0; i < n; i++) if (!bg[i] && partMap[i] >= 0) covered++;
   const counts = [12, 15, 18, 22, 26].map((t) => `${t}:${groupParts(colors, t).groups.length}`).join(" ");
 
   // --- sheet
@@ -112,8 +83,9 @@ for (const file of readdirSync(IMG_DIR).filter((f) => /\.(jpe?g|png|webp)$/i.tes
     .composite(tiles.map((input, k) => ({ input, left: k * TILE, top: 0 })))
     .png().toFile(join(OUT_DIR, `auto_${parse(file).name}.png`));
 
-  console.log(`${file} ${w}x${h}: embed ${((tEmbed - t0) / 1000).toFixed(1)}s, ${decoded}/${points.length} points decoded in ${(tDecode / 1000).toFixed(1)}s, ` +
-    `${parts.length} parts, coverage ${(100 * covered / fgArea).toFixed(1)}%, groups by threshold ${counts}`);
+  const st = found.stats;
+  console.log(`${file} ${w}x${h}: embed ${((tEmbed - t0) / 1000).toFixed(1)}s, ${st.decoded}/${st.points} points decoded in ${(tDecode / 1000).toFixed(1)}s, ` +
+    `${st.parts} parts, coverage ${(100 * st.coverage).toFixed(1)}%, groups by threshold ${counts}`);
   console.log("  " + groups.map((g) => `${colorName(g.lab)} ${(100 * g.size / fgArea).toFixed(1)}%`).join(", "));
   if (process.env.DEBUG) {
     const lch = (l: number[]) => `L${l[0].toFixed(0)} C${Math.hypot(l[1], l[2]).toFixed(0)} h${((Math.atan2(l[2], l[1]) * 180 / Math.PI + 360) % 360).toFixed(0)}`;

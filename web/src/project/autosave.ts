@@ -75,7 +75,7 @@ function flush() {
 export function startAutosave(): () => void {
   const unsubscribe = useStore.subscribe((st, prev) => {
     if (!st.image) return;
-    if (st.image === prev.image && st.regionMap === prev.regionMap && st.regions === prev.regions && st.active === prev.active) return;
+    if (st.image === prev.image && st.mapVersion === prev.mapVersion && st.regions === prev.regions && st.active === prev.active) return;
     if (timer) clearTimeout(timer);
     timer = setTimeout(() => { timer = null; void writeNow(); }, DELAY_MS);
   });

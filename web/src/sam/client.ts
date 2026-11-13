@@ -1,5 +1,6 @@
 // Promise wrapper around the SAM worker.
 
+import type { PartColor } from "../core/autoParts";
 import type { SamRequest, SamResponse } from "./sam.worker";
 
 export interface MaskResult {
@@ -10,12 +11,15 @@ export interface MaskResult {
   scores: number[];
 }
 
+export interface PartsResult { partMap: Int32Array; colors: PartColor[]; ms: number; decoded: number }
+
 type Pending = { resolve: (v: any) => void; reject: (e: Error) => void };
 
 export class SamClient {
   private worker = new Worker(new URL("./sam.worker.ts", import.meta.url), { type: "module" });
   private nextId = 1;
   private pending = new Map<number, Pending>();
+  private partsProgress = new Map<number, (done: number, total: number) => void>();
   private readyPromise: Promise<string>;
   onProgress?: (loadedBytes: number, totalBytes: number) => void;
 
@@ -30,6 +34,8 @@ export class SamClient {
         let l = 0, t = 0;
         files.forEach((f) => { l += f.loaded; t += f.total; });
         this.onProgress?.(l, t);
+      } else if (msg.type === "partsProgress") {
+        this.partsProgress.get(msg.job)?.(msg.done, msg.total);
       } else if (msg.type === "ready") {
         readyResolve(msg.device);
       } else if (msg.type === "error" && msg.id === undefined) {
@@ -38,6 +44,7 @@ export class SamClient {
         const p = this.pending.get(msg.id);
         if (!p) return;
         this.pending.delete(msg.id);
+        this.partsProgress.delete(msg.id);
         if (msg.type === "error") p.reject(new Error(msg.message));
         else p.resolve(msg);
       }
@@ -70,5 +77,13 @@ export class SamClient {
 
   async decode(points: { x: number; y: number; positive: boolean }[]): Promise<MaskResult> {
     return this.call<MaskResult>((id) => ({ type: "decode", id, points }));
+  }
+
+  /** Find every part in the embedded image (segment everything). Slow: seconds, with progress. */
+  async parts(onProgress?: (done: number, total: number) => void): Promise<PartsResult> {
+    return this.call<PartsResult>((id) => {
+      if (onProgress) this.partsProgress.set(id, onProgress);
+      return { type: "parts", id };
+    });
   }
 }

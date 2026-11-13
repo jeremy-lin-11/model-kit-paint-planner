@@ -34,7 +34,9 @@ export function RegionPanel() {
       <h2>Regions</h2>
       <p className="hint">
         Select a region, then click parts on the photo to add them. <kbd>Shift</kbd>+click removes a part.
-        Grabbed too much? <strong>Right-click</strong> (or <kbd>Alt</kbd>+click) the extra bit, or use Smaller.
+        Grabbed too much? <strong>Right-click</strong> the extra bit, or use Smaller. Fix edges with the
+        <strong> Brush</strong> (<kbd>B</kbd>) and <strong>Erase</strong> (<kbd>E</kbd>). Zoom: pinch or <kbd>Ctrl</kbd>+scroll;
+        pan: scroll or <kbd>Space</kbd>+drag. Or start with <strong>Auto regions</strong>.
       </p>
       <ul className="regions">
         {regions.map((r, i) => {

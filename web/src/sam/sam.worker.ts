@@ -2,19 +2,23 @@
 // Segment-anything in a worker: embed the image once, then decode masks per click.
 
 import { AutoProcessor, env, RawImage, SamModel, Tensor } from "@huggingface/transformers";
+import { findParts, type PartColor } from "../core/autoParts";
 
 export const SAM_MODEL = "Xenova/slimsam-77-uniform";
 
 export type SamRequest =
   | { type: "load" }
   | { type: "embed"; id: number; width: number; height: number; rgba: ArrayBuffer }
-  | { type: "decode"; id: number; points: { x: number; y: number; positive: boolean }[] };
+  | { type: "decode"; id: number; points: { x: number; y: number; positive: boolean }[] }
+  | { type: "parts"; id: number };
 
 export type SamResponse =
   | { type: "progress"; file: string; loaded: number; total: number }
   | { type: "ready"; device: string }
   | { type: "embedded"; id: number; ms: number }
   | { type: "mask"; id: number; width: number; height: number; masks: Uint8Array; scores: number[] }
+  | { type: "partsProgress"; job: number; done: number; total: number }
+  | { type: "parts"; id: number; partMap: Int32Array; colors: PartColor[]; ms: number; decoded: number }
   | { type: "error"; id?: number; message: string };
 
 env.allowLocalModels = false;
@@ -22,7 +26,7 @@ env.allowLocalModels = false;
 let model: SamModel | null = null;
 let processor: Awaited<ReturnType<typeof AutoProcessor.from_pretrained>> | null = null;
 let device = "wasm";
-let embedding: { emb: Record<string, Tensor>; inputs: any; width: number; height: number } | null = null;
+let embedding: { emb: Record<string, Tensor>; inputs: any; width: number; height: number; rgba: Uint8ClampedArray } | null = null;
 
 const post = (msg: SamResponse, transfer: Transferable[] = []) =>
   (self as unknown as DedicatedWorkerGlobalScope).postMessage(msg, transfer);
@@ -50,10 +54,11 @@ self.onmessage = async (e: MessageEvent<SamRequest>) => {
     if (!model || !processor) throw new Error("model not loaded");
     if (req.type === "embed") {
       const t = performance.now();
-      const image = new RawImage(new Uint8ClampedArray(req.rgba), req.width, req.height, 4).rgb();
+      const rgba = new Uint8ClampedArray(req.rgba);
+      const image = new RawImage(rgba, req.width, req.height, 4).rgb();
       const inputs = await (processor as any)(image);
       const emb = await model.get_image_embeddings(inputs);
-      embedding = { emb, inputs, width: req.width, height: req.height };
+      embedding = { emb, inputs, width: req.width, height: req.height, rgba };
       return post({ type: "embedded", id: req.id, ms: Math.round(performance.now() - t) });
     }
     if (req.type === "decode") {
@@ -70,6 +75,30 @@ self.onmessage = async (e: MessageEvent<SamRequest>) => {
       const bytes = data instanceof Uint8Array ? data : Uint8Array.from(data as boolean[], (v) => (v ? 1 : 0));
       const scores = Array.from(out.iou_scores.data as Float32Array);
       return post({ type: "mask", id: req.id, width, height, masks: bytes, scores }, [bytes.buffer]);
+    }
+    if (req.type === "parts") {
+      // Segment everything: many single-point prompts, decoded in batches.
+      if (!embedding) throw new Error("no image embedded");
+      const { emb, inputs, width, height, rgba } = embedding;
+      const [rh, rw] = inputs.reshaped_input_sizes[0];
+      const t = performance.now();
+      const found = await findParts(rgba, width, height, async (batch) => {
+        const out = await model!({
+          ...emb,
+          input_points: new Tensor("float32", batch.flatMap(([x, y]) => [x * (rw / width), y * (rh / height)]), [1, batch.length, 1, 2]),
+          input_labels: new Tensor("int64", batch.map(() => 1n), [1, batch.length, 1]),
+        });
+        const masks = await (processor as any).post_process_masks(out.pred_masks, inputs.original_sizes, inputs.reshaped_input_sizes);
+        const data = masks[0].data as Uint8Array | boolean[];
+        return {
+          masks: data instanceof Uint8Array ? data : Uint8Array.from(data as boolean[], (v) => (v ? 1 : 0)),
+          scores: Array.from(out.iou_scores.data as Float32Array),
+        };
+      }, {}, (done, total) => post({ type: "partsProgress", job: req.id, done, total }));
+      return post({
+        type: "parts", id: req.id, partMap: found.partMap, colors: found.colors,
+        ms: Math.round(performance.now() - t), decoded: found.stats.decoded,
+      }, [found.partMap.buffer]);
     }
   } catch (err) {
     post({ type: "error", id: "id" in req ? req.id : undefined, message: err instanceof Error ? err.message : String(err) });

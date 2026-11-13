@@ -10,7 +10,9 @@
 //      hue over lightness and chroma, so one red under different lighting stays one group while
 //      white / gray / black stay apart.
 
+import { backgroundMask } from "./autoRegions";
 import { rgbToLab, type Lab } from "./color";
+import { chooseCandidate, colorGuard } from "./maskSelect";
 
 export interface Part { pixels: Int32Array; score: number }
 
@@ -196,4 +198,76 @@ export function groupMap(partMap: Int32Array, assign: Int32Array): Int16Array {
   const out = new Int16Array(partMap.length).fill(-1);
   for (let i = 0; i < out.length; i++) if (partMap[i] >= 0) out[i] = assign[partMap[i]];
   return out;
+}
+
+/** Decode one positive point per prompt; returns 3 candidate masks per prompt back to back, and 3 scores each. */
+export type DecodeBatch = (points: [number, number][]) => Promise<{ masks: Uint8Array; scores: number[] }>;
+
+export interface FoundParts {
+  partMap: Int32Array;
+  colors: PartColor[];
+  stats: { points: number; decoded: number; parts: number; coverage: number };
+}
+
+/**
+ * Segment everything: prompt the model on a grid of foreground points (skipping points an earlier
+ * part already covers), keep confident color-consistent masks, and build the part map + colors.
+ */
+export async function findParts(
+  rgba: Uint8ClampedArray | Uint8Array, w: number, h: number, decode: DecodeBatch,
+  opts: { step?: number; batch?: number } = {}, onProgress?: (done: number, total: number) => void,
+): Promise<FoundParts> {
+  const n = w * h;
+  const step = opts.step ?? Math.max(12, Math.round(Math.max(w, h) / 50));
+  const batchSize = opts.batch ?? 16;
+  const bg = backgroundMask({ width: w, height: h, data: rgba });
+  let fgArea = 0;
+  for (let i = 0; i < n; i++) if (!bg[i]) fgArea++;
+  const points = gridPoints(w, h, bg, step);
+  const owner = new Int32Array(n).fill(-1);
+  const parts: Part[] = [];
+  let decoded = 0;
+  for (let start = 0; start < points.length;) {
+    const batch: [number, number][] = [];
+    while (start < points.length && batch.length < batchSize) {
+      const [x, y] = points[start++];
+      if (owner[y * w + x] < 0) batch.push([x, y]);
+    }
+    onProgress?.(start, points.length);
+    if (!batch.length) continue;
+    const { masks, scores } = await decode(batch);
+    decoded += batch.length;
+    batch.forEach(([x, y], b) => {
+      const three = masks.subarray(b * 3 * n, (b + 1) * 3 * n);
+      const sc = scores.slice(b * 3, b * 3 + 3);
+      const k = chooseCandidate(three, sc, n);
+      const pixels = acceptMask(colorGuard(three, k * n, rgba, w, h, x, y), bg, fgArea, sc[k]);
+      if (!pixels || isDuplicate(pixels, owner, parts.map((p) => p.pixels.length))) return;
+      const id = parts.length;
+      parts.push({ pixels, score: sc[k] });
+      for (const i of pixels) if (owner[i] < 0 || parts[owner[i]].pixels.length > pixels.length) owner[i] = id;
+    });
+  }
+  onProgress?.(points.length, points.length);
+  const lab = labImage(rgba, n);
+  const partMap = buildPartMap(parts, w, h, bg, lab);
+  const colors = partColors(partMap, parts.length, lab);
+  let covered = 0;
+  for (let i = 0; i < n; i++) if (!bg[i] && partMap[i] >= 0) covered++;
+  return { partMap, colors, stats: { points: points.length, decoded, parts: parts.length, coverage: fgArea ? covered / fgArea : 0 } };
+}
+
+/** Grouping strength presets for the Fewer/More control (higher threshold = fewer colors). */
+export const GROUP_LEVELS = [30, 24, 18, 14, 10];
+export const DEFAULT_LEVEL = 2;
+
+/** Region names from group colors, numbered when two groups share a name ("Red", "Red 2"). */
+export function groupNames(groups: Group[]): string[] {
+  const seen = new Map<string, number>();
+  return groups.map((g) => {
+    const base = colorName(g.lab);
+    const k = (seen.get(base) ?? 0) + 1;
+    seen.set(base, k);
+    return k === 1 ? base : `${base} ${k}`;
+  });
 }

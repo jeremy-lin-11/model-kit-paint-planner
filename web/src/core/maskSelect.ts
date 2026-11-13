@@ -75,6 +75,20 @@ export function colorGuard(
 }
 
 /**
+ * Same test as colorGuard, for one pixel against a reference color (used by the color-aware brush):
+ * colored plastic matches by hue (highlights and shadows allowed); neutral plastic matches
+ * near-neutral pixels of not wildly different lightness (so white doesn't spill onto black).
+ */
+export function similarPlastic(ref: [number, number, number], lab: [number, number, number], hueTol = 30, neutralChroma = 12): boolean {
+  const refC = Math.hypot(ref[1], ref[2]), c = Math.hypot(lab[1], lab[2]);
+  if (refC < neutralChroma) return c < neutralChroma * 1.8 && Math.abs(lab[0] - ref[0]) < 35;
+  if (c < neutralChroma * 0.7) return true;
+  let dh = Math.abs(Math.atan2(lab[2], lab[1]) - Math.atan2(ref[2], ref[1])) * (180 / Math.PI);
+  if (dh > 180) dh = 360 - dh;
+  return dh < hueTol;
+}
+
+/**
  * Add small mask areas that the kept area surrounds (panel lines, seams, decals). Large enclosed
  * areas are left out: those are usually a separately molded insert of another color.
  */

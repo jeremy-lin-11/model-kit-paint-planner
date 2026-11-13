@@ -59,9 +59,9 @@ try {
   const regionText = await page.locator(".regions li").allInnerTexts();
   console.log("regions:\n  " + regionText.map((t) => t.replace(/\s+/g, " ")).join("\n  "));
   await page.screenshot({ path: join(OUT, "after.png") });
-  await page.keyboard.down("Space");
+  await page.keyboard.down("o");
   await page.screenshot({ path: join(OUT, "before.png") });
-  await page.keyboard.up("Space");
+  await page.keyboard.up("o");
   await page.locator("button", { hasText: "Outlines" }).click();
   await canvas.screenshot({ path: join(OUT, "canvas_clean.png") });
   console.log(`screenshots in ${OUT}`);
@@ -99,6 +99,28 @@ try {
   await page.locator('[data-testid="file-input"]').setInputFiles(saved);
   await page.waitForSelector(".regions li");
   await check("open saved file");
+
+  // --- Auto regions, brush stroke, zoom.
+  await page.waitForFunction(() => document.querySelector('[data-testid="sam-status"]')?.textContent?.startsWith("Ready"), null, { timeout: 120_000 });
+  const tAuto = Date.now();
+  await page.locator("button", { hasText: "Auto regions" }).click();
+  await page.waitForFunction(() => /colors/.test(document.querySelector(".editbar")?.textContent ?? ""), null, { timeout: 300_000 });
+  console.log(`auto regions in ${Date.now() - tAuto} ms: ${(await regionsNow()).join(" | ")}`);
+  await page.screenshot({ path: join(OUT, "auto.png") });
+  await page.locator("button", { hasText: "Fewer" }).click();
+  console.log(`fewer: ${(await regionsNow()).length} regions`);
+  await page.keyboard.press("b");
+  const cb = await page.locator("canvas").boundingBox();
+  await page.mouse.move(cb.x + cb.width * 0.3, cb.y + cb.height * 0.3);
+  await page.mouse.down();
+  await page.mouse.move(cb.x + cb.width * 0.5, cb.y + cb.height * 0.35, { steps: 8 });
+  await page.mouse.up();
+  await page.mouse.move(cb.x + cb.width / 2, cb.y + cb.height / 2);
+  await page.keyboard.down("Control");
+  await page.mouse.wheel(0, -300);
+  await page.keyboard.up("Control");
+  console.log(`zoom after ctrl+wheel: ${await page.textContent(".zoom-level")}`);
+  await page.screenshot({ path: join(OUT, "brush_zoom.png") });
 } finally {
   const errs = logs.filter((l) => /error/i.test(l));
   if (errs.length) console.log("browser errors:\n  " + errs.slice(0, 10).join("\n  "));
