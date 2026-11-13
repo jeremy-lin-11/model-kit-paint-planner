@@ -17,12 +17,20 @@ export function RegionPanel() {
   const addRegion = useStore((s) => s.addRegion);
   const removeRegion = useStore((s) => s.removeRegion);
   const renameRegion = useStore((s) => s.renameRegion);
+  const notices = useStore((s) => s.notices);
+  const setNotices = useStore((s) => s.setNotices);
   const [picking, setPicking] = useState<number | null>(null);
 
   const chosen = regions.map((r) => (r.paintId ? paintsById.get(r.paintId) : undefined));
 
   return (
     <aside className="panel">
+      {notices.length > 0 && (
+        <div className="notices" role="status">
+          <ul>{notices.map((n, i) => <li key={i}>{n}</li>)}</ul>
+          <button className="btn ghost small" onClick={() => setNotices([])} aria-label="Dismiss">✕</button>
+        </div>
+      )}
       <h2>Regions</h2>
       <p className="hint">
         Select a region, then click parts on the photo to add them. <kbd>Shift</kbd>+click removes a part.

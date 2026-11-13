@@ -49,8 +49,19 @@ export interface LastPick {
   before: Int16Array; // region map before this pick
 }
 
+/** A project ready to load (from a saved file or the autosave), already validated. */
+export interface LoadedProject {
+  image: KitImage;
+  regionMap: Int16Array;
+  regions: { name: string; paintId: string | null }[];
+  active: number;
+  notices: string[];
+}
+
 interface State {
   paints: Paint[];
+  /** `generated` date of the paint database, saved into project files. */
+  paintsGenerated?: string;
   paintsById: Map<string, Paint>;
   image: KitImage | null;
   regionMap: Int16Array;
@@ -64,9 +75,13 @@ interface State {
   overlay: boolean;
   /** Trim SAM masks to the clicked plastic's hue. */
   guard: boolean;
+  /** Messages for the user after loading a project (changed paints) or failing to open a file. */
+  notices: string[];
 
-  setPaints(p: Paint[]): void;
+  setPaints(p: Paint[], generated?: string): void;
   setImage(img: KitImage): void;
+  loadProject(p: LoadedProject): void;
+  setNotices(n: string[]): void;
   setSam(s: Partial<State["sam"]>): void;
   addRegion(name?: string): void;
   removeRegion(i: number): void;
@@ -131,8 +146,9 @@ export const useStore = create<State>((set, get) => ({
   view: "after",
   overlay: true,
   guard: true,
+  notices: [],
 
-  setPaints: (paints) => set({ paints, paintsById: new Map(paints.map((p) => [p.id, p])) }),
+  setPaints: (paints, paintsGenerated) => set({ paints, paintsGenerated, paintsById: new Map(paints.map((p) => [p.id, p])) }),
   setImage: (image) => set({
     image,
     regionMap: new Int16Array(image.width * image.height).fill(-1),
@@ -142,7 +158,21 @@ export const useStore = create<State>((set, get) => ({
     history: [],
     lastPick: null,
     view: "after",
+    notices: [],
   }),
+  loadProject: (p) => set({
+    image: p.image,
+    regionMap: p.regionMap,
+    mapVersion: get().mapVersion + 1,
+    // Recompute plastic colors from the pixels rather than trusting the file.
+    regions: p.regions.map((r, k) => ({ ...r, sourceHex: regionSourceHex(p.image, p.regionMap, k) })),
+    active: Math.min(p.active, Math.max(0, p.regions.length - 1)),
+    history: [],
+    lastPick: null,
+    view: "after",
+    notices: p.notices,
+  }),
+  setNotices: (notices) => set({ notices }),
   setSam: (s) => set({ sam: { ...get().sam, ...s } }),
 
   addRegion: (name) => set((st) => ({

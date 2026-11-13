@@ -1,7 +1,10 @@
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import { KitCanvas } from "./components/KitCanvas";
 import { RegionPanel } from "./components/RegionPanel";
+import { ResumeCard } from "./components/ResumeCard";
 import { Uploader } from "./components/Uploader";
+import { startAutosave } from "./project/autosave";
+import { saveProjectFile } from "./project/io";
 import { getSam } from "./sam/instance";
 import { useStore, type Paint } from "./store";
 import "./index.css";
@@ -14,15 +17,34 @@ export default function App() {
   const lastPick = useStore((s) => s.lastPick);
   const historyLen = useStore((s) => s.history.length);
   const guard = useStore((s) => s.guard);
-  const { setPaints, setSam, setView, setOverlay, setGuard, undo, cycleCandidate } = useStore.getState();
+  const paintsLoaded = useStore((s) => s.paints.length > 0);
+  const [saving, setSaving] = useState<"idle" | "saving" | "saved">("idle");
+  const { setNotices, setPaints, setSam, setView, setOverlay, setGuard, undo, cycleCandidate } = useStore.getState();
 
   // Paint data + model load (once).
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}paints.json`).then((r) => r.json()).then((d) => setPaints(d.paints as Paint[]));
+    fetch(`${import.meta.env.BASE_URL}paints.json`).then((r) => r.json()).then((d) => setPaints(d.paints as Paint[], d.generated));
     const client = getSam();
     client.onProgress = (l, t) => setSam({ progress: t ? l / t : 0 });
     client.ready().then((device) => setSam({ status: "ready", device }), (e) => setSam({ status: "error", error: String(e) }));
   }, [setPaints, setSam]);
+
+  useEffect(() => startAutosave(), []);
+
+  async function save() {
+    if (saving === "saving") return;
+    setSaving("saving");
+    try {
+      await saveProjectFile();
+      setSaving("saved");
+      setTimeout(() => setSaving("idle"), 2000);
+    } catch (e) {
+      setSaving("idle");
+      setNotices([`Couldn't save the project: ${e instanceof Error ? e.message : String(e)}`]);
+    }
+  }
+  const saveRef = useRef(save);
+  useEffect(() => { saveRef.current = save; });
 
   // Embed each new photo.
   useEffect(() => {
@@ -38,6 +60,8 @@ export default function App() {
   // Shortcuts: hold Space = before, Ctrl/Cmd+Z = undo, [ / ] = smaller/larger part.
   useEffect(() => {
     const down = (e: KeyboardEvent) => {
+      // Ctrl/Cmd+S works everywhere (also while editing a region name).
+      if ((e.metaKey || e.ctrlKey) && e.key === "s") { e.preventDefault(); if (useStore.getState().image) saveRef.current(); return; }
       if ((e.target as HTMLElement).closest("input, select, textarea")) return;
       if (e.code === "Space") { e.preventDefault(); setView("before"); }
       else if ((e.metaKey || e.ctrlKey) && e.key === "z") { e.preventDefault(); undo(); }
@@ -79,6 +103,10 @@ export default function App() {
                 <span className="hint-inline">Right-click to exclude a spot</span>
               </span>
             )}
+            <button className="btn" onClick={save} disabled={saving === "saving"}
+              title="Download a .kpp.png: the repainted kit with a paint legend. Drop it back in to keep working. (Ctrl/Cmd+S)">
+              {saving === "saving" ? "Saving…" : saving === "saved" ? "Saved ✓" : "Save project"}
+            </button>
             <Uploader compact />
           </div>
         )}
@@ -90,7 +118,16 @@ export default function App() {
           <RegionPanel />
         </main>
       ) : (
-        <main className="empty-state"><Uploader /></main>
+        <main className="empty-state">
+          {paintsLoaded ? (
+            <div className="start">
+              <ResumeCard />
+              <Uploader />
+            </div>
+          ) : (
+            <span className="hint">Loading paints…</span>
+          )}
+        </main>
       )}
       <footer className="foot">Paint colors are manufacturers' published swatches, not measurements. Test-spray before committing.</footer>
     </div>

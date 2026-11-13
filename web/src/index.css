@@ -84,3 +84,12 @@ kbd { border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; font-si
 .paint-code { font-weight: 600; white-space: nowrap; font-size: 14px; }
 .paint-name { flex: 1; color: var(--muted); font-size: 14px; }
 .empty { color: var(--muted); padding: 12px; }
+
+.start { display: flex; flex-direction: column; gap: 16px; align-items: stretch; max-width: 520px; width: 100%; }
+.start .dropzone { max-width: none; }
+.resume { display: flex; align-items: center; gap: 8px; padding: 12px 16px; border: 1px solid var(--accent); border-radius: 12px; background: rgba(54, 197, 240, 0.08); }
+.resume > div { display: flex; flex-direction: column; flex: 1; min-width: 0; gap: 2px; }
+.resume span { font-size: 13px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.notices { display: flex; gap: 8px; align-items: flex-start; border: 1px solid var(--warn); border-radius: 8px; padding: 8px 10px; margin-bottom: 12px; font-size: 13px; color: var(--warn); }
+.notices ul { margin: 0; padding-left: 16px; flex: 1; }
+code { font-size: 0.92em; }

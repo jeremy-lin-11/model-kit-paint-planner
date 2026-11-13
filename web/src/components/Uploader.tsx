@@ -1,40 +1,38 @@
 import { useState } from "react";
+import { hasUnsavedWork, openFile } from "../project/io";
 import { useStore } from "../store";
 
-const MAX_SIDE = 1024;
-
-/** Decode a file, flatten transparency onto white, and scale to working resolution. */
-async function loadImage(file: File) {
-  const bitmap = await createImageBitmap(file);
-  const scale = Math.min(1, MAX_SIDE / Math.max(bitmap.width, bitmap.height));
-  const width = Math.round(bitmap.width * scale), height = Math.round(bitmap.height * scale);
-  const canvas = new OffscreenCanvas(width, height);
-  const ctx = canvas.getContext("2d")!;
-  ctx.fillStyle = "#fff";
-  ctx.fillRect(0, 0, width, height);
-  ctx.drawImage(bitmap, 0, 0, width, height);
-  return { name: file.name, width, height, data: ctx.getImageData(0, 0, width, height).data };
-}
+const CONFIRM_REPLACE =
+  "Open this file? It replaces the current project, which hasn't been saved to a file. (Use Save project first to keep it.)";
 
 export function Uploader({ compact = false }: { compact?: boolean }) {
-  const setImage = useStore((s) => s.setImage);
+  const setNotices = useStore((s) => s.setNotices);
   const [drag, setDrag] = useState(false);
+  const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   async function handle(file: File | undefined) {
-    if (!file) return;
+    if (!file || busy) return;
+    if (hasUnsavedWork() && !window.confirm(CONFIRM_REPLACE)) return;
     setError(null);
+    setBusy(true);
     try {
-      setImage(await loadImage(file));
-    } catch {
-      setError(`Couldn't read ${file.name}. Try a JPEG, PNG or WebP.`);
+      await openFile(file);
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : String(e);
+      if (compact) setNotices([msg]); else setError(msg);
+    } finally {
+      setBusy(false);
     }
   }
 
   const input = (
-    <input type="file" accept="image/*" hidden onChange={(e) => handle(e.target.files?.[0])} data-testid="file-input" />
+    <input type="file" accept="image/*,.kpp.png" hidden data-testid="file-input"
+      onChange={(e) => { handle(e.target.files?.[0]); e.target.value = ""; }} />
   );
-  if (compact) return <label className="btn">New photo{input}</label>;
+  if (compact) {
+    return <label className="btn" title="Open a new kit photo, or a saved .kpp.png project">{busy ? "Opening…" : "Open…"}{input}</label>;
+  }
   return (
     <label
       className={`dropzone ${drag ? "drag" : ""}`}
@@ -43,8 +41,8 @@ export function Uploader({ compact = false }: { compact?: boolean }) {
       onDrop={(e) => { e.preventDefault(); setDrag(false); handle(e.dataTransfer.files[0]); }}
     >
       {input}
-      <strong>Drop a photo of your kit here</strong>
-      <span>or click to choose a file</span>
+      <strong>{busy ? "Opening…" : "Drop a photo of your kit here"}</strong>
+      <span>or click to choose a file. A saved <code>.kpp.png</code> project picks up where you left off.</span>
       <small>Best results: front-facing, plain background, even lighting. Your photo stays on your device.</small>
       {error && <span className="error">{error}</span>}
     </label>

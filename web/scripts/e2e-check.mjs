@@ -65,6 +65,40 @@ try {
   await page.locator("button", { hasText: "Outlines" }).click();
   await canvas.screenshot({ path: join(OUT, "canvas_clean.png") });
   console.log(`screenshots in ${OUT}`);
+
+  // --- Save project, then resume it two ways: autosave after reload, and re-opening the saved file.
+  const pixels = () => page.locator("canvas").evaluate((c) => c.toDataURL());
+  const regionsNow = async () => (await page.locator(".regions li").allInnerTexts()).map((t) => t.replace(/\s+/g, " "));
+  const wantPixels = await pixels(), wantRegions = await regionsNow();
+  const [download] = await Promise.all([page.waitForEvent("download"), page.locator("button", { hasText: "Save project" }).click()]);
+  const saved = join(OUT, download.suggestedFilename());
+  await download.saveAs(saved);
+  const savedBytes = readFileSync(saved);
+  const chunks = [];
+  for (let p = 8; p < savedBytes.length;) {
+    const len = savedBytes.readUInt32BE(p);
+    chunks.push(savedBytes.toString("latin1", p + 4, p + 8));
+    p += 12 + len;
+  }
+  console.log(`saved ${download.suggestedFilename()} (${(savedBytes.length / 1e6).toFixed(2)} MB), chunks: ${chunks.filter((c) => c.startsWith("kp")).join(" ")}`);
+  const check = async (label) => {
+    await page.locator("button", { hasText: "Outlines" }).click(); // a reload turns outlines back on; turn them off to compare clean pixels
+    const same = (await regionsNow()).join("|") === wantRegions.join("|");
+    const samePx = (await pixels()) === wantPixels;
+    console.log(`${label}: regions ${same ? "match" : "DIFFER"}, pixels ${samePx ? "match" : "DIFFER"}`);
+  };
+
+  await page.waitForTimeout(1500); // let the autosave land
+  await page.reload();
+  await page.locator(".resume button", { hasText: "Resume" }).click();
+  await check("autosave resume");
+
+  await page.evaluate(() => indexedDB.deleteDatabase("kit-paint-planner"));
+  await page.reload();
+  if (await page.locator(".resume").count()) throw new Error("resume card shown after clearing storage");
+  await page.locator('[data-testid="file-input"]').setInputFiles(saved);
+  await page.waitForSelector(".regions li");
+  await check("open saved file");
 } finally {
   const errs = logs.filter((l) => /error/i.test(l));
   if (errs.length) console.log("browser errors:\n  " + errs.slice(0, 10).join("\n  "));
