@@ -10,7 +10,9 @@
 import { deltaE2000, hexToRgb, rgbToLab } from "./color";
 import { isPng, readChunks, withChunks } from "./pngChunks";
 
-export const FORMAT = "kit-paint-planner";
+export const FORMAT = "model-kit-paint-planner";
+/** Format id written before the rename; still accepted. */
+const LEGACY_FORMATS = ["kit-paint-planner"];
 export const VERSION = 1;
 /** Working resolution cap; must match the uploader. */
 export const MAX_SIDE = 1024;
@@ -85,7 +87,9 @@ const int = (v: unknown, lo: number, hi: number): number | null =>
 
 /** Validate untrusted project JSON. Throws ProjectError with a readable message; drops unknown fields. */
 export function sanitizeProject(raw: unknown): ProjectJson {
-  if (!isObj(raw) || raw.format !== FORMAT) throw new ProjectError("This file isn't a Kit Paint Planner project.");
+  if (!isObj(raw) || (raw.format !== FORMAT && !LEGACY_FORMATS.includes(raw.format as string))) {
+    throw new ProjectError("This file isn't a Model Kit Paint Planner project.");
+  }
   if (typeof raw.version !== "number" || raw.version > VERSION) {
     throw new ProjectError("This project was saved by a newer version of the app. Reload the page to update.");
   }

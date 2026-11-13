@@ -120,8 +120,13 @@ describe("sanitizeProject", () => {
     expect(p.image.name).toBe("kit");
   });
 
+  it("accepts files saved under the old app name", () => {
+    expect(sanitizeProject({ format: "kit-paint-planner", version: 1, image: { width: 2, height: 2 }, regions: [] }).format)
+      .toBe("model-kit-paint-planner");
+  });
+
   it("rejects non-projects", () => {
-    expect(() => sanitizeProject({ hello: 1 })).toThrow(/isn't a Kit Paint Planner project/);
+    expect(() => sanitizeProject({ hello: 1 })).toThrow(/isn't a Model Kit Paint Planner project/);
   });
 });
 

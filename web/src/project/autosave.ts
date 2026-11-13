@@ -3,6 +3,7 @@
 import { useStore } from "../store";
 import { currentProjectJson } from "./io";
 
+// Storage name kept from before the rename so existing autosaves still resume.
 const DB = "kit-paint-planner";
 const STORE = "autosave";
 const KEY = "current";

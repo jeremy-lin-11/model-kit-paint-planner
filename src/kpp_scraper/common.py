@@ -16,7 +16,7 @@ from PIL import Image
 
 ROOT = Path(os.environ.get("KPP_ROOT", Path(__file__).resolve().parents[2]))
 CACHE_DIR = ROOT / ".cache"
-USER_AGENT = "kit-paint-planner/0.1 (+https://github.com/jeremy-lin-11/kit-paint-planner)"
+USER_AGENT = "model-kit-paint-planner/0.1 (+https://github.com/jeremy-lin-11/model-kit-paint-planner)"
 MIN_INTERVAL_S = 1.0  # per-host politeness delay
 
 _session = requests.Session()

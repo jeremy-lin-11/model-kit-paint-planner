@@ -1,4 +1,4 @@
-# kit-paint-planner
+# model-kit-paint-planner
 
 A planning tool for painting model kits (Gunpla and others): upload a photo of your kit, get
 several color schemes built from **real paints** (Mr. Color, Tamiya, Gaia) with paint codes.
@@ -84,7 +84,7 @@ Downloads are cached in `.cache/` (not committed) and requests are rate-limited 
 second per site. Each run also writes QA contact sheets to `.cache/qa/<brand>.png`, showing the
 source swatch next to the extracted color. Check these after any source change.
 
-The scrapers identify themselves with a `kit-paint-planner` user agent and only use pages the
+The scrapers identify themselves with a `model-kit-paint-planner` user agent and only use pages the
 sites' `robots.txt` allows.
 
 ## Contributing corrections

@@ -83,7 +83,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <h1>Kit Paint Planner</h1>
+        <h1>Model Kit Paint Planner</h1>
         {image && (
           <div className="tools">
             <button className={`btn ${view === "before" ? "on" : ""}`} onClick={() => setView(view === "before" ? "after" : "before")} title="Hold Space to peek">

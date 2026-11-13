@@ -93,7 +93,7 @@ async function previewPng(): Promise<Uint8Array> {
     });
     ctx.font = "11px system-ui, -apple-system, sans-serif";
     ctx.fillStyle = "#9aa0ad";
-    ctx.fillText("Kit Paint Planner · colors are screen approximations of published swatches", pad, top + legendH - 12);
+    ctx.fillText("Model Kit Paint Planner · colors are screen approximations of published swatches", pad, top + legendH - 12);
   }
   return canvasPng(canvas);
 }
